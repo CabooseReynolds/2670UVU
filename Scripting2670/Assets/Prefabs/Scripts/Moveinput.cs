@@ -4,7 +4,17 @@ using UnityEngine;
 using System;
 
 public class Moveinput : MonoBehaviour {
-private void Start ()
+
+public static Action<float> KeyAction;
+
+void Update () {
+	if (KeyAction != null)
+	{
+		KeyAction(Input.GetAxis("Horizontal"));
+	}
+	}
+}
+/*private void Start ()
 {
 	KeyAction = Move;
 }
@@ -22,4 +32,4 @@ private void Start ()
 			KeyAction();
 		}
 	}
-}
+} */
