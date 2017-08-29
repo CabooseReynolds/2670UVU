@@ -14303,7 +14303,7 @@ CharacterController:
   m_StepOffset: 0.1
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0
-  m_Center: {x: 0, y: 0, z: 0.67}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &1775461898
 Transform:
   m_ObjectHideFlags: 0
@@ -14332,6 +14332,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fad4356d33808347ad1c6f4533fde60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Speed: 0
+  jumpHeight: {x: 10, y: 10}
 --- !u!114 &1775461900
 MonoBehaviour:
   m_ObjectHideFlags: 0
