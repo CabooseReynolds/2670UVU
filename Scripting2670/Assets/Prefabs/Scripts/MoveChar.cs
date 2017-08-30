@@ -2,13 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(CharacterController))]
-
 public class MoveChar : MonoBehaviour {
 
 	CharacterController cc;
 	Vector3 tempMove;
-	public float speed = 3;
+	public float speed = 0;
 
 	// Use this for initialization
 	void Start () {

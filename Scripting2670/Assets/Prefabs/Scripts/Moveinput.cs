@@ -6,24 +6,25 @@ using System;
 public class Moveinput : MonoBehaviour {
 
 public static Action<float> KeyAction;
-    public float Speed;  //allows us to be able to change speed in Unity
-public Vector2 jumpHeight;
+  public float speed = 6.0F; //allows us to be able to change speed in Unity
+    public float jumpSpeed = 8.0F;
+    public float gravity = 20.0F;
+    private Vector3 moveDirection = Vector3.zero;
 
 void Update () {
-	if (KeyAction != null)
-	{
-		KeyAction(Input.GetAxis("Horizontal"));
+	  CharacterController controller = GetComponent<CharacterController>();
+        if (controller.isGrounded) {
+            moveDirection = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
+            moveDirection = transform.TransformDirection(moveDirection);
+            moveDirection *= speed;
+            if (Input.GetButton("Jump"))
+                moveDirection.y = jumpSpeed;
+            
+        }
+        moveDirection.y -= gravity * Time.deltaTime;
+        controller.Move(moveDirection * Time.deltaTime);
+    }
 	}
-			{
-    transform.Translate(Speed * Time.deltaTime, 0f, 0f);  //makes player run
-
-    if (Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.Space))  //makes player jump
-    {
-        GetComponent<Rigidbody>().AddForce(jumpHeight, ForceMode.Impulse);
-	}
-		}
-	}
-}
 /*private void Start ()
 {
 	KeyAction = Move;
