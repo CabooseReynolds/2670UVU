@@ -14387,10 +14387,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1775461898}
   - component: {fileID: 1775461897}
-  - component: {fileID: 1775461900}
   - component: {fileID: 1775461899}
   - component: {fileID: 1775461902}
   - component: {fileID: 1775461901}
+  - component: {fileID: 1775461900}
   m_Layer: 12
   m_Name: Character
   m_TagString: Player
@@ -14455,7 +14455,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85fbc1250e1db634284add50f0b8c7b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 5
 --- !u!114 &1775461901
 MonoBehaviour:
   m_ObjectHideFlags: 0
