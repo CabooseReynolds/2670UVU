@@ -20,13 +20,10 @@ public static Action<bool> JumpAction;
 	}
 
     private void Jump(bool obj){
-//Debug.Log("Print");
-if (cc.isGrounded) {
+            if (Input.GetButton("Jump")){
+            if (cc.isGrounded)
             moveDirection = new Vector2(Input.GetAxis("Horizontal"), 0);
-            moveDirection = transform.TransformDirection(moveDirection);
-            if (Input.GetButton("Jump"))
-                moveDirection.y = jumpSpeed;
-
+moveDirection.y = jumpSpeed;
             }
 moveDirection.y -= gravity * Time.deltaTime;
 cc.Move(moveDirection * Time.deltaTime);
