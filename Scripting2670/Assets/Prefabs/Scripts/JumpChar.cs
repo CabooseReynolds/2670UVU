@@ -10,7 +10,7 @@ public static Action<bool> JumpAction;
 
     public float jumpSpeed = 8.0F;
     public float gravity = 20.0F;
-    private Vector2 moveDirection = Vector2.zero;
+    private Vector3 moveDirection = Vector3.zero;
     CharacterController cc;
 
 	void Start () {
@@ -20,15 +20,20 @@ public static Action<bool> JumpAction;
 	}
 
     private void Jump(bool obj){
-            if (Input.GetButton("Jump")){
-            if (cc.isGrounded)
-            moveDirection = new Vector2(Input.GetAxis("Horizontal"), 0);
-moveDirection.y = jumpSpeed;
+            if (obj){
+            if (isGrounded()){
+Debug.Log(isGrounded());
+       //      moveDirection = new Vector3(0, jumpSpeed, 0);
+            moveDirection.y = jumpSpeed;}
             }
-moveDirection.y -= gravity * Time.deltaTime;
-cc.Move(moveDirection * Time.deltaTime);
+        moveDirection.y -= gravity * Time.deltaTime;
+        cc.Move(moveDirection * Time.deltaTime);
             
         }
+        bool isGrounded(){
+            return Physics.CheckSphere(new Vector3(0, -1.3f, 0), .1f);
+    
+}
 
     
 }

@@ -13,7 +13,6 @@ public static Action<bool> JumpAction;
 	 if(KeyAction != null)
 	 {
 		 KeyAction(Input.GetAxis("Horizontal"));
-		 
 	 }
 	 if(JumpAction != null)
 	 {
