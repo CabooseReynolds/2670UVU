@@ -6,9 +6,11 @@ using System;
 public class JumpChar : MonoBehaviour {
 
 public static Action<float> KeyAction;
+public static Action<bool> JumpAction;
 
     public float jumpSpeed = 8.0F;
-    private Vector3 moveDirection = Vector3.zero;
+    public float gravity = 20.0F;
+    private Vector2 moveDirection = Vector2.zero;
     CharacterController cc;
 
 	void Start () {
@@ -17,21 +19,19 @@ public static Action<float> KeyAction;
 
 	}
 
-    private void Jump(bool obj) {
+    private void Jump(bool obj){
 //Debug.Log("Print");
-        if (obj)
-            {
-                  Debug.Log("Print");
-                moveDirection.y = jumpSpeed;
-                if (cc.isGrounded) {
-            Debug.Log("Grounded");
+if (cc.isGrounded) {
+            moveDirection = new Vector2(Input.GetAxis("Horizontal"), 0);
             moveDirection = transform.TransformDirection(moveDirection);
+            if (Input.GetButton("Jump"))
+                moveDirection.y = jumpSpeed;
 
             }
-cc.Move(moveDirection * Time.deltaTime); 
+moveDirection.y -= gravity * Time.deltaTime;
+cc.Move(moveDirection * Time.deltaTime);
             
         }
 
     
-}
 }

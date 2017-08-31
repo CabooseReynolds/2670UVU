@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(CharacterController))]
 public class MoveChar : MonoBehaviour {
 
 	CharacterController cc;
@@ -11,13 +12,13 @@ public class MoveChar : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		cc = GetComponent<CharacterController>();
-		Moveinput.KeyAction = Move;
+		Moveinput.KeyAction += Move;
 		
 	}
 	
 	// Update is called once per frame
 	void Move (float _movement) {
-		print(_movement);
+		//print(_movement);
 		tempMove.x = _movement*speed*Time.deltaTime;
 		cc.Move(tempMove);
 		
