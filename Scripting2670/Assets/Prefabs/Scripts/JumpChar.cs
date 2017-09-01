@@ -17,14 +17,18 @@ public static Action<bool> JumpAction;
          public MoveChar move;
     private Vector3 moveDirection = Vector3.zero;
     CharacterController cc;
-MoveChar mc;
 
 	void Start () {
 	cc = GetComponent<CharacterController>();
-    mc = GetComponent<MoveChar>();
-    Moveinput.JumpAction = Jump;
+ 
+    PlayButton.Play += OnPlay;
 
 	}
+    void OnPlay () {
+   Moveinput.JumpAction = Jump;
+   PlayButton.Play -=OnPlay;
+	}
+
 
     private void Jump(bool obj){
                CharacterController cc = GetComponent<CharacterController>();
@@ -40,7 +44,7 @@ MoveChar mc;
      }
          
      else {
-          moveDirection = new Vector3(Input.GetAxis("Horizontal")*speed, 0.0f, Input.GetAxis("Vertical")*speed); 
+          moveDirection = new Vector3(Input.GetAxis("Horizontal")*speed, 0.0f, Input.GetAxis("Vertical")*speed);
     
          jumpCount = 0.0f;
  
