@@ -6,7 +6,9 @@ using System;
 public class Moveinput : MonoBehaviour {
 
 public static Action<float> KeyAction;
+//public static Action JumpAction;
 public static Action<bool> JumpAction;
+
 
  
  void Update (){
@@ -14,6 +16,9 @@ public static Action<bool> JumpAction;
 	 {
 		 KeyAction(Input.GetAxis("Horizontal"));
 	 }
+	 /*if (Input.GetKeyDown(KeyCode.Space)){
+		 JumpAction();
+	 }*/
 	 if(JumpAction != null)
 	 {
 		 JumpAction(Input.GetButton("Jump"));

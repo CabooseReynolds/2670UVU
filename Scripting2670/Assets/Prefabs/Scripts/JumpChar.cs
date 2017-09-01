@@ -14,7 +14,6 @@ public static Action<bool> JumpAction;
          public float jumpCount = 0.0f; 
          float maxJump = 2.0f; 
 
-         public MoveChar move;
     private Vector3 moveDirection = Vector3.zero;
     CharacterController cc;
 
@@ -59,7 +58,7 @@ public static Action<bool> JumpAction;
          }
          
        if (cc.collisionFlags == CollisionFlags.Sides){
-             jumpCount = 0.0f;
+             jumpCount = 2.0f;
          }
 }
 

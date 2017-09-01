@@ -14,6 +14,7 @@ Animator anims;
 	}
 	void OnPlay () {
 				Moveinput.KeyAction += Animate;
+				anims.SetTrigger("IsLoaded");
 				PlayButton.Play -=OnPlay;
 	}
 
