@@ -32,7 +32,7 @@ public class SpawnerMenu : MonoBehaviour
 
         while (!stop)
         {
-            randEnemy = Random.Range(0, 2);
+            randEnemy = Random.Range(0, 5);
 
             Vector3 spawnPosition = new Vector3(Random.Range(-spawnValues.x, spawnValues.x), Random.Range(-spawnValues.y, spawnValues.y), 1);
 
