@@ -9,8 +9,13 @@ Animator anims;
 	// Use this for initialization
 	void Start () {
 		anims = gameObject.GetComponent<Animator>();
-		Moveinput.KeyAction += Animate;
+		PlayButton.Play += OnPlay;
 
+	}
+	void OnPlay () {
+				Moveinput.KeyAction += Animate;
+				anims.SetTrigger("IsLoaded");
+				PlayButton.Play -=OnPlay;
 	}
 
     private void Animate(float obj)
