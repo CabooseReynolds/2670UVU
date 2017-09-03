@@ -6,7 +6,7 @@ using System;
 public class JumpChar : MonoBehaviour {
 
 public static Action<float> KeyAction;
-public static Action<bool> JumpAction;
+public static Action JumpAction;
 
            public float speed = 6.0f; 
           public float jumpSpeed = 8.0f; 
@@ -29,7 +29,7 @@ public static Action<bool> JumpAction;
 	}
 
 
-    private void Jump(bool obj){
+    private void Jump(){
                CharacterController cc = GetComponent<CharacterController>();
                  
      cc.Move(moveDirection * Time.deltaTime);
