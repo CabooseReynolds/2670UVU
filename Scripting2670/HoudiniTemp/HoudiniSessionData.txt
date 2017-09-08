@@ -1,8 +1,1 @@
-<<<<<<< HEAD
 CurrentProcessId = 19788
-=======
-CurrentProcessId = 3004
-ServerProcessID = 9740
-ServerSessionID = 1054519664
-HoudiniSceneExists = true
->>>>>>> LearningAssets
