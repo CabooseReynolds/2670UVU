@@ -7,7 +7,7 @@ public class FallingTrigger : MonoBehaviour {
 public Rigidbody FallingObject;
 public void OnTriggerEnter(Collider other){
 	{
- if (FallingObject.isKinematic)
+ if(other.tag == "Player")
 	FallingObject.isKinematic = false;
 		}	
 	}
