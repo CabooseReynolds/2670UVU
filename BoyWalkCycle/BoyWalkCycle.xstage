@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project source="Harmony Essentials (HarmonyEssentials.exe) version 14.0.0 build 11461 2016-06-21 14:02:21" version="1400" build="11461" creator="harmony">
+<project source="Harmony Advanced (HarmonyAdvanced.exe) version 14.0.0 build 11461 2016-06-21 14:02:21" version="1400" build="11461" creator="harmony">
  <elements>
   <element id="1" elementName="Drawing" elementFolder="Drawing" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
    <drawings>
     <dwg name="1" scaleFactor="1"/>
+    <dwg name="2" scaleFactor="1"/>
+    <dwg name="3" scaleFactor="1"/>
+    <dwg name="4" scaleFactor="1"/>
+    <dwg name="5" scaleFactor="1"/>
+    <dwg name="6" scaleFactor="1"/>
+    <dwg name="7" scaleFactor="1"/>
+    <dwg name="8" scaleFactor="1"/>
+    <dwg name="9" scaleFactor="1"/>
+    <dwg name="10" scaleFactor="1"/>
    </drawings>
   </element>
   <element id="2" elementName="Walkcycle_17075" elementFolder="Walkcycle_17075" pixmapFormat="11" scanType="2" fieldChart="12" vectorType="0" rootFolder="elements">
@@ -48,6 +57,46 @@
     <dwg name="38" scaleFactor="1"/>
     <dwg name="39" scaleFactor="1"/>
     <dwg name="40" scaleFactor="1"/>
+    <dwg name="41" scaleFactor="1"/>
+    <dwg name="42" scaleFactor="1"/>
+    <dwg name="43" scaleFactor="1"/>
+    <dwg name="44" scaleFactor="1"/>
+    <dwg name="45" scaleFactor="1"/>
+    <dwg name="46" scaleFactor="1"/>
+    <dwg name="47" scaleFactor="1"/>
+    <dwg name="48" scaleFactor="1"/>
+    <dwg name="49" scaleFactor="1"/>
+    <dwg name="50" scaleFactor="1"/>
+    <dwg name="51" scaleFactor="1"/>
+    <dwg name="52" scaleFactor="1"/>
+    <dwg name="53" scaleFactor="1"/>
+    <dwg name="54" scaleFactor="1"/>
+    <dwg name="55" scaleFactor="1"/>
+    <dwg name="56" scaleFactor="1"/>
+    <dwg name="57" scaleFactor="1"/>
+    <dwg name="58" scaleFactor="1"/>
+    <dwg name="59" scaleFactor="1"/>
+    <dwg name="60" scaleFactor="1"/>
+    <dwg name="61" scaleFactor="1"/>
+    <dwg name="62" scaleFactor="1"/>
+    <dwg name="63" scaleFactor="1"/>
+    <dwg name="64" scaleFactor="1"/>
+    <dwg name="65" scaleFactor="1"/>
+    <dwg name="66" scaleFactor="1"/>
+    <dwg name="67" scaleFactor="1"/>
+    <dwg name="68" scaleFactor="1"/>
+    <dwg name="69" scaleFactor="1"/>
+    <dwg name="70" scaleFactor="1"/>
+    <dwg name="71" scaleFactor="1"/>
+    <dwg name="72" scaleFactor="1"/>
+    <dwg name="73" scaleFactor="1"/>
+    <dwg name="74" scaleFactor="1"/>
+    <dwg name="75" scaleFactor="1"/>
+    <dwg name="76" scaleFactor="1"/>
+    <dwg name="77" scaleFactor="1"/>
+    <dwg name="78" scaleFactor="1"/>
+    <dwg name="79" scaleFactor="1"/>
+    <dwg name="80" scaleFactor="1"/>
    </drawings>
   </element>
  </elements>
@@ -64,52 +113,48 @@
  </options>
  <timelineMarkers/>
  <scenes>
-  <scene name="Top" id="08cc14a6993002d6" nbframes="60">
+  <scene name="Top" id="08cc14a6993002d6" nbframes="72">
    <columns>
     <column type="0" name="Drawing" displayOrder="0" width="100" anonymous="true" id="1">
-     <elementSeq exposures="1" val="1" id="1"/>
+     <elementSeq exposures="1-2,13-14,25-26,37-38,49-50,61-62,95-96" val="1" id="1"/>
+     <elementSeq exposures="3-4,15-16,27-28,39-40,51-52,63-64,97-98" val="2" id="1"/>
+     <elementSeq exposures="5-6,17-18,29-30,41-42,53-54,65-66" val="4" id="1"/>
+     <elementSeq exposures="7-8,19-20,31-32,43-44,55-56,67-68,88" val="6" id="1"/>
+     <elementSeq exposures="9-10,21-22,33-34,45-46,57-58,69-70,91-92" val="8" id="1"/>
+     <elementSeq exposures="11-12,23-24,35-36,47-48,59-60,71-72,93-94" val="10" id="1"/>
+     <elementSeq exposures="89-90" val="7" id="1"/>
+     <elementSeq exposures="99-100" val="3" id="1"/>
     </column>
-    <column type="0" name="ATV-08CC14A699300B10" displayOrder="0" width="100" anonymous="true" id="2">
-     <elementSeq exposures="1" val="1" id="2"/>
-     <elementSeq exposures="2" val="2" id="2"/>
-     <elementSeq exposures="3" val="3" id="2"/>
-     <elementSeq exposures="4" val="4" id="2"/>
-     <elementSeq exposures="5" val="5" id="2"/>
-     <elementSeq exposures="6" val="6" id="2"/>
-     <elementSeq exposures="7" val="7" id="2"/>
-     <elementSeq exposures="8" val="8" id="2"/>
-     <elementSeq exposures="9" val="9" id="2"/>
-     <elementSeq exposures="10" val="10" id="2"/>
-     <elementSeq exposures="11" val="11" id="2"/>
-     <elementSeq exposures="12" val="12" id="2"/>
-     <elementSeq exposures="13" val="13" id="2"/>
-     <elementSeq exposures="14" val="14" id="2"/>
-     <elementSeq exposures="15" val="15" id="2"/>
-     <elementSeq exposures="16" val="16" id="2"/>
-     <elementSeq exposures="17" val="17" id="2"/>
-     <elementSeq exposures="18" val="18" id="2"/>
-     <elementSeq exposures="19" val="19" id="2"/>
-     <elementSeq exposures="20" val="20" id="2"/>
-     <elementSeq exposures="21" val="21" id="2"/>
-     <elementSeq exposures="22" val="22" id="2"/>
-     <elementSeq exposures="23" val="23" id="2"/>
-     <elementSeq exposures="24" val="24" id="2"/>
-     <elementSeq exposures="25" val="25" id="2"/>
-     <elementSeq exposures="26" val="26" id="2"/>
-     <elementSeq exposures="27" val="27" id="2"/>
-     <elementSeq exposures="28" val="28" id="2"/>
-     <elementSeq exposures="29" val="29" id="2"/>
-     <elementSeq exposures="30" val="30" id="2"/>
-     <elementSeq exposures="31" val="31" id="2"/>
-     <elementSeq exposures="32" val="32" id="2"/>
-     <elementSeq exposures="33" val="33" id="2"/>
-     <elementSeq exposures="34" val="34" id="2"/>
-     <elementSeq exposures="35" val="35" id="2"/>
-     <elementSeq exposures="36" val="36" id="2"/>
-     <elementSeq exposures="37" val="37" id="2"/>
-     <elementSeq exposures="38" val="38" id="2"/>
-     <elementSeq exposures="39" val="39" id="2"/>
-     <elementSeq exposures="40" val="40" id="2"/>
+    <column type="0" name="ATV-08CC14A699300B10" display="false" displayOrder="0" width="100" anonymous="true" id="2">
+     <elementSeq exposures="1-2,43-44" val="41" id="2"/>
+     <elementSeq exposures="3-4,45-46" val="44" id="2"/>
+     <elementSeq exposures="5-6,47-48" val="45" id="2"/>
+     <elementSeq exposures="7-8,49-50" val="46" id="2"/>
+     <elementSeq exposures="9-10,53-54" val="48" id="2"/>
+     <elementSeq exposures="11-12,55-56" val="51" id="2"/>
+     <elementSeq exposures="13-14,57-58" val="54" id="2"/>
+     <elementSeq exposures="15-16,59-60" val="55" id="2"/>
+     <elementSeq exposures="17-18,61-62" val="56" id="2"/>
+     <elementSeq exposures="19-20" val="6" id="2"/>
+     <elementSeq exposures="21-22" val="8" id="2"/>
+     <elementSeq exposures="23-24" val="10" id="2"/>
+     <elementSeq exposures="25-26,77-89" val="67" id="2"/>
+     <elementSeq exposures="27-28" val="69" id="2"/>
+     <elementSeq exposures="29-30,90-91" val="70" id="2"/>
+     <elementSeq exposures="31-32,92-93" val="73" id="2"/>
+     <elementSeq exposures="33-34,94-95" val="74" id="2"/>
+     <elementSeq exposures="35-36,96-97" val="75" id="2"/>
+     <elementSeq exposures="37-38,98-99" val="77" id="2"/>
+     <elementSeq exposures="39-40,100-101" val="78" id="2"/>
+     <elementSeq exposures="41-42,102" val="80" id="2"/>
+     <elementSeq exposures="51-52" val="47" id="2"/>
+     <elementSeq exposures="63-64" val="58" id="2"/>
+     <elementSeq exposures="65-66" val="59" id="2"/>
+     <elementSeq exposures="67-68" val="61" id="2"/>
+     <elementSeq exposures="69-70" val="63" id="2"/>
+     <elementSeq exposures="71-72" val="64" id="2"/>
+     <elementSeq exposures="73-74" val="65" id="2"/>
+     <elementSeq exposures="75-76" val="66" id="2"/>
     </column>
    </columns>
    <options>
@@ -173,6 +218,7 @@
      </module>
      <module type="READ" name="Drawing" pos="-65,-50,0" publishUnderTab="Drawing">
       <options>
+       <outlineMode val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
@@ -277,6 +323,7 @@
      </module>
      <module type="READ" name="Walkcycle_17075" pos="0,0,0" publishUnderTab="Walkcycle_17075">
       <options>
+       <disabled val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
