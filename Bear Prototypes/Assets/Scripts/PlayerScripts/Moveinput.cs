@@ -8,6 +8,9 @@ public float runTime = 0.01f;
 public static Action<float> KeyAction;
 //public static Action JumpAction;
 public static Action<bool> JumpAction;
+
+public static Action grab;
+public static Action Letgo;
 public bool canPlay = true; 
  
 

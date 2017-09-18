@@ -8,8 +8,7 @@ public class GrabAction : MonoBehaviour {
 
 GameObject Player;
 	// Use this for initialization
-	void Grabber ()
-	{
+/*	void Grabber ()	{
 		GetComponent<Rigidbody>().useGravity = false;
 		GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeAll;
 		transform.parent = Player.transform;
@@ -20,7 +19,7 @@ GameObject Player;
 	{
 		if (other.tag == "Player")
 		{
-			Moveinput.grabby += Grabb
+			Moveinput.grab += Grabb
 		}	
-	}
+	}*/
 }
