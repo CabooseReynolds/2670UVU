@@ -9,6 +9,8 @@ public static Action<float> KeyAction;
 //public static Action JumpAction;
 public static Action<bool> JumpAction;
 
+public static Action ConstantAction;
+
 public static Action grab;
 public static Action Letgo;
 public bool canPlay = true; 
@@ -25,6 +27,10 @@ void Start ()
 	 	{
 		 KeyAction(Input.GetAxis("Horizontal"));
 	 	}
+		 if(ConstantAction != null)
+			{
+				ConstantAction();
+			}
 
 		 if(JumpAction != null)
 	 	{

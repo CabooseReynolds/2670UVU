@@ -33,7 +33,9 @@ public static Action<bool> JumpAction;
                CharacterController cc = GetComponent<CharacterController>();
                  
      cc.Move(moveDirection * Time.deltaTime);
- 
+     {
+     transform.position = new Vector3(transform.position.x, transform.position.y, -2.4f);
+     }
         // Apply gravity 
      moveDirection.y -= gravity * Time.deltaTime;
          
@@ -58,7 +60,7 @@ public static Action<bool> JumpAction;
          }
          
        if (cc.collisionFlags == CollisionFlags.Sides){
-             jumpCount = 1.0f;
+             jumpCount = 2.0f;
          }
 }
 
