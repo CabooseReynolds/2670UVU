@@ -60,7 +60,7 @@ public static Action<bool> JumpAction;
          }
          
        if (cc.collisionFlags == CollisionFlags.Sides){
-             jumpCount = 2.0f;
+             jumpCount = 1.0f;
          }
 }
 

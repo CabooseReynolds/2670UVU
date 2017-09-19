@@ -8,6 +8,6 @@ public class Doormovescript : MonoBehaviour {
 
     void OnTriggerEnter()
     {
-        Door.transform.Translate(new Vector3(-60, 0, 0) * Time.deltaTime);
+        Door.transform.Translate(new Vector3(0, -600, 0) * Time.deltaTime);
     }
 }
