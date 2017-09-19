@@ -225,11 +225,7 @@ Transform:
   - {fileID: 1746405108}
   - {fileID: 204407699}
   m_Father: {fileID: 0}
-<<<<<<< Updated upstream
   m_RootOrder: 36
-=======
-  m_RootOrder: 35
->>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &20788232
 GameObject:
@@ -262,11 +258,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-<<<<<<< Updated upstream
   - {fileID: 2100000, guid: 1efce0b0da6002d4db81cb9b859c5eaa, type: 2}
-=======
-  - {fileID: 2100000, guid: 18829cb94683fa04684db3ae608dcd01, type: 2}
->>>>>>> Stashed changes
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -315,11 +307,7 @@ Transform:
   m_LocalScale: {x: 2.6996744, y: 1.0000019, z: 6.190124}
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< Updated upstream
   m_RootOrder: 43
-=======
-  m_RootOrder: 42
->>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -95.452}
 --- !u!1 &23497711
 GameObject:
@@ -352,11 +340,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-<<<<<<< Updated upstream
   - {fileID: 2100000, guid: 1efce0b0da6002d4db81cb9b859c5eaa, type: 2}
-=======
-  - {fileID: 2100000, guid: 18829cb94683fa04684db3ae608dcd01, type: 2}
->>>>>>> Stashed changes
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -438,11 +422,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-<<<<<<< Updated upstream
   - {fileID: 2100000, guid: 566815a49962405479673657a599e315, type: 2}
-=======
-  - {fileID: 2100000, guid: 6721bb6ba47a5d04aabb0ee70476a8b8, type: 2}
->>>>>>> Stashed changes
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -575,11 +555,7 @@ Transform:
   m_Children:
   - {fileID: 241781171}
   m_Father: {fileID: 0}
-<<<<<<< Updated upstream
   m_RootOrder: 31
-=======
-  m_RootOrder: 30
->>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &49466392
 Rigidbody:
@@ -697,11 +673,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 0.645377}
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< Updated upstream
   m_RootOrder: 16
-=======
-  m_RootOrder: 15
->>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &62033471
 MonoBehaviour:
@@ -757,75 +729,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pushPower: 2
-<<<<<<< Updated upstream
-=======
---- !u!1001 &62263018
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4010822771890998, guid: 561d9dd85e9e9114c81397f3040ec1dc, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 100.13
-      objectReference: {fileID: 0}
-    - target: {fileID: 4010822771890998, guid: 561d9dd85e9e9114c81397f3040ec1dc, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 2.58
-      objectReference: {fileID: 0}
-    - target: {fileID: 4010822771890998, guid: 561d9dd85e9e9114c81397f3040ec1dc, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4010822771890998, guid: 561d9dd85e9e9114c81397f3040ec1dc, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4010822771890998, guid: 561d9dd85e9e9114c81397f3040ec1dc, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4010822771890998, guid: 561d9dd85e9e9114c81397f3040ec1dc, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4010822771890998, guid: 561d9dd85e9e9114c81397f3040ec1dc, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4010822771890998, guid: 561d9dd85e9e9114c81397f3040ec1dc, type: 2}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1297212991649096, guid: 561d9dd85e9e9114c81397f3040ec1dc, type: 2}
-      propertyPath: m_Name
-      value: Spindle (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 59445835005943568, guid: 561d9dd85e9e9114c81397f3040ec1dc,
-        type: 2}
-      propertyPath: m_Axis.z
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 59445835005943568, guid: 561d9dd85e9e9114c81397f3040ec1dc,
-        type: 2}
-      propertyPath: m_Motor.targetVelocity
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 23770935244476776, guid: 561d9dd85e9e9114c81397f3040ec1dc,
-        type: 2}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 18829cb94683fa04684db3ae608dcd01, type: 2}
-    - target: {fileID: 23516673694542242, guid: 561d9dd85e9e9114c81397f3040ec1dc,
-        type: 2}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 63c72be1b1dfdbe498d5e94cc617565b, type: 2}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 561d9dd85e9e9114c81397f3040ec1dc, type: 2}
-  m_IsPrefabParent: 0
->>>>>>> Stashed changes
 --- !u!1 &65979985
 GameObject:
   m_ObjectHideFlags: 0
@@ -910,11 +813,7 @@ Transform:
   - {fileID: 521966922}
   - {fileID: 2122632101}
   m_Father: {fileID: 0}
-<<<<<<< Updated upstream
   m_RootOrder: 55
-=======
-  m_RootOrder: 54
->>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &82682946
 GameObject:
@@ -1010,11 +909,7 @@ Transform:
   m_Children:
   - {fileID: 1715504869}
   m_Father: {fileID: 0}
-<<<<<<< Updated upstream
   m_RootOrder: 34
-=======
-  m_RootOrder: 33
->>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &100370268
 GameObject:
@@ -1047,11 +942,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-<<<<<<< Updated upstream
   - {fileID: 2100000, guid: 1efce0b0da6002d4db81cb9b859c5eaa, type: 2}
-=======
-  - {fileID: 2100000, guid: 18829cb94683fa04684db3ae608dcd01, type: 2}
->>>>>>> Stashed changes
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1363,11 +1254,7 @@ Transform:
   m_Children:
   - {fileID: 619648812}
   m_Father: {fileID: 0}
-<<<<<<< Updated upstream
   m_RootOrder: 19
-=======
-  m_RootOrder: 18
->>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &129133758
 MonoBehaviour:
@@ -1425,11 +1312,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-<<<<<<< Updated upstream
   - {fileID: 2100000, guid: 566815a49962405479673657a599e315, type: 2}
-=======
-  - {fileID: 2100000, guid: 6721bb6ba47a5d04aabb0ee70476a8b8, type: 2}
->>>>>>> Stashed changes
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1692,11 +1575,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-<<<<<<< Updated upstream
   - {fileID: 2100000, guid: 1efce0b0da6002d4db81cb9b859c5eaa, type: 2}
-=======
-  - {fileID: 2100000, guid: 18829cb94683fa04684db3ae608dcd01, type: 2}
->>>>>>> Stashed changes
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1745,11 +1624,7 @@ Transform:
   m_LocalScale: {x: 7.4165583, y: 1.0000019, z: 6.190124}
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< Updated upstream
   m_RootOrder: 53
-=======
-  m_RootOrder: 52
->>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -95.452}
 --- !u!1 &225833545
 GameObject:
@@ -1782,11 +1657,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-<<<<<<< Updated upstream
   - {fileID: 2100000, guid: 566815a49962405479673657a599e315, type: 2}
-=======
-  - {fileID: 2100000, guid: 6721bb6ba47a5d04aabb0ee70476a8b8, type: 2}
->>>>>>> Stashed changes
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1835,11 +1706,7 @@ Transform:
   m_LocalScale: {x: 3.348039, y: 1, z: 6.190124}
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< Updated upstream
   m_RootOrder: 48
-=======
-  m_RootOrder: 47
->>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &241781166
 GameObject:
@@ -2192,7 +2059,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 18829cb94683fa04684db3ae608dcd01, type: 2}
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2324,11 +2191,7 @@ Transform:
   m_Children:
   - {fileID: 866245724}
   m_Father: {fileID: 0}
-<<<<<<< Updated upstream
   m_RootOrder: 30
-=======
-  m_RootOrder: 29
->>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &295915641
 GameObject:
@@ -2361,11 +2224,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-<<<<<<< Updated upstream
   - {fileID: 2100000, guid: 566815a49962405479673657a599e315, type: 2}
-=======
-  - {fileID: 2100000, guid: 6721bb6ba47a5d04aabb0ee70476a8b8, type: 2}
->>>>>>> Stashed changes
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2414,11 +2273,7 @@ Transform:
   m_LocalScale: {x: 5.8116007, y: 1, z: 6.190124}
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< Updated upstream
   m_RootOrder: 51
-=======
-  m_RootOrder: 50
->>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &308275347
 GameObject:
@@ -2545,11 +2400,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-<<<<<<< Updated upstream
   - {fileID: 2100000, guid: 1efce0b0da6002d4db81cb9b859c5eaa, type: 2}
-=======
-  - {fileID: 2100000, guid: 18829cb94683fa04684db3ae608dcd01, type: 2}
->>>>>>> Stashed changes
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2604,15 +2455,9 @@ Transform:
   - {fileID: 121912148}
   - {fileID: 834079962}
   m_Father: {fileID: 0}
-<<<<<<< Updated upstream
   m_RootOrder: 76
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &376085148
-=======
-  m_RootOrder: 40
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -95.452}
---- !u!1 &412335497
->>>>>>> Stashed changes
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -2643,11 +2488,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-<<<<<<< Updated upstream
   - {fileID: 2100000, guid: 1efce0b0da6002d4db81cb9b859c5eaa, type: 2}
-=======
-  - {fileID: 2100000, guid: 6721bb6ba47a5d04aabb0ee70476a8b8, type: 2}
->>>>>>> Stashed changes
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2778,41 +2619,13 @@ Transform:
   m_LocalScale: {x: 22.4497, y: 1, z: 9.023492}
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< Updated upstream
   m_RootOrder: 20
-=======
-  m_RootOrder: 19
->>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &424038924 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1499388313594620, guid: 3c02093a79b311547b009244dccd641c,
     type: 2}
   m_PrefabInternal: {fileID: 1398593196}
---- !u!114 &424038925
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 424038924}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 86e448b8cb104454bb753505dcda994e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Level: {fileID: 1405856358}
---- !u!114 &424038926
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 424038924}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03158e9819e267649beb99fa8071111f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Level: {fileID: 1473798497}
 --- !u!4 &424038932 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4158431566127252, guid: 3c02093a79b311547b009244dccd641c,
@@ -2873,11 +2686,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-<<<<<<< Updated upstream
   - {fileID: 2100000, guid: 1efce0b0da6002d4db81cb9b859c5eaa, type: 2}
-=======
-  - {fileID: 2100000, guid: 6721bb6ba47a5d04aabb0ee70476a8b8, type: 2}
->>>>>>> Stashed changes
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3022,11 +2831,7 @@ Transform:
   m_Children:
   - {fileID: 1590469256}
   m_Father: {fileID: 0}
-<<<<<<< Updated upstream
   m_RootOrder: 33
-=======
-  m_RootOrder: 32
->>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &449244982
 GameObject:
@@ -3336,11 +3141,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-<<<<<<< Updated upstream
   - {fileID: 2100000, guid: 566815a49962405479673657a599e315, type: 2}
-=======
-  - {fileID: 2100000, guid: 6721bb6ba47a5d04aabb0ee70476a8b8, type: 2}
->>>>>>> Stashed changes
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3669,11 +3470,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-<<<<<<< Updated upstream
   - {fileID: 2100000, guid: 566815a49962405479673657a599e315, type: 2}
-=======
-  - {fileID: 2100000, guid: 6721bb6ba47a5d04aabb0ee70476a8b8, type: 2}
->>>>>>> Stashed changes
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3722,11 +3519,7 @@ Transform:
   m_LocalScale: {x: 20.765165, y: 1, z: 6.190124}
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< Updated upstream
   m_RootOrder: 46
-=======
-  m_RootOrder: 45
->>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &573313543
 GameObject:
@@ -3787,7 +3580,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 18829cb94683fa04684db3ae608dcd01, type: 2}
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3826,70 +3619,6 @@ Transform:
   m_Father: {fileID: 929561420}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< Updated upstream
-=======
---- !u!1001 &577242873
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4010822771890998, guid: 561d9dd85e9e9114c81397f3040ec1dc, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 109.99
-      objectReference: {fileID: 0}
-    - target: {fileID: 4010822771890998, guid: 561d9dd85e9e9114c81397f3040ec1dc, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 2.58
-      objectReference: {fileID: 0}
-    - target: {fileID: 4010822771890998, guid: 561d9dd85e9e9114c81397f3040ec1dc, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4010822771890998, guid: 561d9dd85e9e9114c81397f3040ec1dc, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4010822771890998, guid: 561d9dd85e9e9114c81397f3040ec1dc, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4010822771890998, guid: 561d9dd85e9e9114c81397f3040ec1dc, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4010822771890998, guid: 561d9dd85e9e9114c81397f3040ec1dc, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4010822771890998, guid: 561d9dd85e9e9114c81397f3040ec1dc, type: 2}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1297212991649096, guid: 561d9dd85e9e9114c81397f3040ec1dc, type: 2}
-      propertyPath: m_Name
-      value: Spindle (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 59445835005943568, guid: 561d9dd85e9e9114c81397f3040ec1dc,
-        type: 2}
-      propertyPath: m_Motor.targetVelocity
-      value: 95
-      objectReference: {fileID: 0}
-    - target: {fileID: 23770935244476776, guid: 561d9dd85e9e9114c81397f3040ec1dc,
-        type: 2}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 18829cb94683fa04684db3ae608dcd01, type: 2}
-    - target: {fileID: 23516673694542242, guid: 561d9dd85e9e9114c81397f3040ec1dc,
-        type: 2}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 63c72be1b1dfdbe498d5e94cc617565b, type: 2}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 561d9dd85e9e9114c81397f3040ec1dc, type: 2}
-  m_IsPrefabParent: 0
->>>>>>> Stashed changes
 --- !u!1 &586292668
 GameObject:
   m_ObjectHideFlags: 0
@@ -3983,11 +3712,7 @@ Transform:
   m_Children:
   - {fileID: 245911326}
   m_Father: {fileID: 0}
-<<<<<<< Updated upstream
   m_RootOrder: 26
-=======
-  m_RootOrder: 25
->>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &593647996
 GameObject:
@@ -4020,11 +3745,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-<<<<<<< Updated upstream
   - {fileID: 2100000, guid: 1efce0b0da6002d4db81cb9b859c5eaa, type: 2}
-=======
-  - {fileID: 2100000, guid: 18829cb94683fa04684db3ae608dcd01, type: 2}
->>>>>>> Stashed changes
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4073,11 +3794,7 @@ Transform:
   m_LocalScale: {x: 3.348039, y: 1, z: 6.190124}
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< Updated upstream
   m_RootOrder: 44
-=======
-  m_RootOrder: 43
->>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &599507114
 GameObject:
@@ -4110,11 +3827,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-<<<<<<< Updated upstream
   - {fileID: 2100000, guid: 1efce0b0da6002d4db81cb9b859c5eaa, type: 2}
-=======
-  - {fileID: 2100000, guid: 18829cb94683fa04684db3ae608dcd01, type: 2}
->>>>>>> Stashed changes
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4163,11 +3876,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 2.3850276}
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< Updated upstream
   m_RootOrder: 22
-=======
-  m_RootOrder: 21
->>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &619648811
 GameObject:
@@ -4322,7 +4031,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 18829cb94683fa04684db3ae608dcd01, type: 2}
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4392,11 +4101,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-<<<<<<< Updated upstream
   - {fileID: 2100000, guid: 1efce0b0da6002d4db81cb9b859c5eaa, type: 2}
-=======
-  - {fileID: 2100000, guid: 18829cb94683fa04684db3ae608dcd01, type: 2}
->>>>>>> Stashed changes
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4445,11 +4150,7 @@ Transform:
   m_LocalScale: {x: 1, y: 2.1083739, z: 2.3850276}
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< Updated upstream
   m_RootOrder: 23
-=======
-  m_RootOrder: 22
->>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &644728541
 GameObject:
@@ -4565,11 +4266,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-<<<<<<< Updated upstream
   - {fileID: 2100000, guid: 566815a49962405479673657a599e315, type: 2}
-=======
-  - {fileID: 2100000, guid: 6721bb6ba47a5d04aabb0ee70476a8b8, type: 2}
->>>>>>> Stashed changes
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4618,11 +4315,7 @@ Transform:
   m_LocalScale: {x: 8.471315, y: 1, z: 6.190124}
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< Updated upstream
   m_RootOrder: 37
-=======
-  m_RootOrder: 36
->>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -7.2570004}
 --- !u!1 &661819063
 GameObject:
@@ -4655,11 +4348,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-<<<<<<< Updated upstream
   - {fileID: 2100000, guid: 1efce0b0da6002d4db81cb9b859c5eaa, type: 2}
-=======
-  - {fileID: 2100000, guid: 18829cb94683fa04684db3ae608dcd01, type: 2}
->>>>>>> Stashed changes
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4708,11 +4397,7 @@ Transform:
   m_LocalScale: {x: 31.712597, y: 1, z: 6.190124}
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< Updated upstream
   m_RootOrder: 42
-=======
-  m_RootOrder: 41
->>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &670814618
 GameObject:
@@ -4799,11 +4484,7 @@ Transform:
   - {fileID: 1120123401}
   - {fileID: 644728542}
   m_Father: {fileID: 0}
-<<<<<<< Updated upstream
   m_RootOrder: 29
-=======
-  m_RootOrder: 28
->>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &670814623
 MonoBehaviour:
@@ -4887,11 +4568,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-<<<<<<< Updated upstream
   - {fileID: 2100000, guid: 1efce0b0da6002d4db81cb9b859c5eaa, type: 2}
-=======
-  - {fileID: 2100000, guid: 18829cb94683fa04684db3ae608dcd01, type: 2}
->>>>>>> Stashed changes
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5071,11 +4748,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-<<<<<<< Updated upstream
   - {fileID: 2100000, guid: 566815a49962405479673657a599e315, type: 2}
-=======
-  - {fileID: 2100000, guid: 6721bb6ba47a5d04aabb0ee70476a8b8, type: 2}
->>>>>>> Stashed changes
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5124,11 +4797,7 @@ Transform:
   m_LocalScale: {x: 13.0113325, y: 1, z: 9.023492}
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< Updated upstream
   m_RootOrder: 58
-=======
-  m_RootOrder: 57
->>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &739996226 stripped
 GameObject:
@@ -5178,11 +4847,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-<<<<<<< Updated upstream
   - {fileID: 2100000, guid: 1efce0b0da6002d4db81cb9b859c5eaa, type: 2}
-=======
-  - {fileID: 2100000, guid: 18829cb94683fa04684db3ae608dcd01, type: 2}
->>>>>>> Stashed changes
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5231,11 +4896,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 2.3850276}
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< Updated upstream
   m_RootOrder: 24
-=======
-  m_RootOrder: 23
->>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &773885641
 GameObject:
@@ -5489,7 +5150,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 18829cb94683fa04684db3ae608dcd01, type: 2}
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5842,16 +5503,6 @@ Prefab:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 23770935244476776, guid: 561d9dd85e9e9114c81397f3040ec1dc,
-        type: 2}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 18829cb94683fa04684db3ae608dcd01, type: 2}
-    - target: {fileID: 23516673694542242, guid: 561d9dd85e9e9114c81397f3040ec1dc,
-        type: 2}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 63c72be1b1dfdbe498d5e94cc617565b, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 826ec16a2e43bfb42bdf1504f6143334, type: 2}
   m_IsPrefabParent: 0
@@ -5914,7 +5565,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 18829cb94683fa04684db3ae608dcd01, type: 2}
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6067,11 +5718,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-<<<<<<< Updated upstream
   - {fileID: 2100000, guid: 1efce0b0da6002d4db81cb9b859c5eaa, type: 2}
-=======
-  - {fileID: 2100000, guid: 18829cb94683fa04684db3ae608dcd01, type: 2}
->>>>>>> Stashed changes
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6120,70 +5767,8 @@ Transform:
   m_LocalScale: {x: 40.689373, y: 1, z: 9.023492}
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< Updated upstream
   m_RootOrder: 65
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-=======
-  m_RootOrder: 64
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &894226036
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4010822771890998, guid: 561d9dd85e9e9114c81397f3040ec1dc, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 89.96
-      objectReference: {fileID: 0}
-    - target: {fileID: 4010822771890998, guid: 561d9dd85e9e9114c81397f3040ec1dc, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 2.58
-      objectReference: {fileID: 0}
-    - target: {fileID: 4010822771890998, guid: 561d9dd85e9e9114c81397f3040ec1dc, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4010822771890998, guid: 561d9dd85e9e9114c81397f3040ec1dc, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4010822771890998, guid: 561d9dd85e9e9114c81397f3040ec1dc, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4010822771890998, guid: 561d9dd85e9e9114c81397f3040ec1dc, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4010822771890998, guid: 561d9dd85e9e9114c81397f3040ec1dc, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4010822771890998, guid: 561d9dd85e9e9114c81397f3040ec1dc, type: 2}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 59445835005943568, guid: 561d9dd85e9e9114c81397f3040ec1dc,
-        type: 2}
-      propertyPath: m_Motor.targetVelocity
-      value: 85
-      objectReference: {fileID: 0}
-    - target: {fileID: 23770935244476776, guid: 561d9dd85e9e9114c81397f3040ec1dc,
-        type: 2}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 18829cb94683fa04684db3ae608dcd01, type: 2}
-    - target: {fileID: 23516673694542242, guid: 561d9dd85e9e9114c81397f3040ec1dc,
-        type: 2}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 63c72be1b1dfdbe498d5e94cc617565b, type: 2}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 561d9dd85e9e9114c81397f3040ec1dc, type: 2}
-  m_IsPrefabParent: 0
->>>>>>> Stashed changes
 --- !u!1 &906268420
 GameObject:
   m_ObjectHideFlags: 0
@@ -6215,11 +5800,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-<<<<<<< Updated upstream
   - {fileID: 2100000, guid: 566815a49962405479673657a599e315, type: 2}
-=======
-  - {fileID: 2100000, guid: 6721bb6ba47a5d04aabb0ee70476a8b8, type: 2}
->>>>>>> Stashed changes
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6268,11 +5849,7 @@ Transform:
   m_LocalScale: {x: 18.071835, y: 1, z: 9.023492}
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< Updated upstream
   m_RootOrder: 64
-=======
-  m_RootOrder: 63
->>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &909876388
 GameObject:
@@ -6330,7 +5907,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 6721bb6ba47a5d04aabb0ee70476a8b8, type: 2}
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6400,7 +5977,6 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-<<<<<<< Updated upstream
   - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -6520,9 +6096,6 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_Materials:
   - {fileID: 2100000, guid: 1efce0b0da6002d4db81cb9b859c5eaa, type: 2}
-=======
-  - {fileID: 2100000, guid: 18829cb94683fa04684db3ae608dcd01, type: 2}
->>>>>>> Stashed changes
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6560,34 +6133,8 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 930056858}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
-<<<<<<< Updated upstream
 --- !u!1001 &939617200
 Prefab:
-=======
---- !u!4 &929561420
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 929561415}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 44.56, y: 1.23, z: -0.01}
-  m_LocalScale: {x: 1.1666319, y: 1.5532901, z: 1}
-  m_Children:
-  - {fileID: 854455905}
-  - {fileID: 794093533}
-  - {fileID: 2088403262}
-  - {fileID: 1306318604}
-  - {fileID: 262291683}
-  - {fileID: 626967679}
-  - {fileID: 1016180962}
-  - {fileID: 573313548}
-  m_Father: {fileID: 0}
-  m_RootOrder: 34
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &929561421
-Rigidbody:
->>>>>>> Stashed changes
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
@@ -6701,11 +6248,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-<<<<<<< Updated upstream
   - {fileID: 2100000, guid: 1efce0b0da6002d4db81cb9b859c5eaa, type: 2}
-=======
-  - {fileID: 2100000, guid: 6721bb6ba47a5d04aabb0ee70476a8b8, type: 2}
->>>>>>> Stashed changes
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6788,11 +6331,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-<<<<<<< Updated upstream
   - {fileID: 2100000, guid: 566815a49962405479673657a599e315, type: 2}
-=======
-  - {fileID: 2100000, guid: 6721bb6ba47a5d04aabb0ee70476a8b8, type: 2}
->>>>>>> Stashed changes
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6842,11 +6381,7 @@ Transform:
   m_Children:
   - {fileID: 1307418832}
   m_Father: {fileID: 0}
-<<<<<<< Updated upstream
   m_RootOrder: 56
-=======
-  m_RootOrder: 55
->>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &990526786
 Prefab:
@@ -6885,11 +6420,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4334445193082326, guid: 420c336ba1a091146a52970c5a9c3dc5, type: 2}
       propertyPath: m_RootOrder
-<<<<<<< Updated upstream
       value: 8
-=======
-      value: 6
->>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 1223982800562144, guid: 420c336ba1a091146a52970c5a9c3dc5, type: 2}
       propertyPath: m_Name
@@ -7067,7 +6598,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 18829cb94683fa04684db3ae608dcd01, type: 2}
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7151,11 +6682,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-<<<<<<< Updated upstream
   - {fileID: 2100000, guid: 566815a49962405479673657a599e315, type: 2}
-=======
-  - {fileID: 2100000, guid: 6721bb6ba47a5d04aabb0ee70476a8b8, type: 2}
->>>>>>> Stashed changes
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7301,11 +6828,7 @@ Transform:
   - {fileID: 1574511920}
   - {fileID: 553982069}
   m_Father: {fileID: 0}
-<<<<<<< Updated upstream
   m_RootOrder: 27
-=======
-  m_RootOrder: 26
->>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1051930904
 Prefab:
@@ -7409,11 +6932,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-<<<<<<< Updated upstream
   - {fileID: 2100000, guid: 1efce0b0da6002d4db81cb9b859c5eaa, type: 2}
-=======
-  - {fileID: 2100000, guid: 18829cb94683fa04684db3ae608dcd01, type: 2}
->>>>>>> Stashed changes
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7462,11 +6981,7 @@ Transform:
   m_LocalScale: {x: 2.6996744, y: 1.0000019, z: 6.190124}
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< Updated upstream
   m_RootOrder: 40
-=======
-  m_RootOrder: 39
->>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -95.452}
 --- !u!1 &1074513162
 GameObject:
@@ -7610,11 +7125,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-<<<<<<< Updated upstream
   - {fileID: 2100000, guid: 1efce0b0da6002d4db81cb9b859c5eaa, type: 2}
-=======
-  - {fileID: 2100000, guid: 18829cb94683fa04684db3ae608dcd01, type: 2}
->>>>>>> Stashed changes
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7663,11 +7174,7 @@ Transform:
   m_LocalScale: {x: 1.0530149, y: 3.215624, z: 9.023492}
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< Updated upstream
   m_RootOrder: 67
-=======
-  m_RootOrder: 66
->>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1116553673
 GameObject:
@@ -7762,11 +7269,7 @@ Transform:
   m_LocalScale: {x: 14.776066, y: 1, z: 2.3850276}
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< Updated upstream
   m_RootOrder: 21
-=======
-  m_RootOrder: 20
->>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1120123397
 GameObject:
@@ -8032,11 +7535,7 @@ Transform:
   m_LocalScale: {x: 1.0530149, y: 7.4528384, z: 9.023492}
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< Updated upstream
   m_RootOrder: 74
-=======
-  m_RootOrder: 9
->>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1180612408
 GameObject:
@@ -8082,11 +7581,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-<<<<<<< Updated upstream
   - {fileID: 2100000, guid: 1efce0b0da6002d4db81cb9b859c5eaa, type: 2}
-=======
-  - {fileID: 2100000, guid: 18829cb94683fa04684db3ae608dcd01, type: 2}
->>>>>>> Stashed changes
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8135,7 +7630,7 @@ GameObject:
   - component: {fileID: 1186675517}
   - component: {fileID: 1186675516}
   m_Layer: 0
-  m_Name: IntroText
+  m_Name: NightText (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8205,11 +7700,7 @@ Transform:
   m_LocalScale: {x: 0.71999997, y: 0.71999997, z: 0.71999997}
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< Updated upstream
   m_RootOrder: 15
-=======
-  m_RootOrder: 14
->>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1201109487
 GameObject:
@@ -8242,11 +7733,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-<<<<<<< Updated upstream
   - {fileID: 2100000, guid: 566815a49962405479673657a599e315, type: 2}
-=======
-  - {fileID: 2100000, guid: 6721bb6ba47a5d04aabb0ee70476a8b8, type: 2}
->>>>>>> Stashed changes
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8295,11 +7782,7 @@ Transform:
   m_LocalScale: {x: 3.348039, y: 1, z: 6.190124}
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< Updated upstream
   m_RootOrder: 49
-=======
-  m_RootOrder: 48
->>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1229165727
 GameObject:
@@ -8332,11 +7815,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-<<<<<<< Updated upstream
   - {fileID: 2100000, guid: 566815a49962405479673657a599e315, type: 2}
-=======
-  - {fileID: 2100000, guid: 6721bb6ba47a5d04aabb0ee70476a8b8, type: 2}
->>>>>>> Stashed changes
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8385,41 +7864,13 @@ Transform:
   m_LocalScale: {x: 22.4497, y: 1, z: 9.023492}
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< Updated upstream
   m_RootOrder: 61
-=======
-  m_RootOrder: 60
->>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1253455366 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1223982800562144, guid: 420c336ba1a091146a52970c5a9c3dc5,
     type: 2}
   m_PrefabInternal: {fileID: 1512268473}
---- !u!114 &1253455367
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1253455366}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03158e9819e267649beb99fa8071111f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Level: {fileID: 1405856358}
---- !u!114 &1253455368
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1253455366}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 86e448b8cb104454bb753505dcda994e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Level: {fileID: 1473798497}
 --- !u!4 &1253455374 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4334445193082326, guid: 420c336ba1a091146a52970c5a9c3dc5,
@@ -8481,11 +7932,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-<<<<<<< Updated upstream
   - {fileID: 2100000, guid: 566815a49962405479673657a599e315, type: 2}
-=======
-  - {fileID: 2100000, guid: 6721bb6ba47a5d04aabb0ee70476a8b8, type: 2}
->>>>>>> Stashed changes
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8734,11 +8181,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-<<<<<<< Updated upstream
   - {fileID: 2100000, guid: 1efce0b0da6002d4db81cb9b859c5eaa, type: 2}
-=======
-  - {fileID: 2100000, guid: 18829cb94683fa04684db3ae608dcd01, type: 2}
->>>>>>> Stashed changes
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8787,11 +8230,7 @@ Transform:
   m_LocalScale: {x: 2.12551, y: 1.0000019, z: 6.190124}
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< Updated upstream
   m_RootOrder: 50
-=======
-  m_RootOrder: 49
->>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!1 &1290935095
 GameObject:
@@ -8824,11 +8263,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-<<<<<<< Updated upstream
   - {fileID: 2100000, guid: 566815a49962405479673657a599e315, type: 2}
-=======
-  - {fileID: 2100000, guid: 6721bb6ba47a5d04aabb0ee70476a8b8, type: 2}
->>>>>>> Stashed changes
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8877,11 +8312,7 @@ Transform:
   m_LocalScale: {x: 40.262665, y: 1, z: 9.023492}
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< Updated upstream
   m_RootOrder: 60
-=======
-  m_RootOrder: 59
->>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1306318599
 GameObject:
@@ -8942,7 +8373,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 18829cb94683fa04684db3ae608dcd01, type: 2}
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9106,11 +8537,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-<<<<<<< Updated upstream
   - {fileID: 2100000, guid: 1efce0b0da6002d4db81cb9b859c5eaa, type: 2}
-=======
-  - {fileID: 2100000, guid: 18829cb94683fa04684db3ae608dcd01, type: 2}
->>>>>>> Stashed changes
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9275,11 +8702,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-<<<<<<< Updated upstream
   - {fileID: 2100000, guid: 566815a49962405479673657a599e315, type: 2}
-=======
-  - {fileID: 2100000, guid: 6721bb6ba47a5d04aabb0ee70476a8b8, type: 2}
->>>>>>> Stashed changes
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9335,11 +8758,7 @@ Transform:
   - {fileID: 1538698960}
   - {fileID: 1360649781}
   m_Father: {fileID: 0}
-<<<<<<< Updated upstream
   m_RootOrder: 10
-=======
-  m_RootOrder: 11
->>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1381794458
 GameObject:
@@ -9386,11 +8805,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-<<<<<<< Updated upstream
   - {fileID: 2100000, guid: 566815a49962405479673657a599e315, type: 2}
-=======
-  - {fileID: 2100000, guid: 6721bb6ba47a5d04aabb0ee70476a8b8, type: 2}
->>>>>>> Stashed changes
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9573,11 +8988,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-<<<<<<< Updated upstream
   - {fileID: 2100000, guid: 566815a49962405479673657a599e315, type: 2}
-=======
-  - {fileID: 2100000, guid: 6721bb6ba47a5d04aabb0ee70476a8b8, type: 2}
->>>>>>> Stashed changes
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9626,11 +9037,7 @@ Transform:
   m_LocalScale: {x: 13.682949, y: 1, z: 9.023492}
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< Updated upstream
   m_RootOrder: 75
-=======
-  m_RootOrder: 56
->>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1398593196
 Prefab:
@@ -9777,11 +9184,7 @@ Transform:
   m_LocalScale: {x: 400, y: 50, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< Updated upstream
   m_RootOrder: 12
-=======
-  m_RootOrder: 13
->>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1411128015
 GameObject:
@@ -9814,11 +9217,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-<<<<<<< Updated upstream
   - {fileID: 2100000, guid: 1efce0b0da6002d4db81cb9b859c5eaa, type: 2}
-=======
-  - {fileID: 2100000, guid: 18829cb94683fa04684db3ae608dcd01, type: 2}
->>>>>>> Stashed changes
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9867,7 +9266,6 @@ Transform:
   m_LocalScale: {x: 13.0113325, y: 1, z: 9.023492}
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< Updated upstream
   m_RootOrder: 66
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1441341390
@@ -9951,9 +9349,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 72
-=======
-  m_RootOrder: 65
->>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1460442412
 GameObject:
@@ -9986,11 +9381,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-<<<<<<< Updated upstream
   - {fileID: 2100000, guid: 566815a49962405479673657a599e315, type: 2}
-=======
-  - {fileID: 2100000, guid: 6721bb6ba47a5d04aabb0ee70476a8b8, type: 2}
->>>>>>> Stashed changes
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10039,94 +9430,8 @@ Transform:
   m_LocalScale: {x: 7.256431, y: 1, z: 6.190124}
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< Updated upstream
   m_RootOrder: 39
-=======
-  m_RootOrder: 38
->>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -7.2570004}
---- !u!1 &1473798497
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1473798501}
-  - component: {fileID: 1473798500}
-  - component: {fileID: 1473798499}
-  - component: {fileID: 1473798498}
-  m_Layer: 0
-  m_Name: NightBG
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!23 &1473798498
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1473798497}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 2100000, guid: d3b5cbad34b692742b0b93c21f561ccf, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!65 &1473798499
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1473798497}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!33 &1473798500
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1473798497}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &1473798501
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1473798497}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 187.4, y: 9.4, z: 5.3}
-  m_LocalScale: {x: 400, y: 50, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 12
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1480537437
 GameObject:
   m_ObjectHideFlags: 0
@@ -10158,11 +9463,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-<<<<<<< Updated upstream
   - {fileID: 2100000, guid: 1efce0b0da6002d4db81cb9b859c5eaa, type: 2}
-=======
-  - {fileID: 2100000, guid: 18829cb94683fa04684db3ae608dcd01, type: 2}
->>>>>>> Stashed changes
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10211,11 +9512,7 @@ Transform:
   m_LocalScale: {x: 1, y: 2.1083739, z: 2.3850276}
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< Updated upstream
   m_RootOrder: 25
-=======
-  m_RootOrder: 24
->>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1490463714
 GameObject:
@@ -10431,11 +9728,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4334445193082326, guid: 420c336ba1a091146a52970c5a9c3dc5, type: 2}
       propertyPath: m_RootOrder
-<<<<<<< Updated upstream
       value: 11
-=======
-      value: 8
->>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 1223982800562144, guid: 420c336ba1a091146a52970c5a9c3dc5, type: 2}
       propertyPath: m_Name
@@ -10542,11 +9835,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-<<<<<<< Updated upstream
   - {fileID: 2100000, guid: 566815a49962405479673657a599e315, type: 2}
-=======
-  - {fileID: 2100000, guid: 6721bb6ba47a5d04aabb0ee70476a8b8, type: 2}
->>>>>>> Stashed changes
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10671,23 +9960,7 @@ GameObject:
   m_PrefabParentObject: {fileID: 1499388313594620, guid: 3c02093a79b311547b009244dccd641c,
     type: 2}
   m_PrefabInternal: {fileID: 1712631757}
-<<<<<<< Updated upstream
 --- !u!114 &1546238734
-=======
---- !u!114 &1546238728
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1546238727}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 86e448b8cb104454bb753505dcda994e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Level: {fileID: 1405856358}
---- !u!114 &1546238729
->>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -10698,11 +9971,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03158e9819e267649beb99fa8071111f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< Updated upstream
   Level: {fileID: 780688533}
-=======
-  Level: {fileID: 1473798497}
->>>>>>> Stashed changes
 --- !u!4 &1546238735 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4158431566127252, guid: 3c02093a79b311547b009244dccd641c,
@@ -10763,7 +10032,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 18829cb94683fa04684db3ae608dcd01, type: 2}
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10825,7 +10094,6 @@ GameObject:
   - component: {fileID: 1577271253}
   - component: {fileID: 1577271252}
   - component: {fileID: 1577271251}
-  - component: {fileID: 1577271255}
   m_Layer: 0
   m_Name: Night1
   m_TagString: Untagged
@@ -10846,11 +10114,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-<<<<<<< Updated upstream
   - {fileID: 2100000, guid: 566815a49962405479673657a599e315, type: 2}
-=======
-  - {fileID: 2100000, guid: 6721bb6ba47a5d04aabb0ee70476a8b8, type: 2}
->>>>>>> Stashed changes
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10910,24 +10174,8 @@ Transform:
   - {fileID: 432251793}
   - {fileID: 930056859}
   m_Father: {fileID: 0}
-<<<<<<< Updated upstream
   m_RootOrder: 7
-=======
-  m_RootOrder: 10
->>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1577271255
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1577271250}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 86e448b8cb104454bb753505dcda994e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Level: {fileID: 0}
 --- !u!1 &1581285033
 GameObject:
   m_ObjectHideFlags: 0
@@ -10988,11 +10236,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< Updated upstream
   m_RootOrder: 18
-=======
-  m_RootOrder: 17
->>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1590469255
 GameObject:
@@ -11210,11 +10454,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-<<<<<<< Updated upstream
   - {fileID: 2100000, guid: 0a0fccc3a55024143bbf8323d8318eda, type: 2}
-=======
-  - {fileID: 2100000, guid: 18829cb94683fa04684db3ae608dcd01, type: 2}
->>>>>>> Stashed changes
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -11264,11 +10504,7 @@ Transform:
   m_Children:
   - {fileID: 1594757529}
   m_Father: {fileID: 0}
-<<<<<<< Updated upstream
   m_RootOrder: 68
-=======
-  m_RootOrder: 67
->>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1672725684
 GameObject:
@@ -11301,11 +10537,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-<<<<<<< Updated upstream
   - {fileID: 2100000, guid: 566815a49962405479673657a599e315, type: 2}
-=======
-  - {fileID: 2100000, guid: 6721bb6ba47a5d04aabb0ee70476a8b8, type: 2}
->>>>>>> Stashed changes
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -11354,11 +10586,7 @@ Transform:
   m_LocalScale: {x: 3.348039, y: 1, z: 6.190124}
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< Updated upstream
   m_RootOrder: 47
-=======
-  m_RootOrder: 46
->>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -10.234}
 --- !u!1 &1676622194
 GameObject:
@@ -11391,11 +10619,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-<<<<<<< Updated upstream
   - {fileID: 2100000, guid: 1efce0b0da6002d4db81cb9b859c5eaa, type: 2}
-=======
-  - {fileID: 2100000, guid: 18829cb94683fa04684db3ae608dcd01, type: 2}
->>>>>>> Stashed changes
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -11444,11 +10668,7 @@ Transform:
   m_LocalScale: {x: 1.0530149, y: 3.215624, z: 9.023492}
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< Updated upstream
   m_RootOrder: 59
-=======
-  m_RootOrder: 58
->>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1680538348
 GameObject:
@@ -11563,11 +10783,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-<<<<<<< Updated upstream
   - {fileID: 2100000, guid: 566815a49962405479673657a599e315, type: 2}
-=======
-  - {fileID: 2100000, guid: 6721bb6ba47a5d04aabb0ee70476a8b8, type: 2}
->>>>>>> Stashed changes
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -11616,15 +10832,9 @@ Transform:
   m_LocalScale: {x: 7.89672, y: 1, z: 6.190124}
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< Updated upstream
   m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -7.2570004}
 --- !u!1 &1690117774
-=======
-  m_RootOrder: 61
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 11}
---- !u!1 &1689824844
->>>>>>> Stashed changes
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -11655,11 +10865,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-<<<<<<< Updated upstream
   - {fileID: 2100000, guid: 1efce0b0da6002d4db81cb9b859c5eaa, type: 2}
-=======
-  - {fileID: 2100000, guid: 6721bb6ba47a5d04aabb0ee70476a8b8, type: 2}
->>>>>>> Stashed changes
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -11708,13 +10914,8 @@ Transform:
   m_LocalScale: {x: 1.0530149, y: 7.4528384, z: 9.023492}
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< Updated upstream
   m_RootOrder: 69
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-=======
-  m_RootOrder: 37
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -7.2570004}
->>>>>>> Stashed changes
 --- !u!1 &1692772514
 GameObject:
   m_ObjectHideFlags: 0
@@ -11759,11 +10960,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-<<<<<<< Updated upstream
   - {fileID: 2100000, guid: 566815a49962405479673657a599e315, type: 2}
-=======
-  - {fileID: 2100000, guid: 6721bb6ba47a5d04aabb0ee70476a8b8, type: 2}
->>>>>>> Stashed changes
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -11860,11 +11057,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-<<<<<<< Updated upstream
   - {fileID: 2100000, guid: 1efce0b0da6002d4db81cb9b859c5eaa, type: 2}
-=======
-  - {fileID: 2100000, guid: 18829cb94683fa04684db3ae608dcd01, type: 2}
->>>>>>> Stashed changes
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -11963,6 +11156,20 @@ Light:
   m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
+  m_FalloffTable:
+    m_Table[0]: 0
+    m_Table[1]: 0
+    m_Table[2]: 0
+    m_Table[3]: 0
+    m_Table[4]: 0
+    m_Table[5]: 0
+    m_Table[6]: 0
+    m_Table[7]: 0
+    m_Table[8]: 0
+    m_Table[9]: 0
+    m_Table[10]: 0
+    m_Table[11]: 0
+    m_Table[12]: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
@@ -11978,11 +11185,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< Updated upstream
   m_RootOrder: 17
-=======
-  m_RootOrder: 16
->>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1001 &1712631757
 Prefab:
@@ -12021,11 +11224,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4158431566127252, guid: 3c02093a79b311547b009244dccd641c, type: 2}
       propertyPath: m_RootOrder
-<<<<<<< Updated upstream
       value: 9
-=======
-      value: 7
->>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 1499388313594620, guid: 3c02093a79b311547b009244dccd641c, type: 2}
       propertyPath: m_Name
@@ -12113,11 +11312,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-<<<<<<< Updated upstream
   - {fileID: 2100000, guid: 566815a49962405479673657a599e315, type: 2}
-=======
-  - {fileID: 2100000, guid: 6721bb6ba47a5d04aabb0ee70476a8b8, type: 2}
->>>>>>> Stashed changes
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -12361,11 +11556,7 @@ Transform:
   m_Children:
   - {fileID: 1696647003}
   m_Father: {fileID: 0}
-<<<<<<< Updated upstream
   m_RootOrder: 32
-=======
-  m_RootOrder: 31
->>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1751723468
 MonoBehaviour:
@@ -12655,11 +11846,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-<<<<<<< Updated upstream
   - {fileID: 2100000, guid: 1efce0b0da6002d4db81cb9b859c5eaa, type: 2}
-=======
-  - {fileID: 2100000, guid: 18829cb94683fa04684db3ae608dcd01, type: 2}
->>>>>>> Stashed changes
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -12708,11 +11895,7 @@ Transform:
   m_LocalScale: {x: 2.7344587, y: 1.0000019, z: 6.190124}
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< Updated upstream
   m_RootOrder: 52
-=======
-  m_RootOrder: 51
->>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!1001 &1813820547
 Prefab:
@@ -13001,7 +12184,6 @@ Transform:
   m_Children:
   - {fileID: 2020393958}
   m_Father: {fileID: 0}
-<<<<<<< Updated upstream
   m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1858076803 stripped
@@ -13102,9 +12284,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 71
-=======
-  m_RootOrder: 27
->>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1898629420
 GameObject:
@@ -13137,11 +12316,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-<<<<<<< Updated upstream
   - {fileID: 2100000, guid: 1efce0b0da6002d4db81cb9b859c5eaa, type: 2}
-=======
-  - {fileID: 2100000, guid: 18829cb94683fa04684db3ae608dcd01, type: 2}
->>>>>>> Stashed changes
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -13190,11 +12365,7 @@ Transform:
   m_LocalScale: {x: 10.476534, y: 1.0000019, z: 6.190124}
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< Updated upstream
   m_RootOrder: 54
-=======
-  m_RootOrder: 53
->>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!1 &1918945923 stripped
 GameObject:
@@ -13244,11 +12415,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-<<<<<<< Updated upstream
   - {fileID: 2100000, guid: 1efce0b0da6002d4db81cb9b859c5eaa, type: 2}
-=======
-  - {fileID: 2100000, guid: 6721bb6ba47a5d04aabb0ee70476a8b8, type: 2}
->>>>>>> Stashed changes
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -13304,30 +12471,6 @@ GameObject:
   m_PrefabParentObject: {fileID: 1223982800562144, guid: 420c336ba1a091146a52970c5a9c3dc5,
     type: 2}
   m_PrefabInternal: {fileID: 990526786}
---- !u!114 &1942782235
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1942782234}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 86e448b8cb104454bb753505dcda994e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Level: {fileID: 1473798497}
---- !u!114 &1942782236
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1942782234}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03158e9819e267649beb99fa8071111f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Level: {fileID: 1405856358}
 --- !u!4 &1942782242 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4334445193082326, guid: 420c336ba1a091146a52970c5a9c3dc5,
@@ -13595,11 +12738,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-<<<<<<< Updated upstream
   - {fileID: 2100000, guid: 566815a49962405479673657a599e315, type: 2}
-=======
-  - {fileID: 2100000, guid: 6721bb6ba47a5d04aabb0ee70476a8b8, type: 2}
->>>>>>> Stashed changes
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -13668,11 +12807,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-<<<<<<< Updated upstream
   - {fileID: 2100000, guid: 566815a49962405479673657a599e315, type: 2}
-=======
-  - {fileID: 2100000, guid: 6721bb6ba47a5d04aabb0ee70476a8b8, type: 2}
->>>>>>> Stashed changes
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -13754,11 +12889,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-<<<<<<< Updated upstream
   - {fileID: 2100000, guid: 566815a49962405479673657a599e315, type: 2}
-=======
-  - {fileID: 2100000, guid: 6721bb6ba47a5d04aabb0ee70476a8b8, type: 2}
->>>>>>> Stashed changes
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -13807,11 +12938,7 @@ Transform:
   m_LocalScale: {x: 30.135012, y: 1, z: 9.023492}
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< Updated upstream
   m_RootOrder: 63
-=======
-  m_RootOrder: 62
->>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2088403257
 GameObject:
@@ -13872,7 +12999,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 18829cb94683fa04684db3ae608dcd01, type: 2}
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -13942,11 +13069,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-<<<<<<< Updated upstream
   - {fileID: 2100000, guid: 566815a49962405479673657a599e315, type: 2}
-=======
-  - {fileID: 2100000, guid: 6721bb6ba47a5d04aabb0ee70476a8b8, type: 2}
->>>>>>> Stashed changes
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -13995,11 +13118,7 @@ Transform:
   m_LocalScale: {x: 3.348039, y: 1, z: 6.190124}
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< Updated upstream
   m_RootOrder: 45
-=======
-  m_RootOrder: 44
->>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -10.899}
 --- !u!1 &2122632097
 GameObject:
