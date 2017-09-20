@@ -15,19 +15,22 @@ public class SpawnerMenu : MonoBehaviour
     int randEnemy;
 
 
-    void Start()
-    {
+    void Start(){
+        RevealTest.NightAction += SpawnerMenuActivate;
+        RevealTest.DayAction += SpawnerMenuDeactivate;
+    }
+
+    void SpawnerMenuActivate(){
         StartCoroutine(waitSpawner());
     }
-
-
-    void Update()
-    {
-        spawnWait = Random.Range(spawnLeastWait, spawnMostWait);
+      void SpawnerMenuDeactivate(){
+        StopAllCoroutines();
     }
 
-    IEnumerator waitSpawner()
+
+    public IEnumerator waitSpawner()
     {
+        spawnWait = Random.Range(spawnLeastWait, spawnMostWait);
         yield return new WaitForSeconds(startWait);
 
         while (!stop)
