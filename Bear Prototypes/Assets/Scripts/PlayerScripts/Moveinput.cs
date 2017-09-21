@@ -33,11 +33,11 @@ void Start ()
 			JumpAction(Input.GetButton("Jump"));
 			}
 		//Below code will allow character to crouch	
-		if (CrouchActionDown != null)
+		if (CrouchActionDown != null && Input.GetKeyDown(KeyCode.C))
 			{
 			CrouchActionDown();
         	}
-		if (CrouchActionUp != null)
+		if (CrouchActionUp != null && Input.GetKeyUp(KeyCode.C))
 			{
 			CrouchActionUp();
         	}	

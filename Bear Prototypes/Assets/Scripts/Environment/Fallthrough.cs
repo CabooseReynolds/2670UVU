@@ -10,17 +10,21 @@ void Awake () {
 }
 
 void Update () {
-    if (Input.GetKeyDown (KeyCode.DownArrow)) {
-        boxColl.isTrigger = true;
+    if (Input.GetKeyDown (KeyCode.DownArrow))  {
+        transform.parent.GetComponent<BoxCollider>().enabled = false;
     }
-	if (Input.GetKeyDown (KeyCode.Space)){
-		boxColl.isTrigger = true;
-	}
 }
-void OnTriggerEnter(Collider coll){
-    boxColl.isTrigger = true;
+void OnTriggerEnter(Collider other){
+    if(other.tag == "Player")
+    {
+        transform.parent.GetComponent<BoxCollider>().enabled = false;
+    }
+
 }
-void OnTriggerExit(Collider coll){
-    boxColl.isTrigger = false;
+void OnTriggerExit(Collider other){
+    if(other.tag == "Player")
+    {
+        transform.parent.GetComponent<BoxCollider>().enabled = true;
+}
 }
 }

@@ -35,12 +35,13 @@ public static Action CrouchActionUp;
 	}
 
     private void CrouchDown(){
-        if (Input.GetKeyDown(KeyCode.C))
         this.transform.localScale = new Vector3(1f, 0.5f, 1f);
+        speed /= 2.0f;
+
         }
     private void CrouchUp(){
-        if (Input.GetKeyUp(KeyCode.C))
         this.transform.localScale = new Vector3(1f, 1f, 1f); 
+        speed *= 2.0f;
         }
 
     private void Jump(bool obj){
