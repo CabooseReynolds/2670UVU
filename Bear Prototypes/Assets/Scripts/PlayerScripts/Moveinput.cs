@@ -13,6 +13,8 @@ public static Action CrouchActionUp;
 public static Action ConstantAction;
 public static Action GrabAction;
 public static Action LetGoAction;
+public static Action RunAction;
+public static Action WalkAction;
 public bool canPlay = true; 
  
 
@@ -41,14 +43,22 @@ void Start ()
 			{
 			CrouchActionUp();
         	}	
-		if (GrabAction != null)
+		if (GrabAction != null && Input.GetKeyDown(KeyCode.G))
 			{
 			GrabAction();
         	}
-		if (LetGoAction != null)
+		if (LetGoAction != null && Input.GetKeyUp(KeyCode.G))
 			{
 			LetGoAction();
-        	}	
+        	}
+		if (RunAction  != null && Input.GetKeyDown(KeyCode.R))
+			{
+			RunAction();
+        	}
+		if (WalkAction  != null && Input.GetKeyUp(KeyCode.R))
+			{
+			WalkAction();
+        	}		
 
 		yield return new WaitForSeconds(runTime);
 	 }

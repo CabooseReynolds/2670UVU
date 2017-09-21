@@ -9,6 +9,8 @@ public static Action<float> KeyAction;
 public static Action<bool> JumpAction;
 public static Action CrouchActionDown;
 public static Action CrouchActionUp;
+public static Action RunAction;
+public static Action WalkAction;
     public float speed = 6.0f; 
 //   public float crchSpeed = 3.0f;
     public float jumpSpeed = 8.0f; 
@@ -31,9 +33,16 @@ public static Action CrouchActionUp;
     Moveinput.JumpAction += Jump;
     Moveinput.CrouchActionUp += CrouchUp;
     Moveinput.CrouchActionDown += CrouchDown;
+    Moveinput.RunAction += Run;
+    Moveinput.WalkAction += Walk;
     PlayButton.Play -=OnPlay;
 	}
-
+  private void Run(){
+        speed *= 2.0f;
+        }
+    private void Walk(){
+        speed /= 2.0f;
+        }
     private void CrouchDown(){
         this.transform.localScale = new Vector3(1f, 0.5f, 1f);
         speed /= 2.0f;
