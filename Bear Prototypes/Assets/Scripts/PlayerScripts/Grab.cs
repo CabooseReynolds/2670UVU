@@ -3,17 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 
-public class grabTrigger : MonoBehaviour {
+public class Grab : MonoBehaviour {
 
 
-   public GameObject Grab;
+   public GameObject Grabber;
     public static Action GrabAction;
     private void grab()
     {
         if (Input.GetKeyDown(KeyCode.LeftShift))
         {
             print("Grab");
-            this.transform.parent.parent = Grab.transform;
+            this.transform.parent.parent = Grabber.transform;
 
         }
         if (Input.GetKeyUp(KeyCode.LeftControl))
