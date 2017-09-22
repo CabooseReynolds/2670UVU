@@ -15,6 +15,8 @@ public static Action GrabAction;
 public static Action LetGoAction;
 public static Action RunAction;
 public static Action WalkAction;
+public static Action PushAction;
+public static Action PullAction;
 public bool canPlay = true; 
  
 
@@ -58,6 +60,14 @@ void Start ()
 		if (WalkAction  != null && Input.GetKeyUp(KeyCode.R))
 			{
 			WalkAction();
+        	}	
+		if (PushAction  != null && Input.GetKeyDown(KeyCode.F))
+			{
+			PushAction();
+        	}
+		if (PullAction  != null && Input.GetKeyUp(KeyCode.F))
+			{
+			PullAction();
         	}		
 
 		yield return new WaitForSeconds(runTime);

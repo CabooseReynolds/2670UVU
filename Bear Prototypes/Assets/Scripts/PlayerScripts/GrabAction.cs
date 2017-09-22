@@ -3,14 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 
-public class GrabObject : MonoBehaviour {
+public class GrabAction : MonoBehaviour {
 
     GameObject Player;
 
-    void Grabb()
+    void Grab()
     {
-
-        GetComponent<Rigidbody>().useGravity = false;
         GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeAll;
         transform.parent = Player.transform;
     }
@@ -19,26 +17,22 @@ public class GrabObject : MonoBehaviour {
     {
         if (other.tag == "Player")
         {
-            Moveinput.grab += Grabb;
+            Moveinput.GrabAction += Grab;
             Player = other.gameObject;
-            Moveinput.offGrab += offgrabb;
+            Moveinput.LetGoAction += LetGo;
         }
-
-
-
     }
 
     void OnTriggerExit(Collider other)
     {
         if (other.tag == "Player")
         {
-            Moveinput.grab -= Grabb;
+            Moveinput.GrabAction -= Grab;
         }
     }
 
-    void offgrabb()
+    void LetGo()
     {
-        GetComponent<Rigidbody>().useGravity = true;
         GetComponent<Rigidbody>().constraints = RigidbodyConstraints.None;
         transform.parent = null;
     }

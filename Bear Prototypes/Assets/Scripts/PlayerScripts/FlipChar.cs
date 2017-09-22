@@ -8,17 +8,15 @@ Quaternion myRotate;
 Vector3 rotValue;
 	// Use this for initialization
 	void Start () {
-		PlayButton.Play += OnPlay;
+//		PlayButton.Play += OnPlay;
+		Moveinput.KeyAction += Flip;
 	}
 
-		void OnPlay () {
+/*		void OnPlay () {
 		Moveinput.KeyAction += Flip;
 		PlayButton.Play -=OnPlay;
-	}
-
-	
-
-    private void Flip(float obj)
+	} */
+	private void Flip(float obj)
     {
 		if(obj > 0)
 		rotValue.y = 0;
