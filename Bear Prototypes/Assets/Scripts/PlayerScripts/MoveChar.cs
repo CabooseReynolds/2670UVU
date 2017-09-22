@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 
-public class JumpChar : MonoBehaviour {
+public class MoveChar : MonoBehaviour {
 
 public static Action<float> KeyAction;
 public static Action<bool> JumpAction;
@@ -24,19 +24,22 @@ public static Action WalkAction;
 	void Start () {
 	cc = GetComponent<CharacterController>();
  
-    PlayButton.Play += OnPlay;
+//    PlayButton.Play += OnPlay;
+    Moveinput.JumpAction += Jump;
     Moveinput.CrouchActionUp += CrouchUp;
     Moveinput.CrouchActionDown += CrouchDown;
+    Moveinput.RunAction += Run;
+    Moveinput.WalkAction += Walk;
 
 	}
-    void OnPlay () {
+/*    void OnPlay () {
     Moveinput.JumpAction += Jump;
     Moveinput.CrouchActionUp += CrouchUp;
     Moveinput.CrouchActionDown += CrouchDown;
     Moveinput.RunAction += Run;
     Moveinput.WalkAction += Walk;
     PlayButton.Play -=OnPlay;
-	}
+	} */
   private void Run(){
         speed *= 2.0f;
         }
