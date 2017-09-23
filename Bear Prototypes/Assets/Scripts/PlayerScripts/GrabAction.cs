@@ -4,16 +4,9 @@ using UnityEngine;
 using System;
 
 public class GrabAction : MonoBehaviour {
-
-    GameObject Player;
-
-    void Grab()
-    {
-        GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeAll;
-        transform.parent = Player.transform;
-    }
-
-    void OnTriggerEnter(Collider other) 
+   GameObject Player;
+    
+        void OnTriggerEnter(Collider other) 
     {
         if (other.tag == "Player")
         {
@@ -21,6 +14,12 @@ public class GrabAction : MonoBehaviour {
             Player = other.gameObject;
             Moveinput.LetGoAction += LetGo;
         }
+    }
+    
+    void Grab()
+    {
+        GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeAll;
+        transform.parent = Player.transform;
     }
 
     void OnTriggerExit(Collider other)
@@ -33,8 +32,7 @@ public class GrabAction : MonoBehaviour {
 
     void LetGo()
     {
-        GetComponent<Rigidbody>().constraints = RigidbodyConstraints.None;
+        GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeRotation;   
         transform.parent = null;
     }
-
 }
