@@ -109,7 +109,7 @@ public static Action LetGoAction;
             }
         
         if (cc.collisionFlags == CollisionFlags.Sides){
-            jumpCount = 1.0f;
+            jumpCount = 2.0f;
             }
          
     }
