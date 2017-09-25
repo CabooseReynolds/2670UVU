@@ -17,6 +17,7 @@ public static Action RunAction;
 public static Action WalkAction;
 public static Action PushAction;
 public static Action PullAction;
+public static Action SendSpeed;
 public bool canPlay = true; 
  
 
@@ -68,6 +69,10 @@ void Start ()
 		if (PullAction  != null && Input.GetKeyUp(KeyCode.F))
 			{
 			PullAction();
+        	}	
+		if (SendSpeed  != null)
+			{
+			SendSpeed();
         	}		
 
 		yield return new WaitForSeconds(runTime);
