@@ -12,4 +12,5 @@ public class StaticVars {
 	public static float waterGravity;
 	public static float gravity;
 	public static float speed;
+	public static float jumpHeight;
 }

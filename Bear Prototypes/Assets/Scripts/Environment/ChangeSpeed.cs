@@ -4,15 +4,6 @@ using UnityEngine;
 using System;
 
 public class ChangeSpeed : MonoBehaviour {
-public static Action<bool> JumpAction;
-public static Action CrouchActionDown;
-public static Action CrouchActionUp;
-public static Action RunAction;
-public static Action WalkAction;
-
-public static Action GrabAction;
-public static Action LetGoAction;
-
 public float speed = 40;
 public float waterSpeed = 10;
 public float gravity = 15; 
@@ -24,11 +15,8 @@ void OnTriggerEnter (){
 	SendSpeed(StaticVars.waterSpeed, StaticVars.waterGravity);
 	
 }
-
 void OnTriggerExit (){
 	SendSpeed(StaticVars.speed, StaticVars.gravity);
 	
 }
-
-
 }

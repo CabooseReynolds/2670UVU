@@ -7,7 +7,7 @@ public class Moveinput : MonoBehaviour {
 public float runTime = 0.01f;
 public static Action<float> KeyAction;
 //public static Action JumpAction;
-public static Action<bool> JumpAction;
+public static Action JumpAction;
 public static Action CrouchActionDown;
 public static Action CrouchActionUp;
 public static Action ConstantAction;
@@ -33,9 +33,9 @@ void Start ()
 			KeyAction(Input.GetAxis("Horizontal"));
 	 		}
 
-		if(JumpAction != null)
+		if(JumpAction != null && Input.GetButtonDown("Jump"))
 	 		{
-			JumpAction(Input.GetButton("Jump"));
+			JumpAction();
 			}
 		//Below code will allow character to crouch	
 		if (CrouchActionDown != null && Input.GetKeyDown(KeyCode.C))
