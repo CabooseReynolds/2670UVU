@@ -8,6 +8,8 @@ TagManager:
   - door
   - JumpThroughPlat
   - Moveable
+  - Day
+  - Night
   layers:
   - Default
   - TransparentFX
