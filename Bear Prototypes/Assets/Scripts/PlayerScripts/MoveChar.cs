@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 
+[RequireComponent(typeof(CharacterController))]
 public class MoveChar : MonoBehaviour {
 
 public static Action<float> KeyAction;
@@ -11,25 +12,29 @@ public static Action CrouchActionDown;
 public static Action CrouchActionUp;
 public static Action RunAction;
 public static Action WalkAction;
-
 public static Action GrabAction;
 public static Action LetGoAction;
-    private float speed; 
-    private float gravity; 
-    public float jumpSpeed = 10.0f; 
-    public float jumpCount = 0.0f; 
-    float maxJump = 2.0f; 
-   Quaternion myRotate;
-    Vector3 rotValue;
+Action OnLandAction;
+bool gravityOn = false;
+private float speed; 
+private float gravity;
+public float jumpHeight; 
+private float maxJump;
+public float jumpCount;
+public float maxFallSpeed = -30;
+public float curFallSpeed;
+Quaternion myRotate;
+Vector3 rotValue;
+Vector3 prevPos;
 
-    private Vector3 moveDirection = Vector3.zero;
-    CharacterController cc;
+private Vector3 moveDirection = Vector3.zero;
+CharacterController cc;
 
 	void Start () {
 	cc = GetComponent<CharacterController>();
     speed = StaticVars.speed;
     gravity = StaticVars.gravity;
-    jumpSpeed = StaticVars.jumpHeight;
+    jumpHeight = StaticVars.jumpHeight;
 //    PlayButton.Play += OnPlay;
     Moveinput.JumpAction += Jump;
     Moveinput.CrouchActionUp += CrouchUp;
@@ -40,9 +45,13 @@ public static Action LetGoAction;
     Moveinput.LetGoAction += LetGo;
     Moveinput.KeyAction += Flip;
     speed = StaticVars.speed;
-    gravity = StaticVars.speed;
-    Moveinput.KeyAction += move;
+    maxJump = StaticVars.maxJump;
+    gravity = StaticVars.gravity;
+    Moveinput.KeyAction += Move;
     ChangeSpeed.SendSpeed = SendSpeed;
+    OnLandAction += ResetGravity;
+	OnLandAction += ResetJumps;
+    prevPos = transform.position;
 
 	}
 /*    void OnPlay () {
@@ -53,10 +62,12 @@ public static Action LetGoAction;
     Moveinput.WalkAction += Walk;
     PlayButton.Play -=OnPlay;
 	} */
-     private void SendSpeed(float _speed, float _gravity)
+     private void SendSpeed(float _speed, float _gravity, float _maxJump, float _jumpHeight)
     {
 		speed = _speed;
 		gravity = _gravity;
+        maxJump = _maxJump;
+        jumpHeight = _jumpHeight;
     }
 
 	private void Flip(float obj)
@@ -71,11 +82,11 @@ public static Action LetGoAction;
 		transform.rotation = myRotate;
     }
     private void Grab(){
-        jumpSpeed = 0.0f;
+        Moveinput.JumpAction -= Jump;
         Moveinput.KeyAction -= Flip;
     }
     private void LetGo(){
-        jumpSpeed = 10.0f;
+       Moveinput.JumpAction += Jump;
         Moveinput.KeyAction += Flip;
     }
     private void Run(){
@@ -94,28 +105,80 @@ public static Action LetGoAction;
         speed *= 2.0f;
         }
 
-    private void move(float _movement){
-        moveDirection.x = _movement * speed;
-        cc.Move(moveDirection * Time.deltaTime);
-        moveDirection.y -= gravity * Time.deltaTime;
-
-    }
-    private void Jump(){
-        if (jumpCount < maxJump) {
-            jumpCount +=1;
-            moveDirection.y = jumpSpeed;
-
-        // if (!cc.isGrounded){
-        //     StartCoroutine(Gravity());
-        // }
-            if(cc.isGrounded){
-                jumpCount = 1;
+    public void Move(float _movement)
+    {
+        // moveDirection.y -= gravity * Time.deltaTime;
+        if(!cc.isGrounded)
+        {
+            if (!gravityOn)
+            {
+            StartCoroutine(Gravity());
             }
-            if (cc.collisionFlags == CollisionFlags.Sides){
-            jumpCount = 1.0f;
+        if (cc.collisionFlags == CollisionFlags.Sides)
+            {
+            if(jumpCount !=0)
+                {
+                ResetJumps();
+                }            if(jumpCount !=0)
+                {
+                ResetJumps();
+                }
+        
             }
         }
-    } 
+        prevPos = transform.position;
+        moveDirection.x = _movement * speed;
+        //print("moving");
+        cc.Move(moveDirection * Time.deltaTime);
+    }
+    public void Jump(){
+        if (jumpCount < maxJump && cc.collisionFlags != CollisionFlags.Sides)
+        {
+            if (cc.isGrounded)
+            {
+            StartCoroutine(Gravity());
+            }
+            jumpCount++;
+            //print(jumpCount);
+            moveDirection.y = jumpHeight;
+        }
+    }
+
+    void ResetGravity()
+        {
+        moveDirection.y= -1f;
+        }
+
+    public void ResetJumps()
+        {
+        jumpCount = 0;
+        }
+    // void LerpFall(){
+    //     moveDirection.y = Mathf.Lerp(moveDirection.y, maxFallSpeed, 10 * Time.deltaTime);
+    // }
+
+    IEnumerator Gravity()
+    {
+        gravityOn = true;
+        yield return new WaitForSeconds(.01f);
+        do
+        {
+            if(moveDirection.y > maxFallSpeed)
+            {
+                moveDirection.y -= gravity * Time.deltaTime;
+            }
+            yield return new WaitForSeconds(.01f);
+            if(prevPos.y == transform.position.y)
+            {
+                moveDirection.y = -.1f;
+            }
+        } while(!cc.isGrounded);
+        gravityOn = false;
+        OnLandAction();
+    }
+}
+
+
 
 // IEnumerator Gravity()
 // {
@@ -160,4 +223,3 @@ public static Action LetGoAction;
     //         jumpCount = 2.0f;
     //         }
     //      }
-}
