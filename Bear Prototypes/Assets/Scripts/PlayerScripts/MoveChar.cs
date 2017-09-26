@@ -50,6 +50,7 @@ CharacterController cc;
     OnLandAction += ResetGravity;
 	OnLandAction += ResetJumps;
     prevPos = transform.position;
+    ChangeSpeed.jCount = ResetJumps;
 
 	}
 /*    void OnPlay () {
