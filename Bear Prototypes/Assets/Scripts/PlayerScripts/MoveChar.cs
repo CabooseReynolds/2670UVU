@@ -33,8 +33,9 @@ CharacterController cc;
 	void Start () {
 	cc = GetComponent<CharacterController>();
     speed = StaticVars.speed;
-    gravity = StaticVars.gravity;
     jumpHeight = StaticVars.jumpHeight;
+    maxJump = StaticVars.maxJump;
+    gravity = StaticVars.gravity;
 //    PlayButton.Play += OnPlay;
     Moveinput.JumpAction += Jump;
     Moveinput.CrouchActionUp += CrouchUp;
@@ -44,9 +45,6 @@ CharacterController cc;
     Moveinput.GrabAction += Grab;
     Moveinput.LetGoAction += LetGo;
     Moveinput.KeyAction += Flip;
-    speed = StaticVars.speed;
-    maxJump = StaticVars.maxJump;
-    gravity = StaticVars.gravity;
     Moveinput.KeyAction += Move;
     ChangeSpeed.SendSpeed = SendSpeed;
     OnLandAction += ResetGravity;
@@ -107,7 +105,6 @@ CharacterController cc;
 
     public void Move(float _movement)
     {
-        // moveDirection.y -= gravity * Time.deltaTime;
         if(!cc.isGrounded)
         {
             if (!gravityOn)
@@ -153,9 +150,6 @@ CharacterController cc;
         {
         jumpCount = 0;
         }
-    // void LerpFall(){
-    //     moveDirection.y = Mathf.Lerp(moveDirection.y, maxFallSpeed, 10 * Time.deltaTime);
-    // }
 
     IEnumerator Gravity()
     {
@@ -177,49 +171,3 @@ CharacterController cc;
         OnLandAction();
     }
 }
-
-
-
-// IEnumerator Gravity()
-// {
-//     gravityOn = true;
-// }
-        // if (jumpCount < maxJump && cc.collisionFlags == CollisionFlags.Sides) {
-        //        if (!cc.isGrounded){
-        // }
-
-        //     }
-        //  if (cc.collisionFlags == CollisionFlags.Sides){
-        //      jumpCount = 2.0f;
-        //      }
-        //   }
-
-
-    // private void Jump(bool obj){
-    //     CharacterController cc = GetComponent<CharacterController>();
-    //    // cc.Move(moveDirection * Time.deltaTime);
-    //         {
-    //         transform.position = new Vector3(transform.position.x, transform.position.y, 0.0f);
-    //         }
-    //         moveDirection.y -= gravity * Time.deltaTime;
-         
-    //     if (!cc.isGrounded) {
-    //          moveDirection.x = Input.GetAxis("Horizontal")*speed;
-    //         }
-         
-    //     else {
-    //         moveDirection = new Vector3(Input.GetAxis("Horizontal")*speed, 0.0f, Input.GetAxis("Vertical")*speed);
-    //         jumpCount = 0.0f;
-    //         }
-        
-    //     if (jumpCount < maxJump) {
-    //         if (Input.GetButtonDown ("Jump"))  { 
-    //             moveDirection.y = jumpSpeed; 
-    //             jumpCount+= 1;
-    //             } 
-    //         }
-        
-    //     if (cc.collisionFlags == CollisionFlags.Sides){
-    //         jumpCount = 2.0f;
-    //         }
-    //      }

@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class GameData : MonoBehaviour {
-	public float speed = 40;
-	public float gravity = 15;
-	public float jumpHeight = 5;
+	public float speed = 10;
+	public float gravity = 20;
+	public float jumpHeight = 8;
 	public float maxJump = 2;
 	public float jumpCount;
-	public float waterSpeed = 10;
-	public float waterGravity = 5;
+	public float waterSpeed = 2;
+	public float waterGravity = 2;
 	public float waterJumpHeight = 2;
 	public float waterMaxJump = 100;
 
