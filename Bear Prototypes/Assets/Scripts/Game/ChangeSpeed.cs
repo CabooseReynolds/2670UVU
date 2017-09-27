@@ -13,14 +13,32 @@ public class ChangeSpeed : MonoBehaviour {
 	public float waterGravity;
 	public float waterJumpHeight;
 	public float waterMaxJump;
+
+	MoveChar character;
 public static Action<float, float, float, float> SendSpeed;
 public static Action jCount;
 
-void OnTriggerEnter (){
+void OnTriggerEnter (Collider other){
+	character = other.gameObject.GetComponent<MoveChar>();
+	if(other.tag == "Player")
+		{
+			character.waterCount+=1;
+
 	SendSpeed(StaticVars.waterSpeed, StaticVars.waterGravity, StaticVars.waterMaxJump,StaticVars.waterJumpHeight);
+	character.waterCount++;
 }
-void OnTriggerExit (){
+}
+void OnTriggerExit (Collider other){
+	character = other.gameObject.GetComponent<MoveChar>();
+	if(other.tag == "Player")
+	{
+			character.waterCount-=2;
+
+			if(character.waterCount <= 0)
+			{
 	SendSpeed(StaticVars.speed, StaticVars.gravity, StaticVars.maxJump, StaticVars.jumpHeight);
 	jCount();
+}
+}
 }
 }

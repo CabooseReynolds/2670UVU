@@ -27,6 +27,8 @@ Quaternion myRotate;
 Vector3 rotValue;
 Vector3 prevPos;
 
+public int waterCount;
+
 private Vector3 moveDirection = Vector3.zero;
 CharacterController cc;
 
