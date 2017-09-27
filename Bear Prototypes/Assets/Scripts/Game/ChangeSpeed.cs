@@ -4,35 +4,36 @@ using UnityEngine;
 using System;
 
 public class ChangeSpeed : MonoBehaviour {
-	public float speed;
-	public float gravity;
-	public float jumpHeight;
-	public float maxJump;
-	public float jumpCount;
-	public float waterSpeed;
-	public float waterGravity;
-	public float waterJumpHeight;
-	public float waterMaxJump;
-
-	MoveChar character;
+MoveChar character;
 public static Action<float, float, float, float> SendSpeed;
 public static Action jCount;
+
+public StaticVars.Gamespeed speedType;
 
 void OnTriggerEnter (Collider other){
 	character = other.gameObject.GetComponent<MoveChar>();
 	if(other.tag == "Player")
 		{
 			character.waterCount+=1;
+		}
+	switch (speedType)
+	{
+		case StaticVars.Gamespeed.DRAG:
+			SendSpeed(StaticVars.dragSpeed, StaticVars.dragGravity, StaticVars.dragMaxJump,StaticVars.dragJumpHeight);
+			break;
 
-	SendSpeed(StaticVars.waterSpeed, StaticVars.waterGravity, StaticVars.waterMaxJump,StaticVars.waterJumpHeight);
-	character.waterCount++;
-}
+		case StaticVars.Gamespeed.BOOST:
+			SendSpeed(StaticVars.boostSpeed, StaticVars.boostGravity, StaticVars.boostMaxJump,StaticVars.boostJumpHeight);
+			break;
+
+
+	}
 }
 void OnTriggerExit (Collider other){
 	character = other.gameObject.GetComponent<MoveChar>();
 	if(other.tag == "Player")
 	{
-			character.waterCount-=2;
+			character.waterCount-=1;
 
 			if(character.waterCount <= 0)
 			{

@@ -7,12 +7,18 @@ public class DayNightCycle : MonoBehaviour {
     public Light lt;
     void Start() {
         lt = GetComponent<Light>();
-		// NightDay.NightAction += Night;
-        // NightDay.DayAction += Day;
+		NightDay.NightAction += Night;
+        NightDay.DayAction += Day;
     }
-    void Update() {
+    void Day() {
         float phi = Time.time / duration * 2 * Mathf.PI;
-        float amplitude = Mathf.Cos(phi) * 0.3F + 0.3F;
+        float amplitude = 0.9F;
+        lt.intensity = amplitude;   
+    }
+    void Night() {
+        float phi = Time.time / duration * 2 * Mathf.PI;
+        float amplitude = -0.9F;
         lt.intensity = amplitude;
+        
     }
 }

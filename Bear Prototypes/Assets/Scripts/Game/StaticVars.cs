@@ -12,8 +12,18 @@ public class StaticVars {
 	public static float jumpHeight;
 	public static float jumpCount;
 	public static float playerSpeed;
-	public static float waterSpeed;
-	public static float waterGravity;
-	public static float waterJumpHeight;
-	public static float waterMaxJump;
+	public static float dragSpeed;
+	public static float dragGravity;
+	public static float dragJumpHeight;
+	public static float dragMaxJump;
+	public static float boostSpeed;
+	public static float boostGravity;
+	public static float boostJumpHeight;
+	public static float boostMaxJump;
+
+	public enum Gamespeed
+	{
+		DRAG,
+		BOOST
+	}
 }
