@@ -7,12 +7,10 @@ public class BlinkingLight : MonoBehaviour {
     public Light lt;
     void Start() {
         lt = GetComponent<Light>();
-		// NightDay.NightAction += Night;
-        // NightDay.DayAction += Day;
     }
     void Update() {
         float phi = Time.time / duration * 2 * Mathf.PI;
-        float amplitude = Mathf.Cos(phi) * 0.5F + 0.5F;
+        float amplitude = Mathf.Cos(phi) * 1 + 1F;
         lt.intensity = amplitude;
     }
 }
