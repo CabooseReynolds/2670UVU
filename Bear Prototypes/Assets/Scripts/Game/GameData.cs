@@ -8,6 +8,7 @@ public class GameData : MonoBehaviour {
 	public float jumpHeight = 8;
 	public float maxJump = 2;
 	public float jumpCount;
+	public float climbCount;
 	public float dragSpeed = 2;
 	public float dragGravity = 2;
 	public float dragJumpHeight = 2;
@@ -24,6 +25,7 @@ public class GameData : MonoBehaviour {
 		StaticVars.jumpHeight = jumpHeight;
 		StaticVars.maxJump = maxJump;
 		StaticVars.jumpCount = jumpCount;
+		StaticVars.jumpCount = climbCount;
 		StaticVars.dragSpeed = dragSpeed;
 		StaticVars.dragGravity = dragGravity;
 		StaticVars.dragJumpHeight = dragJumpHeight;

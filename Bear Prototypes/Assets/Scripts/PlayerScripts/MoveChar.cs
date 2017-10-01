@@ -28,6 +28,8 @@ Vector3 rotValue;
 Vector3 prevPos;
 
 public int waterCount;
+public int climbCount;
+public bool climbing = false;
 
 private Vector3 moveDirection = Vector3.zero;
 CharacterController cc;
@@ -48,6 +50,7 @@ CharacterController cc;
     Moveinput.LetGoAction += LetGo;
     Moveinput.KeyAction += Flip;
     Moveinput.KeyAction += Move;
+//    Moveinput.ClimbAction -= Climb;
     ChangeSpeed.SendSpeed = SendSpeed;
     OnLandAction += ResetGravity;
 	OnLandAction += ResetJumps;
@@ -106,6 +109,32 @@ CharacterController cc;
         speed *= 2.0f;
         }
 
+    // public void ClimbingStart()
+    // {
+    //     Moveinput.KeyAction -= Move;
+    //     Moveinput.JumpAction -= Jump;
+    //     Moveinput.ClimbAction += Climb;
+    //     gravityOn = false;
+    //     climbing = true;
+    // }
+
+    // public void ClimbingStop()
+    // {
+    //     if(climbing)
+	// 	{
+    //     Moveinput.KeyAction += Move;
+    //     Moveinput.JumpAction += Jump;
+    //     Moveinput.ClimbAction -= Climb;
+    //     gravityOn = true;
+    //     climbing = false;
+    // }
+    // }
+
+    // public void Climb(float _verticalMove)
+    // {
+    // moveDirection.y = _verticalMove * speed;
+    // cc.Move(moveDirection * Time.deltaTime);
+    // }
     public void Move(float _movement)
     {
         if(!cc.isGrounded)
@@ -128,7 +157,7 @@ CharacterController cc;
         }
         prevPos = transform.position;
         moveDirection.x = _movement * speed;
-        //print("moving");
+        //print("moving");F
         cc.Move(moveDirection * Time.deltaTime);
     }
     public void Jump(){

@@ -18,8 +18,9 @@ public static Action WalkAction;
 public static Action PushAction;
 public static Action PullAction;
 public static Action SendSpeed;
+
+public static Action<float> ClimbAction;
 public bool canPlay = true; 
- 
 
 void Start ()
 {
@@ -61,19 +62,25 @@ void Start ()
 		if (WalkAction  != null && Input.GetKeyUp(KeyCode.R))
 			{
 			WalkAction();
-        	}	
-		if (PushAction  != null && Input.GetKeyDown(KeyCode.F))
-			{
-			PushAction();
         	}
-		if (PullAction  != null && Input.GetKeyUp(KeyCode.F))
-			{
-			PullAction();
-        	}	
+		// Got rid of PushAction, and just used GrabAction instead as it took care of the same thing after I got rid of the jump action when Grabbing.	
+		// if (PushAction  != null && Input.GetKeyDown(KeyCode.F))
+		// 	{
+		// 	PushAction();
+        // 	}
+		// if (PullAction  != null && Input.GetKeyUp(KeyCode.F))
+		// 	{
+		// 	PullAction();
+        // 	}	
 		if (SendSpeed  != null)
 			{
 			SendSpeed();
-        	}		
+        	}
+		// if (ClimbAction != null)
+		// 	{
+		// 	ClimbAction(Input.GetAxis("Vertical"));
+		// 	}
+
 
 		yield return new WaitForSeconds(runTime);
 	 }

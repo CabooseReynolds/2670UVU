@@ -11,7 +11,9 @@ public class StaticVars {
 	public static float maxJump;
 	public static float jumpHeight;
 	public static float jumpCount;
+	public static float climbCount;
 	public static float playerSpeed;
+	public static float climbing;
 	public static float dragSpeed;
 	public static float dragGravity;
 	public static float dragJumpHeight;
