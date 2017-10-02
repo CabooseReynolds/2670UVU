@@ -22,8 +22,8 @@ void OnTriggerExit (Collider other){
 IEnumerator DoorOpen ()
 {   
     yield return new WaitForSeconds(startDelay);
-		while(doorClosed){
-			Door.transform.Translate(new Vector3(0, -200, 0) * Time.deltaTime);
+		while(Door.transform.position.y >=-.5){
+			Door.transform.Translate(new Vector3(0, -10, 0) * Time.deltaTime);
 			yield return null;
 		}
     }

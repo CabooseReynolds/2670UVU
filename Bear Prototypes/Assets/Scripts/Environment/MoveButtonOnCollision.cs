@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MoveButtonOnTrigger : MonoBehaviour {
+public class MoveButtonOnCollision : MonoBehaviour {
 
 	Vector3 origin;
 	public Vector3 endLoc;
@@ -14,13 +14,13 @@ public class MoveButtonOnTrigger : MonoBehaviour {
 		origin = transform.position;
 	}
 
-	void OnTriggerEnter()
+	void OnCollisionEnter()
 		{
 			StopAllCoroutines();
 			StartCoroutine(MovetoPosition());
 	}
 
-	void OnTriggerExit()
+	void OnCollisionExit()
 		{
 			StopAllCoroutines();
 			StartCoroutine(OGposition());

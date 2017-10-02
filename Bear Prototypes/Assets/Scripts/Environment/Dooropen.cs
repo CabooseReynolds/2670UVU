@@ -5,15 +5,11 @@ using UnityEngine;
 	public class Dooropen : MonoBehaviour {
 
 	public Vector3 Open;
-
 	public float speed = 1.0f;
-	void OnTriggerEnter(Collider other)
-	{
-		if(other.tag == "Player")
+	void OnTriggerEnter()
 		{
 		StartCoroutine(OpenDoor());
 		}
-	}
 
 	IEnumerator OpenDoor ()
 	{

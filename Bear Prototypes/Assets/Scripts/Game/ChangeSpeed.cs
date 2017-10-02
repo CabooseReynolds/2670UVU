@@ -8,6 +8,7 @@ MoveChar character;
 public static Action<float, float, float, float> SendSpeed;
 public static Action jCount;
 
+
 public StaticVars.Gamespeed speedType;
 
 void OnTriggerEnter (Collider other){
