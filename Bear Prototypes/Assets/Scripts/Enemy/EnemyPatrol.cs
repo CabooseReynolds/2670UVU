@@ -43,8 +43,6 @@ public class EnemyPatrol : MonoBehaviour {
 			tempDestination = destination;
 		}
 		chasingPlayer = true;
-	//	tempDestination = destination;
-		print("tempDestination = " + tempDestination);
 		destination = _player;
 		StartMove();
 	}
@@ -68,15 +66,7 @@ public class EnemyPatrol : MonoBehaviour {
 	{
 		agent.destination = transform.position;
 		yield return new WaitForSeconds(2);
-	//	destination = tempDestination;
-		// agent.destination = startPos;
-		// while(transform.position != startPos)
-		// {
-		// 	yield return null;
-		// }
 		destination = tempDestination;
-	//	print("tempDestination = " + tempDestination);
-		print("destination = " + destination);
 		chasingPlayer = false;
 		StartMove();
 	}
