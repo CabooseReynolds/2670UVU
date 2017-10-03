@@ -20,7 +20,7 @@ private float speed;
 private float gravity;
 public float jumpHeight; 
 private float maxJump;
-public float jumpCount;
+public int jumpCount;
 public float maxFallSpeed = -30;
 public float curFallSpeed;
 Quaternion myRotate;
