@@ -2,73 +2,44 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
-
-[RequireComponent(typeof(NavMeshAgent))]
 public class EnemyPatrol : MonoBehaviour {
-
-	NavMeshAgent agent;
-	public Transform destination;
-	public bool runAtStart = true;
-	Transform tempDestination;
-	Vector3 startPos;
-	public bool chasingPlayer;
-	Transform player;
-
-	void Start()
-	{
-		player = FindObjectOfType<MoveChar>().transform;
-		agent = GetComponent<NavMeshAgent>();
-		startPos = transform.position;
-		if(runAtStart)
-		{
-			StartMove();
-		}
-	}
-
-	void StartMove()
-	{
-		StartCoroutine(Move());
-	}
-
-	void StopMove()
-	{
-		StopAllCoroutines();
-	}
-
-	public void StartPlayerChase(Transform _player)
-	{
-		StopAllCoroutines();
-		if(!chasingPlayer)
-		{
-			tempDestination = destination;
-		}
-		chasingPlayer = true;
-		destination = _player;
-		StartMove();
-	}
-
-	public void StopPlayerChase()
-	{
-		StopAllCoroutines();
-		StartCoroutine(ReturnToStart());
-	}
-
-	IEnumerator Move()
-	{
-		while(true)
-		{
-			yield return new WaitForFixedUpdate();
-			agent.destination = destination.position;
-		}
-	}
-
-	IEnumerator ReturnToStart()
-	{
-		agent.destination = transform.position;
-		yield return new WaitForSeconds(2);
-		destination = tempDestination;
-		chasingPlayer = false;
-		StartMove();
-	}
-
-}
+     
+     
+     public GameObject player;
+     public Vector3[] patrolPoints; //Add in inspector
+     
+     private int patrolPoint = 0;
+     private NavMeshAgent agent;
+     
+     void Patrol(){
+         agent.Resume();
+         if(patrolPoints.Length > 0){
+             agent.SetDestination(patrolPoints[patrolPoint]);
+             if(transform.position == patrolPoints[patrolPoint] || Vector3.Distance(transform.position,patrolPoints[patrolPoint])<0.2f){
+                 patrolPoint++;    //use distance if needed(lower precision)
+             }
+             if(patrolPoint >= patrolPoints.Length){
+                 patrolPoint = 0;
+             }
+         }
+     }
+     
+     void Attack(){
+         //??? your job...
+         agent.Stop(); //maybe not needed
+         Debug.Log("Whaaaaaaa");    //just to get informed
+     }
+     
+     void Start() {
+         agent = GetComponent<NavMeshAgent>();
+     }
+     
+     void Update(){
+         if(!Physics.Linecast(transform.position,player.transform.position,1)){ //check if we see player by linecasting,move player to another layer so the ray won't hit it. 
+             Attack();
+         }else {
+             Patrol();
+         }
+         
+     }
+ }

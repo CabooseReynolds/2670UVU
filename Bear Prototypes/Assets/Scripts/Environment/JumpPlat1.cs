@@ -7,6 +7,7 @@ public class JumpPlat1 : MonoBehaviour {
 	public Renderer rend;
     public Collider coll;
 	public bool PlatformEnabled = true;
+	public bool PlatToggle = true;
 	
 	
 
@@ -17,26 +18,58 @@ public class JumpPlat1 : MonoBehaviour {
 		Moveinput.JumpAction += JumpAD;
 	}
 	
-	// Update is called once per frame
-	void JumpAD () {
-	switch (character.jumpCount)
-		{
-		case 0:
-			rend.enabled = false;
-			coll.enabled = false;
-			print("workdamnit!");
-			break;
-
-		case 1:
-			rend.enabled = true;
-			coll.enabled = true;
-			print("1st jump duh!");
-			break;
-		// case 2:
-		// 	rend.enabled = false;
-		// 	coll.enabled = false;
-		// 	print("1st jump duh!");
-		// 	break;
-		}
+	void JumpAD (){
+		if (PlatformEnabled)
+			{
+				if (PlatToggle)
+				{
+					rend.enabled = true;
+					coll.enabled = true;
+				}
+				else
+				{
+					rend.enabled = false;
+					coll.enabled = false;
+				}
+			}
+			else{
+			if (PlatToggle)
+				{
+					rend.enabled = false;
+					coll.enabled = false;
+				}
+				else
+				{
+					rend.enabled = true;
+					coll.enabled = true;
+				}
+			}
+			PlatformEnabled = !PlatformEnabled;
+			print("working?");
 	}
 }
+
+
+	// Update is called once per frame
+	// void JumpAD () {
+	// switch (character.jumpCount)
+	// 	{
+	// 	case 0:
+	// 		rend.enabled = false;
+	// 		coll.enabled = false;
+	// 		print("workdamnit!");
+	// 		break;
+
+	// 	case 1:
+	// 		rend.enabled = true;
+	// 		coll.enabled = true;
+	// 		print("1st jump duh!");
+	// 		break;
+	// 	default:
+	// 		rend.enabled = true;
+	// 		coll.enabled = true;
+	// 		print("1st jump duh!");
+	// 		break;
+	// 	}
+// 	}
+// }
