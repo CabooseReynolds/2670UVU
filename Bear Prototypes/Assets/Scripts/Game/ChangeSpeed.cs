@@ -26,6 +26,10 @@ void OnTriggerEnter (Collider other){
 		case StaticVars.Gamespeed.BOOST:
 			SendSpeed(StaticVars.boostSpeed, StaticVars.boostGravity, StaticVars.boostMaxJump,StaticVars.boostJumpHeight);
 			break;
+		
+		case StaticVars.Gamespeed.ANTIG:
+			SendSpeed(StaticVars.lowGSpeed, StaticVars.lowGGravity, StaticVars.lowGMaxJump, StaticVars.lowGJumpHeight);
+			break;
 
 
 	}

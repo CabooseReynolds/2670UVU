@@ -30,6 +30,7 @@ Vector3 prevPos;
 public int waterCount;
 public int climbCount;
 public bool climbing = false;
+public float zPos = 0;
 
 private Vector3 moveDirection = Vector3.zero;
 CharacterController cc;
@@ -159,6 +160,12 @@ CharacterController cc;
         moveDirection.x = _movement * speed;
         //print("moving");F
         cc.Move(moveDirection * Time.deltaTime);
+
+         if (cc.transform.position.z != 0){
+            Vector3 temp = cc.transform.position;
+             temp.z = 0;
+             transform.position = temp;
+         }
     }
     public void Jump(){
         if (jumpCount < maxJump && cc.collisionFlags != CollisionFlags.Sides)

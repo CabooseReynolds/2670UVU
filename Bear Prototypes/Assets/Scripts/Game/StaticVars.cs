@@ -22,10 +22,17 @@ public class StaticVars {
 	public static float boostGravity;
 	public static float boostJumpHeight;
 	public static float boostMaxJump;
+	public static float lowGSpeed;
+	public static float lowGGravity;
+	public static float lowGJumpHeight;
+	public static float lowGMaxJump;
+
+
 
 	public enum Gamespeed
 	{
 		DRAG,
-		BOOST
+		BOOST,
+		ANTIG
 	}
 }

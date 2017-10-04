@@ -45,7 +45,6 @@ public class JumpPlat1 : MonoBehaviour {
 				}
 			}
 			PlatformEnabled = !PlatformEnabled;
-			print("working?");
 	}
 }
 

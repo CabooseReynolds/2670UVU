@@ -17,6 +17,10 @@ public class GameData : MonoBehaviour {
 	public float boostGravity = 10;
 	public float boostJumpHeight = 16;
 	public float boostMaxJump = 2;
+	public float lowGSpeed = 10;
+	public float lowGGravity = 5;
+	public float lowGJumpHeight = 16;
+	public float lowGMaxJump = 2;
 
 
 	void Start () {
@@ -34,5 +38,9 @@ public class GameData : MonoBehaviour {
 		StaticVars.boostGravity = boostGravity;
 		StaticVars.boostJumpHeight = boostJumpHeight;
 		StaticVars.boostMaxJump = boostMaxJump;
+		StaticVars.lowGSpeed = lowGSpeed;
+		StaticVars.lowGGravity = lowGGravity;
+		StaticVars.lowGJumpHeight = lowGJumpHeight;
+		StaticVars.lowGMaxJump = lowGMaxJump;
 	}
 }
