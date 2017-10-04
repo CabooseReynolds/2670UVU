@@ -19,8 +19,8 @@ public class EnemyPatrol : MonoBehaviour {
         agent = GetComponent<NavMeshAgent>();
         player = FindObjectOfType<MoveChar>().transform;
 		startPos = transform.position;
-        EPTrigger.StartChase = StartChasingPlayer;
-        EPTrigger.StopChase = StopChasingPlayer;
+        EPTrigger.StartChase += StartChasingPlayer;
+        EPTrigger.StopChase += StopChasingPlayer;
 		if(runAtStart)
 		{
 			StartPatrol();
@@ -29,19 +29,19 @@ public class EnemyPatrol : MonoBehaviour {
 
      void StartChasingPlayer(){
          StopAllCoroutines();
-         print("starting epic chase");
+    //     print("starting epic chase");
          chasingPlayer = true;
          StartCoroutine(EpicChasingScene());
      }
 	void StartPatrol()
 	{
-        print("Hup 2, 3, 4!");
+    //    print("Hup 2, 3, 4!");
 		StartCoroutine(Patrol());
 	}
 
 	void StopPatrol()
 	{
-        print("I dont' wanna patrol no mo!");
+    //    print("I dont' wanna patrol no mo!");
 		StopAllCoroutines();
 	}
 
@@ -50,7 +50,7 @@ public class EnemyPatrol : MonoBehaviour {
         while(true)
              {
                  yield return new WaitForFixedUpdate();
-        print("I'm gonna getcha!");
+    //    print("I'm gonna getcha!");
         if (Vector3.Distance (destination, target.position) > 1.0f) {
 			destination = target.position;
 			agent.destination = destination;
@@ -69,14 +69,14 @@ public class EnemyPatrol : MonoBehaviour {
 
 	public void StopChasingPlayer()
 	{
-        print("I'm to lazy...");
+    //    print("I'm to lazy...");
 		StopAllCoroutines();
 		StartCoroutine(ReturnToPatrol());
 	}
 
     IEnumerator ReturnToPatrol()
         {
-            print("Time to look for food again");
+    //        print("Time to look for food again");
             agent.destination = startPos;
             yield return new WaitForSeconds(2);
             destination = startPos;
