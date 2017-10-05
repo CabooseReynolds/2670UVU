@@ -17,10 +17,13 @@ public static Action RunAction;
 public static Action WalkAction;
 public static Action PushAction;
 public static Action PullAction;
+public static Action AttackAction;
 public static Action SendSpeed;
+public static Action pickUpWeapon;
 
 public static Action<float> ClimbAction;
 public bool canPlay = true; 
+bool pickedUp;
 
 void Start ()
 {
@@ -63,6 +66,14 @@ void Start ()
 			{
 			WalkAction();
         	}
+		if (AttackAction != null && Input.GetKeyDown(KeyCode.RightControl))
+			{
+				AttackAction();
+			}
+		if (pickUpWeapon != null && Input.GetKeyDown(KeyCode.F))
+			{
+				pickUpWeapon();
+			}
 		// Got rid of PushAction, and just used GrabAction instead as it took care of the same thing after I got rid of the jump action when Grabbing.	
 		// if (PushAction  != null && Input.GetKeyDown(KeyCode.F))
 		// 	{

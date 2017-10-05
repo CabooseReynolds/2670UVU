@@ -10,6 +10,7 @@ TagManager:
   - Moveable
   - Day
   - Night
+  - Weapon
   layers:
   - Default
   - TransparentFX
@@ -23,11 +24,11 @@ TagManager:
   - Enemy
   - Environment
   - ChangeSpeed
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Weapon
+  - HitBox
+  - HurtBox
+  - Lights
+  - Text
   - 
   - 
   - 
