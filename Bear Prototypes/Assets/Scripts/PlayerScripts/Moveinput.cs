@@ -58,11 +58,11 @@ void Start ()
 			{
 			LetGoAction();
         	}
-		if (RunAction  != null && Input.GetKeyDown(KeyCode.R))
+		if (RunAction  != null && Input.GetKeyDown(KeyCode.LeftShift))
 			{
 			RunAction();
         	}
-		if (WalkAction  != null && Input.GetKeyUp(KeyCode.R))
+		if (WalkAction  != null && Input.GetKeyUp(KeyCode.LeftShift))
 			{
 			WalkAction();
         	}
@@ -70,9 +70,10 @@ void Start ()
 			{
 				AttackAction();
 			}
-		if (pickUpWeapon != null && Input.GetKeyDown(KeyCode.F))
+		if (pickUpWeapon != null && Input.GetKeyDown(KeyCode.E))
 			{
 				pickUpWeapon();
+			//	pickedUp = !pickedUp;
 			}
 		// Got rid of PushAction, and just used GrabAction instead as it took care of the same thing after I got rid of the jump action when Grabbing.	
 		// if (PushAction  != null && Input.GetKeyDown(KeyCode.F))

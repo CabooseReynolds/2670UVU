@@ -27,7 +27,7 @@ public class weaponAttack : MonoBehaviour {
 	}
 
 	IEnumerator Swing()
-	{
+	{   print("oh snap");
 		while(rotAmount.z > attackAngle){
 		rotAmount.z -= Time.deltaTime*hitSpeed;
 		transform.localRotation = Quaternion.Euler(rotAmount);

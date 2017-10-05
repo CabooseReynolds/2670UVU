@@ -6,21 +6,20 @@ using System;
 
 public class KillAI : MonoBehaviour {
 
-	public float life = 2;
+	public float life = 5;
 
 	public GameObject Weapon;
 
 	public GameObject Trigger;
 void Start()
 {
-	life = 2;
 }
 
 	
 	void OnTriggerEnter(Collider Weapon)
 	{
-			life -=1;
-			print("i'm dead");
+			life --;
+			print("i'm dying!");
 		if(life < 0) {
 			print("i'm dead already");
 			transform.parent.GetComponent<UnityEngine.AI.NavMeshAgent>().enabled = false;
