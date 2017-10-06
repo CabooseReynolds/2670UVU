@@ -11,6 +11,8 @@ TagManager:
   - Day
   - Night
   - Weapon
+  - Bad
+  - Good
   layers:
   - Default
   - TransparentFX
@@ -20,30 +22,30 @@ TagManager:
   - UI
   - 
   - 
-  - Player
+  - Player/Player
+  - Player Trigger
+  - 
+  - 
+  - 
   - Enemy
+  - 
+  - 
+  - 
+  - 
+  - Level
+  - Lights
+  - 
+  - 
+  - 
+  - PowerUps/Health
+  - PowerUps/Death
+  - PowerUps/Satan
+  - 
   - Environment
   - ChangeSpeed
   - Weapon
   - HitBox
   - HurtBox
-  - Lights
-  - Text
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
   m_SortingLayers:
   - name: Default
     uniqueID: 0

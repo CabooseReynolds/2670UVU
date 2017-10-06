@@ -6,6 +6,7 @@ public class StaticVars {
 
 	// Use this for initialization
 	public static bool weaponsEnabled = true;
+	public static float health = 1.0f;
 	public static float speed;
 	public static float gravity;
 	public static float maxJump;
