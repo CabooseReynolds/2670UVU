@@ -8,7 +8,7 @@ public class PowerUps : MonoBehaviour {
 	// Use this for initialization
 	void OnTriggerEnter (Collider _powerUp)
 	{
-		if(_powerUp.tag = "Bad")
+		if(_powerUp.tag == "Bad")
 		{
 			RunPowerUp(powerLevel[1]);
 		}
