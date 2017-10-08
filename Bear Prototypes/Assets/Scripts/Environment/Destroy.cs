@@ -2,11 +2,13 @@
  using System.Collections;
  
  public class Destroy : MonoBehaviour { 
+     public GameObject OBJ;
+     public float time;
      void OnTriggerEnter(Collider other)
  {
      if (other.gameObject.CompareTag("Player"))
      {
-          Destroy(gameObject); // if you want to destroy the key as well
+          Destroy(OBJ, time); // if you want to destroy the key as well
      }
  }
  }

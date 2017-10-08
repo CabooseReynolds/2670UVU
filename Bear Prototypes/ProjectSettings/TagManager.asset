@@ -23,12 +23,12 @@ TagManager:
   - 
   - 
   - Player/Player
-  - Player Trigger
+  - Player/Player Trigger
   - 
   - 
   - 
-  - Enemy
-  - 
+  - Enemy/Enemy
+  - Enemy/EnemyTrigger
   - 
   - 
   - 
