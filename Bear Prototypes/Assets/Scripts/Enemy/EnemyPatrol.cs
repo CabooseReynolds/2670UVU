@@ -4,20 +4,20 @@ using UnityEngine;
 using UnityEngine.AI;
 [RequireComponent(typeof(NavMeshAgent))]
 public class EnemyPatrol : MonoBehaviour {
+	Vector3 startPos;
+    Vector3 destination;
+    public Vector3 offset = new Vector3(0, 0, 0);
     private NavMeshAgent agent;
 	public bool runAtStart = true;
-	Vector3 startPos;
     public Transform target;
-	Vector3 destination;
-	public bool chasingPlayer;
-	public Transform player;
+	public bool chasingPlayer = false;
     public Vector3[] patrolPoints; //Add in inspector 
     private int patrolPoint = 0;
-    public float zPos = 0;
+    private float zPos = 0;
 
      void Start() {
         agent = GetComponent<NavMeshAgent>();
-        player = FindObjectOfType<MoveChar>().transform;
+        target = FindObjectOfType<MoveChar>().transform;
 		startPos = transform.position;
         EPTrigger.StartChase += StartChasingPlayer;
         EPTrigger.StopChase += StopChasingPlayer;
@@ -53,7 +53,7 @@ public class EnemyPatrol : MonoBehaviour {
     //    print("I'm gonna getcha!");
         if (Vector3.Distance (destination, target.position) > 1.0f) {
 			destination = target.position;
-			agent.destination = destination;
+			agent.destination = destination + offset;
         if(!chasingPlayer)
 		{
 			StopAllCoroutines();
@@ -91,7 +91,7 @@ public class EnemyPatrol : MonoBehaviour {
                  yield return new WaitForFixedUpdate();
          if(patrolPoints.Length > 0){
              agent.SetDestination(patrolPoints[patrolPoint]);
-             if(transform.position == patrolPoints[patrolPoint] || Vector3.Distance(transform.position,patrolPoints[patrolPoint])<0.2f){
+             if(transform.position == patrolPoints[patrolPoint] || Vector3.Distance(transform.position,patrolPoints[patrolPoint]) <2.0f){
                  patrolPoint++;    //use distance if needed(lower precision)
              }
              if(patrolPoint >= patrolPoints.Length){
