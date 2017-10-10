@@ -45,6 +45,7 @@ GameObject:
   - component: {fileID: 114325003683004052}
   - component: {fileID: 54823668006778524}
   - component: {fileID: 114125682196770028}
+  - component: {fileID: 114457382970104016}
   m_Layer: 9
   m_Name: Enemy
   m_TagString: Untagged
@@ -269,7 +270,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   life: 5
   Weapon: {fileID: 0}
-  Trigger: {fileID: 0}
+  Enemy: {fileID: 0}
 --- !u!114 &114325003683004052
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -281,14 +282,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 194edccee70369341877a46afd6cc333, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  offset: {x: 0, y: 0, z: 0}
   runAtStart: 1
   target: {fileID: 0}
   chasingPlayer: 0
-  player: {fileID: 0}
   patrolPoints:
   - {x: 272.83, y: 10.81903, z: 0}
   - {x: 230.5653, y: 10.81903, z: 0}
-  zPos: 0
+--- !u!114 &114457382970104016
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1663532084557834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c7eb90c80490d84481e8d7007d71b20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  power: -0.25
 --- !u!114 &114890209584061106
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -302,7 +314,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   life: 5
   Weapon: {fileID: 0}
-  Trigger: {fileID: 0}
+  Enemy: {fileID: 0}
 --- !u!136 &136017239373304134
 CapsuleCollider:
   m_ObjectHideFlags: 1

@@ -7,11 +7,12 @@ public class DoorScript : MonoBehaviour {
     public GameObject Door;
     public int doorCount;
     public float startDelay;
+    public float DCtrigger;
     public bool doorClosed = true;
 void OnTriggerEnter(Collider other)
 		{
 		doorCount +=1;
-        if(doorCount > 1)
+        if(doorCount > DCtrigger)
 			{
 			StartCoroutine(DoorOpen());
             }
