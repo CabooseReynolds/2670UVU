@@ -7,12 +7,13 @@ public class DoorScript : MonoBehaviour {
     public GameObject Door;
     public int doorCount;
     public float startDelay;
-    public float DCtrigger;
     public bool doorClosed = true;
+    public Vector3 endPoint;
+    public float speed;
 void OnTriggerEnter(Collider other)
 		{
 		doorCount +=1;
-        if(doorCount > DCtrigger)
+        if(doorCount > 1)
 			{
 			StartCoroutine(DoorOpen());
             }
@@ -23,8 +24,10 @@ void OnTriggerExit (Collider other){
 IEnumerator DoorOpen ()
 {   
     yield return new WaitForSeconds(startDelay);
-		while(Door.transform.position.y >=-.5){
-			Door.transform.Translate(new Vector3(0, -10, 0) * Time.deltaTime);
+		while(Door.transform.position != endPoint)
+        {
+            print("oy!");
+			Door.transform.position = Vector3.MoveTowards(Door.transform.position, endPoint, speed * Time.deltaTime);
 			yield return null;
 		}
     }
