@@ -9,8 +9,6 @@ public class EnemyWeapon : MonoBehaviour {
     public float speed;
 	public float deathDelay;
     public Vector3 endPoint;
-    public bool doorClosed = true;
-//    public Vector3 endPoint;
 void Start()
 			{
 			StartCoroutine(Shot());
