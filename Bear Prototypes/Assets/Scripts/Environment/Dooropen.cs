@@ -3,22 +3,22 @@ using System.Collections.Generic;
 using UnityEngine;
 
 	public class Dooropen : MonoBehaviour {
-
-	public Vector3 Open;
-	public float speed = 1.0f;
+    public GameObject Door;
+    public float startDelay;
+    public Vector3 endPoint;
+    public float speed;
 	void OnTriggerEnter()
 		{
 		StartCoroutine(OpenDoor());
 		}
 
 	IEnumerator OpenDoor ()
-	{
-		while(Open.y < -0.15f)
 		{
-			Open.y += speed*Time.deltaTime;
-			transform.Translate(Open);
-			yield return new WaitForSeconds(0.01f);
+			yield return new WaitForSeconds(startDelay);
+			while(Door.transform.position != endPoint)
+			{
+				Door.transform.position = Vector3.MoveTowards(Door.transform.position, endPoint, speed * Time.deltaTime);
+				yield return null;
+			}
 		}
-		
-	}
 }
