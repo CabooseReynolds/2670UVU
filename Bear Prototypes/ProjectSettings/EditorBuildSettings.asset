@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Prototype One.unity
     guid: b2eb1c552810ae7428845643c8a5fdce
-  - enabled: 1
+  - enabled: 0
     path: Assets/Proto3.unity
     guid: 6efe99866514d9f4084087895802c571
+  - enabled: 1
+    path: Assets/Proto5.unity
+    guid: 7767c68beed6d7c40b2edd4f8db6ce87

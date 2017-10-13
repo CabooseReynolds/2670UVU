@@ -197,7 +197,6 @@ MonoBehaviour:
   speed: 9
   deathDelay: 6
   endPoint: {x: 55.57, y: -21.93, z: 0}
-  doorClosed: 1
 --- !u!114 &114692125628102232
 MonoBehaviour:
   m_ObjectHideFlags: 1

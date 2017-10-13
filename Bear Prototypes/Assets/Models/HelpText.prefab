@@ -53,9 +53,9 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1072477967709330}
-  m_LocalRotation: {x: -0, y: -0, z: -0.12083855, w: 0.9926722}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.3552771, y: 4.387033, z: 0.96518326}
-  m_LocalScale: {x: 0.14777501, y: 1.2219727, z: 0.1163143}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4428784366511230}
   m_RootOrder: 0
@@ -66,9 +66,9 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1254925304165660}
-  m_LocalRotation: {x: -0, y: -0, z: 0.12083855, w: 0.9926722}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 110.37157, y: 2.5399292, z: -2.3746042}
-  m_LocalScale: {x: 16.581806, y: 1, z: 6.190124}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4032296203275926}
   m_Father: {fileID: 0}
@@ -166,10 +166,10 @@ TextMesh:
   m_GameObject: {fileID: 1072477967709330}
   m_Text: "Press the Down Arrow to drop down, \nand press jump to jump on top!"
   m_OffsetZ: 0
-  m_CharacterSize: 0.5
+  m_CharacterSize: 0.3
   m_LineSpacing: 1
   m_Anchor: 0
-  m_Alignment: 0
+  m_Alignment: 1
   m_TabSize: 4
   m_FontSize: 0
   m_FontStyle: 0

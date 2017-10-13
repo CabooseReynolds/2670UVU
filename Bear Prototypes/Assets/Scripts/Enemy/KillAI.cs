@@ -28,7 +28,7 @@ void Start()
 			transform.parent.GetComponent<Rigidbody>().useGravity = true;
 			transform.parent.GetComponent<Rigidbody>().isKinematic = false;
 //			Trigger.SetActive(false);
-			Destroy(Enemy);		
+			Enemy.SetActive(false);	
 		}
 	}
 }

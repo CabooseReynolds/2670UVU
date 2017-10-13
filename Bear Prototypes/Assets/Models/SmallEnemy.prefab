@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 136172289321010658}
   - component: {fileID: 23948671221946326}
   - component: {fileID: 114358059469054544}
+  - component: {fileID: 114696970481973426}
   m_Layer: 30
   m_Name: Hitbox
   m_TagString: Untagged
@@ -254,7 +255,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c7eb90c80490d84481e8d7007d71b20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  power: -0.25
+  power: -0.2
 --- !u!114 &114528269379958756
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -287,6 +288,18 @@ MonoBehaviour:
   patrolPoints:
   - {x: 112.51, y: 7.164425, z: 0}
   - {x: 127, y: 7.164425, z: 0}
+--- !u!114 &114696970481973426
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1056217178198942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 669f582f30a82c04085265f18ba95cd3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  respawnPoint: {fileID: 0}
 --- !u!136 &136094156018296382
 CapsuleCollider:
   m_ObjectHideFlags: 1

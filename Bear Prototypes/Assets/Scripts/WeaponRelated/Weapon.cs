@@ -3,13 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Weapon : MonoBehaviour {
-
-	public string name;
 	public float damage;
 	public float PivotOffset;
 	public Transform WeaponHolder;
     bool holdingThisWeapon;
-    
     public Weaponpickup pickup;
    
 
