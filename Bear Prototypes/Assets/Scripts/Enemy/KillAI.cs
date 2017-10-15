@@ -21,7 +21,7 @@ void Start()
 	void OnTriggerEnter(Collider Weapon)
 	{
 			life --;
-			print("Ouch");
+			print("Ouch" + life);
 		if(life <= 0) {
 			print("i'm dead already");
 			transform.parent.GetComponent<UnityEngine.AI.NavMeshAgent>().enabled = false;
