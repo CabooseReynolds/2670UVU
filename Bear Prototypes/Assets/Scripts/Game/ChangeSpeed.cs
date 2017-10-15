@@ -14,6 +14,8 @@ public StaticVars.Gamespeed speedType;
 void OnTriggerEnter (Collider other){
 	character = other.gameObject.GetComponent<MoveChar>();
 	if(other.tag == "Player")
+	print(this.transform);
+	print(other.gameObject.transform);
 		{
 			character.waterCount+=1;
 		}

@@ -32,9 +32,9 @@ TagManager:
   - Enemy/EnemyTrigger
   - 
   - 
+  - Environment/Environment
+  - Environment/Lights
   - 
-  - Level
-  - Lights
   - 
   - 
   - 
@@ -42,8 +42,8 @@ TagManager:
   - PowerUps/Death
   - PowerUps/Satan
   - 
-  - Environment
-  - ChangeSpeed
+  - 
+  - 
   - Weapon
   - HitBox
   - HurtBox

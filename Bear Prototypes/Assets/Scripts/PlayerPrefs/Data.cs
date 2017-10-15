@@ -7,4 +7,5 @@ public class Data {
 	public float health;
 	public string playerName;
 	public Vector3 checkpoint;
+	public int gold = 100;
 }
