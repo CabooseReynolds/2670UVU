@@ -16,7 +16,9 @@ public class MoveButtonOnceTrigger : MonoBehaviour {
 	
 	void OnTriggerEnter()
 		{
-			StartCoroutine(Move());
+			StartCoroutine(Move());	
+			print(this.transform);
+
 		}
 
 	IEnumerator Move()
