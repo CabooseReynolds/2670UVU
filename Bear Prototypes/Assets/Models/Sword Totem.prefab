@@ -39,7 +39,7 @@ GameObject:
   - component: {fileID: 136239856783979472}
   - component: {fileID: 23072827403275476}
   - component: {fileID: 114519474258530484}
-  - component: {fileID: 114615276439311616}
+  - component: {fileID: 114282381402140664}
   m_Layer: 0
   m_Name: Sword Totem
   m_TagString: Untagged
@@ -215,6 +215,18 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &114282381402140664
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1352384369099156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9643fb4837950c74bb7035949369a8ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Object1: {fileID: 0}
 --- !u!114 &114519474258530484
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -228,18 +240,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   delta: 0.1
   speed: 2
---- !u!114 &114615276439311616
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1352384369099156}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03158e9819e267649beb99fa8071111f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Level: {fileID: 0}
 --- !u!136 &136239856783979472
 CapsuleCollider:
   m_ObjectHideFlags: 1
