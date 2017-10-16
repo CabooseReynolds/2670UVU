@@ -5,7 +5,7 @@ using UnityEngine.Events;
 
 public class ForPurchase : MonoBehaviour {
 	public static UnityAction<int, GameObject> PurchaseAction;
-	public int price = 20;
+	public int price = 10;
 	public GameObject item;
 
 	public void MakePurchase ()

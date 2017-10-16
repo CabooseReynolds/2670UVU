@@ -27,6 +27,15 @@ public class StaticVars {
 	public static float lowGGravity;
 	public static float lowGJumpHeight;
 	public static float lowGMaxJump;
+	public static Data data = new Data();
+	public static void GetData()
+	{
+		data = data.GetData();
+	}
+	public static void SetData()
+	{
+		data.SetData(data);
+	}
 
 
 
