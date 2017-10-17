@@ -1,26 +1,25 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System;
 
 public class EPTrigger : MonoBehaviour {
-
-	EnemyPatrol chase;
-	public static Action StartChase;
-    public static Action StopChase;
+	EnemyPatrol EPatrol;
+void Start()
+	{
+		EPatrol = transform.parent.GetComponent<EnemyPatrol>();
+	}
 
 	void OnTriggerEnter(Collider other)
 		{
-		 if (other.tag == "Player"){
-			StartChase();
+		print(this.transform);
+		if (other.GetComponent<EnemyPatrol>().target){
+			EPatrol.StartChasingPlayer(other.transform);
         }
 		}
 
 	void OnTriggerExit()
 	{
-	//	print("Ha I got away!");
-		StopChase();
-	}
-
-	
+		print(this.transform);
+		EPatrol.StopChasingPlayer();
+	}	
 }
