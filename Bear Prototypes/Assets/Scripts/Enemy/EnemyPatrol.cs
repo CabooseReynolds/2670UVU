@@ -39,31 +39,32 @@ public class EnemyPatrol : MonoBehaviour {
     {
          StopAllCoroutines();
          if(!chasingPlayer)
-         {
-            print("i dislike you");
-            StartCoroutine(EpicChasingScene());
-            // target = _target;
+        {
+            tempDestination = destination;
+        //    print("tempDestination" + tempDestination);
+        }
             chasingPlayer = true;
-         }
+            destination = _target;
+            StartCoroutine(EpicChasingScene());
+
     }
 
 	IEnumerator EpicChasingScene()
 	{
-        print("i hate you");
+    //    print("i'm gonna getcha!");
         while(true)
              {
                  yield return new WaitForFixedUpdate();
-    //    print("I'm gonna getcha!");
-            if (Vector3.Distance (destination.position, target.position) > 1.0f) {
-			    destination = target;
-			    agent.destination = destination.position;
+                 agent.destination = target.position;
+            //     print("target" + target.position);
+            // if (Vector3.Distance (destination.position, target.position) > 1.0f) {
             if(!chasingPlayer)
 		    {
 			StopAllCoroutines();
             StopChasingPlayer();
 		    }
         
-	        }
+	        //}
             if(transform.position.z != zPos)
 			transform.position = new Vector3(transform.position.x, transform.position.y, zPos);
             }

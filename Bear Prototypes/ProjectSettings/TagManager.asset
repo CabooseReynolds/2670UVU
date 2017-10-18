@@ -25,12 +25,12 @@ TagManager:
   - 
   - Player/Player
   - Player/Player Trigger
-  - 
+  - Player/Neutral Trigger
   - 
   - 
   - Enemy/Enemy
-  - Enemy/EnemyTrigger
-  - 
+  - Enemy/Enemy Trigger
+  - Enemy/Aggro Trigger
   - 
   - Environment/Environment
   - Environment/Lights
@@ -40,7 +40,7 @@ TagManager:
   - 
   - PowerUps/Health
   - PowerUps/Death
-  - PowerUps/Satan
+  - 
   - 
   - 
   - 

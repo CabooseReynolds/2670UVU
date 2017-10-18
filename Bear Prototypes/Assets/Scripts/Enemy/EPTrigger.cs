@@ -11,13 +11,15 @@ public class EPTrigger : MonoBehaviour {
 
 	void OnTriggerEnter(Collider other)
 		{
-		print(this.transform);
+//		print(this.transform);
+//		print("starting chase");
 		EPatrol.StartChasingPlayer(other.transform);
         }
 
 	void OnTriggerExit()
 	{
-		print(this.transform);
+//		print(this.transform);
+//		print("stopping chase");
 		EPatrol.StopChasingPlayer();
 	}
 }
