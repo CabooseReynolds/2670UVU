@@ -20591,6 +20591,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5f8302f98fc77e4794c6cb97890908c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  EPatrol: {fileID: 0}
 --- !u!23 &471916663
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -25841,6 +25842,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5f8302f98fc77e4794c6cb97890908c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  EPatrol: {fileID: 0}
 --- !u!23 &631266790
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -33062,6 +33064,16 @@ Prefab:
       propertyPath: respawnPoint
       value: 
       objectReference: {fileID: 211648239}
+    - target: {fileID: 114632610491235152, guid: 603e9fb64bb9dfe489d3441c571dd42d,
+        type: 2}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 1203092625}
+    - target: {fileID: 114632610491235152, guid: 603e9fb64bb9dfe489d3441c571dd42d,
+        type: 2}
+      propertyPath: destination
+      value: 
+      objectReference: {fileID: 1203092625}
     m_RemovedComponents:
     - {fileID: 114696970481973426, guid: 603e9fb64bb9dfe489d3441c571dd42d, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 603e9fb64bb9dfe489d3441c571dd42d, type: 2}
@@ -34098,6 +34110,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5f8302f98fc77e4794c6cb97890908c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  EPatrol: {fileID: 1379449208}
 --- !u!1 &878749317
 GameObject:
   m_ObjectHideFlags: 0
@@ -37378,6 +37391,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5f8302f98fc77e4794c6cb97890908c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  EPatrol: {fileID: 0}
 --- !u!23 &972409777
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -55422,6 +55436,12 @@ Transform:
   m_PrefabParentObject: {fileID: 4642445119229624, guid: ba1391df150c8f349a3bafe4639063a5,
     type: 2}
   m_PrefabInternal: {fileID: 1379024480}
+--- !u!114 &1379449208 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114632610491235152, guid: 603e9fb64bb9dfe489d3441c571dd42d,
+    type: 2}
+  m_PrefabInternal: {fileID: 813332572}
+  m_Script: {fileID: 11500000, guid: 194edccee70369341877a46afd6cc333, type: 3}
 --- !u!1 &1382464564
 GameObject:
   m_ObjectHideFlags: 0
@@ -66505,6 +66525,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5f8302f98fc77e4794c6cb97890908c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  EPatrol: {fileID: 0}
 --- !u!23 &1700029853
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -75467,6 +75488,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5f8302f98fc77e4794c6cb97890908c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  EPatrol: {fileID: 0}
 --- !u!23 &1853659727
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -78796,6 +78818,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5f8302f98fc77e4794c6cb97890908c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  EPatrol: {fileID: 0}
 --- !u!23 &1919643852
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -79715,6 +79738,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5f8302f98fc77e4794c6cb97890908c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  EPatrol: {fileID: 0}
 --- !u!23 &1964133054
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -82737,6 +82761,20 @@ Light:
   m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
+  m_FalloffTable:
+    m_Table[0]: 0
+    m_Table[1]: 0
+    m_Table[2]: 0
+    m_Table[3]: 0
+    m_Table[4]: 0
+    m_Table[5]: 0
+    m_Table[6]: 0
+    m_Table[7]: 0
+    m_Table[8]: 0
+    m_Table[9]: 0
+    m_Table[10]: 0
+    m_Table[11]: 0
+    m_Table[12]: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
@@ -83541,6 +83579,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5f8302f98fc77e4794c6cb97890908c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  EPatrol: {fileID: 0}
 --- !u!23 &2084573517
 MeshRenderer:
   m_ObjectHideFlags: 0

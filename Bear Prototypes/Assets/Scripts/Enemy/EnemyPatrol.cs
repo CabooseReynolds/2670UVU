@@ -40,37 +40,35 @@ public class EnemyPatrol : MonoBehaviour {
          StopAllCoroutines();
          if(!chasingPlayer)
          {
-            tempDestination = destination; 
+            print("i dislike you");
+            StartCoroutine(EpicChasingScene());
+            // target = _target;
+            chasingPlayer = true;
          }
-    //     print("starting epic chase");
-         chasingPlayer = true;
-         destination = _target;
-         StartPatrol();
-         if(transform.position.z != zPos)
-			transform.position = new Vector3(transform.position.x, transform.position.y, zPos);
     }
 
-	// IEnumerator EpicChasingScene()
-	// {
-    //     while(true)
-    //          {
-    //              yield return new WaitForFixedUpdate();
-    // //    print("I'm gonna getcha!");
-    //         if (Vector3.Distance (destination, target.position) > 1.0f) {
-	// 		    destination = target.position;
-	// 		    agent.destination = destination;
-    //         if(!chasingPlayer)
-	// 	    {
-	// 		StopAllCoroutines();
-    //         StopChasingPlayer();
-	// 	    }
+	IEnumerator EpicChasingScene()
+	{
+        print("i hate you");
+        while(true)
+             {
+                 yield return new WaitForFixedUpdate();
+    //    print("I'm gonna getcha!");
+            if (Vector3.Distance (destination.position, target.position) > 1.0f) {
+			    destination = target;
+			    agent.destination = destination.position;
+            if(!chasingPlayer)
+		    {
+			StopAllCoroutines();
+            StopChasingPlayer();
+		    }
         
-	//         }
-    //         if(transform.position.z != zPos)
-	// 		transform.position = new Vector3(transform.position.x, transform.position.y, zPos);
-    //         }
+	        }
+            if(transform.position.z != zPos)
+			transform.position = new Vector3(transform.position.x, transform.position.y, zPos);
+            }
 
-    // }
+    }
 
 	public void StopChasingPlayer()
 	{
