@@ -8,9 +8,8 @@ public Transform respawnPoint;
 	{
 		if(other.tag == "Player")
 		{
-		print("You Done Messed up, A A Ron!");	
+//		print("You Done Messed up, A A Ron!");	
 		other.transform.position = respawnPoint.position;
+		}
 	}
-
-}
 }

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class GameData : MonoBehaviour {
+	public float health = 1.0f;
 	public float speed = 10;
 	public float gravity = 20;
 	public float jumpHeight = 8;

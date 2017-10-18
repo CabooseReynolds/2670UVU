@@ -4,8 +4,12 @@ using UnityEngine;
 
 public class ChangeHealthBar : MonoBehaviour {
 private Vector3 scale = Vector3.one;
-	void Update () {
-		scale.x = Data.Instance.health;
+void Start()
+{
+	SendHealth.healthAction += UpdateHealthBar;
+}
+	void UpdateHealthBar (float health) {
+		scale.x = health;
 		transform.localScale = scale;
 	}
 }
