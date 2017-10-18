@@ -4,12 +4,10 @@
  public class FallingObject : MonoBehaviour {
  public Rigidbody myRigidbody;
 public GameObject newPlatform;
-private Vector3 startPos;
 public float fallDelay;
 // Use this for initialization
 void Start () {
 myRigidbody = GetComponent<Rigidbody> ();
-startPos = transform.position; 
 }
 
 void OnCollisionEnter(Collision other){

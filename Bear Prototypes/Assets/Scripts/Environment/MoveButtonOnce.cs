@@ -3,15 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class MoveButtonOnce : MonoBehaviour {
-	Vector3 origin;
 	public Vector3 endLoc;
 	public float startDelay;
 	public float speed;
-
-	// Use this for initialization
-	void Start () {
-		origin = transform.position;
-	}
 	
 	void OnTriggerEnter(Collider other)
 		{

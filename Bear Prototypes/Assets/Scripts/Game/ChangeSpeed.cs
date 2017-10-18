@@ -9,7 +9,7 @@ public static Action<float, float, float, float> SendSpeed;
 public static Action jCount;
 
 
-public StaticVars.Gamespeed speedType;
+public Data.Gamespeed speedType;
 
 void OnTriggerEnter (Collider other){
 	character = other.gameObject.GetComponent<MoveChar>();
@@ -21,16 +21,16 @@ void OnTriggerEnter (Collider other){
 		}
 	switch (speedType)
 	{
-		case StaticVars.Gamespeed.DRAG:
-			SendSpeed(StaticVars.dragSpeed, StaticVars.dragGravity, StaticVars.dragMaxJump,StaticVars.dragJumpHeight);
+		case Data.Gamespeed.DRAG:
+			SendSpeed(Data.Instance.dragSpeed, Data.Instance.dragGravity, Data.Instance.dragMaxJump,Data.Instance.dragJumpHeight);
 			break;
 
-		case StaticVars.Gamespeed.BOOST:
-			SendSpeed(StaticVars.boostSpeed, StaticVars.boostGravity, StaticVars.boostMaxJump,StaticVars.boostJumpHeight);
+		case Data.Gamespeed.BOOST:
+			SendSpeed(Data.Instance.boostSpeed, Data.Instance.boostGravity, Data.Instance.boostMaxJump,Data.Instance.boostJumpHeight);
 			break;
 		
-		case StaticVars.Gamespeed.ANTIG:
-			SendSpeed(StaticVars.lowGSpeed, StaticVars.lowGGravity, StaticVars.lowGMaxJump, StaticVars.lowGJumpHeight);
+		case Data.Gamespeed.ANTIG:
+			SendSpeed(Data.Instance.lowGSpeed, Data.Instance.lowGGravity, Data.Instance.lowGMaxJump, Data.Instance.lowGJumpHeight);
 			break;
 
 
@@ -44,7 +44,7 @@ void OnTriggerExit (Collider other){
 
 			if(character.waterCount <= 0)
 			{
-	SendSpeed(StaticVars.speed, StaticVars.gravity, StaticVars.maxJump, StaticVars.jumpHeight);
+	SendSpeed(Data.Instance.speed, Data.Instance.gravity, Data.Instance.maxJump, Data.Instance.jumpHeight);
 	jCount();
 }
 }

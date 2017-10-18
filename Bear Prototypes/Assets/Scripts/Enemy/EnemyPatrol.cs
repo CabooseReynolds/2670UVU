@@ -5,7 +5,6 @@ using UnityEngine.AI;
 [RequireComponent(typeof(NavMeshAgent))]
 public class EnemyPatrol : MonoBehaviour {
 	NavMeshAgent agent;
-    Vector3 startPos;
     public Transform destination;
     Transform tempDestination;
 	public bool runAtStart = true;
@@ -18,7 +17,6 @@ public class EnemyPatrol : MonoBehaviour {
      void Start() {
         agent = GetComponent<NavMeshAgent>();
         target = FindObjectOfType<MoveChar>().transform;
-		startPos = transform.position;
 		if(runAtStart)
 		{
 			StartPatrol();

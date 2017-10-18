@@ -24,23 +24,23 @@ public class GameData : MonoBehaviour {
 
 
 	void Start () {
-		StaticVars.speed = speed;
-		StaticVars.gravity = gravity;
-		StaticVars.jumpHeight = jumpHeight;
-		StaticVars.maxJump = maxJump;
-		StaticVars.jumpCount = jumpCount;
-		StaticVars.jumpCount = climbCount;
-		StaticVars.dragSpeed = dragSpeed;
-		StaticVars.dragGravity = dragGravity;
-		StaticVars.dragJumpHeight = dragJumpHeight;
-		StaticVars.dragMaxJump = dragMaxJump;
-		StaticVars.boostSpeed = boostSpeed;
-		StaticVars.boostGravity = boostGravity;
-		StaticVars.boostJumpHeight = boostJumpHeight;
-		StaticVars.boostMaxJump = boostMaxJump;
-		StaticVars.lowGSpeed = lowGSpeed;
-		StaticVars.lowGGravity = lowGGravity;
-		StaticVars.lowGJumpHeight = lowGJumpHeight;
-		StaticVars.lowGMaxJump = lowGMaxJump;
+		Data.Instance.speed = speed;
+		Data.Instance.gravity = gravity;
+		Data.Instance.jumpHeight = jumpHeight;
+		Data.Instance.maxJump = maxJump;
+		Data.Instance.jumpCount = jumpCount;
+		Data.Instance.jumpCount = climbCount;
+		Data.Instance.dragSpeed = dragSpeed;
+		Data.Instance.dragGravity = dragGravity;
+		Data.Instance.dragJumpHeight = dragJumpHeight;
+		Data.Instance.dragMaxJump = dragMaxJump;
+		Data.Instance.boostSpeed = boostSpeed;
+		Data.Instance.boostGravity = boostGravity;
+		Data.Instance.boostJumpHeight = boostJumpHeight;
+		Data.Instance.boostMaxJump = boostMaxJump;
+		Data.Instance.lowGSpeed = lowGSpeed;
+		Data.Instance.lowGGravity = lowGGravity;
+		Data.Instance.lowGJumpHeight = lowGJumpHeight;
+		Data.Instance.lowGMaxJump = lowGMaxJump;
 	}
 }

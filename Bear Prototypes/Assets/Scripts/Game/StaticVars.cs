@@ -27,16 +27,15 @@ public class StaticVars {
 	public static float lowGGravity;
 	public static float lowGJumpHeight;
 	public static float lowGMaxJump;
-	public static Data data = new Data();
-	public static void GetData()
-	{
-		data = data.GetData();
-	}
-	public static void SetData()
-	{
-		data.SetData(data);
-	}
-
+	// public static Data data = new Data();
+	// public static void GetData()
+	// {
+	// 	data = Data.GetData();
+	// }
+	// public static void SetData()
+	// {
+	// 	Data.SetData(data);
+	// }
 
 
 	public enum Gamespeed

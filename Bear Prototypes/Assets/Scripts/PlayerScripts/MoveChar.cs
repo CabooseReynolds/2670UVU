@@ -37,10 +37,10 @@ CharacterController cc;
 
 	void Start () {
 	cc = GetComponent<CharacterController>();
-    speed = StaticVars.speed;
-    jumpHeight = StaticVars.jumpHeight;
-    maxJump = StaticVars.maxJump;
-    gravity = StaticVars.gravity;
+    speed = Data.Instance.speed;
+    jumpHeight = Data.Instance.jumpHeight;
+    maxJump = Data.Instance.maxJump;
+    gravity = Data.Instance.gravity;
 //    PlayButton.Play += OnPlay;
     Moveinput.JumpAction += Jump;
     Moveinput.CrouchActionUp += CrouchUp;

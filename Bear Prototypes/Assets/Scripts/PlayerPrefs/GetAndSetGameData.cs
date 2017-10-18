@@ -5,7 +5,6 @@ using System;
 
 [System.Serializable]
 public class GetAndSetGameData : MonoBehaviour {
-	public Data data;
     public static Action<int> UpdateGold;
 
 void Awake ()
@@ -16,29 +15,28 @@ void Awake ()
 
 private void BuyGoldHandler(int _gold)
 {
-    data.gold += _gold;
-    UpdateGold(data.gold);
+    Data.Instance.gold += _gold;
+    UpdateGold(Data.Instance.gold);
 }
 private void PurchaseHandler(int _price, GameObject _item)
 {
-    if(data.gold >= _price)
+    if(Data.Instance.gold >= _price)
     {
-    data.gold -= _price;
-    UpdateGold(data.gold);
+    Data.Instance.gold -= _price;
+    UpdateGold(Data.Instance.gold);
 
-    data.purchases.Add(_item);
+    Data.Instance.purchases.Add(_item);
     }
 }
 void Start ()
 	{
-		data = data.GetData();
-        UpdateGold(data.gold);
-        print(data.gold);
+        UpdateGold(Data.Instance.gold);
+        print(Data.Instance.gold);
 	}
 
 void OnApplicationQuit()
 	{
-        data.SetData(data);
+        Data.SetData();
 //		PlayerPrefs.GetString("GameData", JsonUtility.ToJson(data));
 	}
 }

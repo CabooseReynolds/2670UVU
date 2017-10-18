@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 public class Fallthrough : MonoBehaviour {
 
-BoxCollider boxColl;
+// BoxCollider boxColl;
 
 void Awake () {
-    boxColl = gameObject.GetComponent<BoxCollider> ();
+//    boxColl = gameObject.GetComponent<BoxCollider> ();
 }
 
 void Update () {

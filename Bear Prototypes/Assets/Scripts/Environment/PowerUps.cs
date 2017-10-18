@@ -19,14 +19,14 @@ public class PowerUps : MonoBehaviour {
 	}
 	private void RunPowerUp(float _power)
 	{
-	if(StaticVars.health > 0 && StaticVars.health < 1)
+	if(Data.Instance.health > 0 && Data.Instance.health < 1)
 		{
-			StaticVars.health += _power;
-			print(StaticVars.health);
+			Data.Instance.health += _power;
+			print(Data.Instance.health);
 		}
 	// else
 	// 	{
-	// 		StaticVars.health = 1;
+	// 		Data.Instancehealth = 1;
 	// 	}
 }
 }
