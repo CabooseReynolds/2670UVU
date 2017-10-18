@@ -6,7 +6,6 @@ public class Hidden2 : MonoBehaviour {
 
 // public GameObject[] Object;
 public GameObject Object1;
-int Objects = 0;
 private void OnTriggerEnter() {
     Object1.SetActive(false);
     

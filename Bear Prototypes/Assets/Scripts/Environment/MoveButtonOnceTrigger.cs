@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class MoveButtonOnceTrigger : MonoBehaviour {
-
 	Vector3 origin;
 	public Vector3 endLoc;
 	public float startDelay;

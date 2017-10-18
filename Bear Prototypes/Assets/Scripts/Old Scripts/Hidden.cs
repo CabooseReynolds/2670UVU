@@ -12,7 +12,6 @@ public GameObject Object4;
 public GameObject Object5;
 public GameObject Object6;
 public GameObject Object7;
-int Objects = 0;
 private void OnTriggerEnter() {
     Object1.SetActive(false);
     Object2.SetActive(false);
