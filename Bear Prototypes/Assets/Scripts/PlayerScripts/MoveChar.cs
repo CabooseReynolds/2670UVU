@@ -37,6 +37,7 @@ CharacterController cc;
 
 	void Start () {
 	cc = GetComponent<CharacterController>();
+    print(speed);
     speed = Data.Instance.speed;
     jumpHeight = Data.Instance.jumpHeight;
     maxJump = Data.Instance.maxJump;

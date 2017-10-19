@@ -23,9 +23,9 @@ public class GameData : MonoBehaviour {
 	public float lowGJumpHeight = 16;
 	public float lowGMaxJump = 2;
 
-
 	void Start () {
-		Data.Instance.speed = speed;
+		speed = Data.Instance.speed;
+//		Data.Instance.speed = speed;
 		Data.Instance.gravity = gravity;
 		Data.Instance.jumpHeight = jumpHeight;
 		Data.Instance.maxJump = maxJump;
