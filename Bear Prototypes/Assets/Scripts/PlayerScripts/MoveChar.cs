@@ -16,8 +16,8 @@ public static Action GrabAction;
 public static Action LetGoAction;
 Action OnLandAction;
 bool gravityOn = false;
-private float speed; 
-private float gravity;
+public float speed; 
+public float gravity;
 public float jumpHeight; 
 private float maxJump;
 public int jumpCount;
@@ -37,7 +37,6 @@ CharacterController cc;
 
 	void Start () {
 	cc = GetComponent<CharacterController>();
-    print(speed);
     speed = Data.Instance.speed;
     jumpHeight = Data.Instance.jumpHeight;
     maxJump = Data.Instance.maxJump;
