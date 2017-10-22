@@ -27,8 +27,8 @@ public class Data {
 	public float boostJumpHeight = 16;
 	public float boostMaxJump = 2;
 	public float lowGSpeed = 10;
-	public float lowGGravity = 5;
-	public float lowGJumpHeight = 16;
+	public float lowGGravity = 15;
+	public float lowGJumpHeight = 8;
 	public float lowGMaxJump = 2;
 	public List<GameObject> purchases;
 	private static Data _Instance;

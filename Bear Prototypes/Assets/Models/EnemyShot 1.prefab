@@ -20,7 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4248875723205274}
   - component: {fileID: 108429249684738246}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Point light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37,7 +37,7 @@ GameObject:
   - component: {fileID: 4498190028173544}
   - component: {fileID: 198756178738606004}
   - component: {fileID: 199595595646641448}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: EnemyShooter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58,7 +58,7 @@ GameObject:
   - component: {fileID: 114928872623113790}
   - component: {fileID: 114796272775637184}
   - component: {fileID: 114367222776565396}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: EnemyShot 1
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -192,7 +192,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c7eb90c80490d84481e8d7007d71b20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  power: -0.1
+  power: -0.25
 --- !u!114 &114796272775637184
 MonoBehaviour:
   m_ObjectHideFlags: 1
