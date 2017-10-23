@@ -13,67 +13,64 @@ public class EnemyPatrol : MonoBehaviour {
     public Vector3[] patrolPoints; //Add in inspector 
     private int patrolPoint = 0;
     private float zPos = 0;
+    public GameObject Enemy;
+    public Transform startPoint;
 
-     void Start() {
+    void Start() 
+        {
         agent = GetComponent<NavMeshAgent>();
         target = FindObjectOfType<MoveChar>().transform;
-		if(runAtStart)
-		{
-			StartPatrol();
-		}
-     }
+            if(runAtStart)
+            {
+                StartPatrol();
+            }
+        }
 
 	void StartPatrol()
-	{
-		StartCoroutine(Patrol());
-	}
+        {
+            StartCoroutine(Patrol());
+        }
 
 	void StopPatrol()
-	{
-		StopAllCoroutines();
-	}
+        {
+            StopAllCoroutines();
+        }
 
     public void StartChasingPlayer(Transform _target)
-    {
-         StopAllCoroutines();
-         if(!chasingPlayer)
         {
-            tempDestination = destination;
-        //    print("tempDestination" + tempDestination);
-        }
+         StopAllCoroutines();
+            if(!chasingPlayer)
+            {
+                tempDestination = destination;
+            //    print("tempDestination" + tempDestination);
+            }
             chasingPlayer = true;
             destination = _target;
             StartCoroutine(EpicChasingScene());
-
-    }
+        }
 
 	IEnumerator EpicChasingScene()
-	{
+	    {
     //    print("i'm gonna getcha!");
         while(true)
-             {
-                 yield return new WaitForFixedUpdate();
-                 agent.destination = target.position;
-            //     print("target" + target.position);
-            // if (Vector3.Distance (destination.position, target.position) > 1.0f) {
-            if(!chasingPlayer)
-		    {
-			StopAllCoroutines();
-            StopChasingPlayer();
-		    }
-        
-	        //}
-            if(transform.position.z != zPos)
-			transform.position = new Vector3(transform.position.x, transform.position.y, zPos);
+            {
+                yield return new WaitForFixedUpdate();
+                agent.destination = target.position;
+                    if(!chasingPlayer)
+                    {
+                    StopAllCoroutines();
+                    StopChasingPlayer();
+                    }
+                if(transform.position.z != zPos)
+                transform.position = new Vector3(transform.position.x, transform.position.y, zPos);
             }
-
-    }
+        }
 
 	public void StopChasingPlayer()
-	{
-		StopAllCoroutines();
-		StartCoroutine(ReturnToPatrol());
-	}
+        {
+            StopAllCoroutines();
+            StartCoroutine(ReturnToPatrol());
+        }
 
     IEnumerator ReturnToPatrol()
         {
@@ -85,23 +82,31 @@ public class EnemyPatrol : MonoBehaviour {
             StartPatrol();
 
         }
-    IEnumerator Patrol(){
-         {
-             while(true)
-             {
-                 yield return new WaitForFixedUpdate();
-         if(patrolPoints.Length > 0){
-             agent.SetDestination(patrolPoints[patrolPoint]);
-             if(transform.position == patrolPoints[patrolPoint] || Vector3.Distance(transform.position,patrolPoints[patrolPoint]) <2.0f){
-                 patrolPoint++;    //use distance if needed(lower precision)
-             }
-             if(patrolPoint >= patrolPoints.Length){
-                 patrolPoint = 0;
+    IEnumerator Patrol()
+        {
+            {
+            while(true)
+                {
+                    yield return new WaitForFixedUpdate();
+                        if(patrolPoints.Length > 0)
+                        {
+                            agent.SetDestination(patrolPoints[patrolPoint]);
+                                if(transform.position == patrolPoints[patrolPoint] || Vector3.Distance(transform.position,patrolPoints[patrolPoint]) <2.0f)
+                                {
+                                    patrolPoint++;    //use distance if needed(lower precision)
+                                }
+                                if(patrolPoint >= patrolPoints.Length)
+                                {
+                                patrolPoint = 0;
+                                }
+                        }
+                    if(transform.position.z != zPos)
+			        transform.position = new Vector3(transform.position.x, transform.position.y, zPos);
+                }    
             }
-        } //print("just patrolling away");
-        if(transform.position.z != zPos)
-			transform.position = new Vector3(transform.position.x, transform.position.y, zPos);
-    }    
-}
-}
+        }
+    public void EnemyReset()
+    {
+        Enemy.transform.position = startPoint.position; 
+    }
 }

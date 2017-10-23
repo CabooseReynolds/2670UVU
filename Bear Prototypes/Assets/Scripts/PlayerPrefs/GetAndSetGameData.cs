@@ -25,7 +25,7 @@ private void PurchaseHandler(int _price, GameObject _item)
     Data.Instance.gold -= _price;
     UpdateGold(Data.Instance.gold);
 
-    Data.Instance.purchases.Add(_item);
+    Data.Instance.purchases.Add(_item.name);
     }
 }
 void Start ()

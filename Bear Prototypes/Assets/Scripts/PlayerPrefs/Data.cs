@@ -30,7 +30,7 @@ public class Data {
 	public float lowGGravity = 15;
 	public float lowGJumpHeight = 8;
 	public float lowGMaxJump = 2;
-	public List<GameObject> purchases;
+	public List<string> purchases;
 	private static Data _Instance;
 	public static Data Instance
     {

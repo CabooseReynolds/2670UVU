@@ -340,6 +340,46 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &17177829
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 17177831}
+  - component: {fileID: 17177830}
+  m_Layer: 0
+  m_Name: GameObject (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &17177830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 17177829}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a505221a8a68ef040be4a4f1efbcf794, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &17177831
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 17177829}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 36
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &215685184
 GameObject:
   m_ObjectHideFlags: 0
@@ -1061,6 +1101,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85fbc1250e1db634284add50f0b8c7b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0
+  gravity: 0
   jumpHeight: 0
   jumpCount: 1
   maxFallSpeed: -30
@@ -1985,6 +2027,48 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 239e12e2642e7f24abe33d3a0bfe6ed6, type: 2}
   m_IsPrefabParent: 0
+--- !u!1001 &819303565
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4290197673488246, guid: eebba829ebdd71d4cb271e1cddc86912, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4290197673488246, guid: eebba829ebdd71d4cb271e1cddc86912, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4290197673488246, guid: eebba829ebdd71d4cb271e1cddc86912, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4290197673488246, guid: eebba829ebdd71d4cb271e1cddc86912, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4290197673488246, guid: eebba829ebdd71d4cb271e1cddc86912, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4290197673488246, guid: eebba829ebdd71d4cb271e1cddc86912, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4290197673488246, guid: eebba829ebdd71d4cb271e1cddc86912, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4290197673488246, guid: eebba829ebdd71d4cb271e1cddc86912, type: 2}
+      propertyPath: m_RootOrder
+      value: 35
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: eebba829ebdd71d4cb271e1cddc86912, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &847060236
 GameObject:
   m_ObjectHideFlags: 0
@@ -2533,24 +2617,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1fc0d714f33541b4996dc5cf4a5312ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
-  gravity: 20
-  jumpHeight: 10
-  maxJump: 2
-  jumpCount: 0
-  climbCount: 0
-  dragSpeed: 2
-  dragGravity: 2
-  dragJumpHeight: 2
-  dragMaxJump: 100
-  boostSpeed: 20
-  boostGravity: 10
-  boostJumpHeight: 16
-  boostMaxJump: 2
-  lowGSpeed: 10
-  lowGGravity: 5
-  lowGJumpHeight: 16
-  lowGMaxJump: 2
 --- !u!4 &1132377643
 Transform:
   m_ObjectHideFlags: 0
@@ -3324,7 +3390,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   price: 1
-  item: {fileID: 0}
+  item: {fileID: 1901412871227780, guid: eebba829ebdd71d4cb271e1cddc86912, type: 2}
 --- !u!114 &1629833724
 MonoBehaviour:
   m_ObjectHideFlags: 0
