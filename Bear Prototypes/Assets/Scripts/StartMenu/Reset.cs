@@ -4,24 +4,25 @@ using UnityEngine;
  
 public class Reset : MonoBehaviour { 
  
-  public Transform startPoint; 
-  public GameObject art; 
+Transform startPoint; 
+  public GameObject Player; 
 //  public Animator anims; 
   // Use this for initialization 
   void Start () { 
-    EndGame.End += ResetThis; 
+    //EndGame.End += ResetThis; 
+	startPoint = transform;
   } 
    
   // Update is called once per frame 
-  void ResetThis () { 
-//    art.SetActive(false); 
-    art.transform.position = startPoint.position; 
-    Invoke("Restart", 3); 
-  } 
+//   void ResetThis () { 
+//   art.SetActive(false); 
+//     Player.transform.position = startPoint.position; 
+//     Invoke("Restart", 3); 
+//   } 
  
   public void Restart () { 
 //    art.SetActive(true); 
 //    anims.SetTrigger("IsLoaded"); 
-    art.transform.position = startPoint.position; 
+    Player.transform.position = startPoint.position; 
   } 
 } 

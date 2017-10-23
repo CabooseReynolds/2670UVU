@@ -20,8 +20,9 @@ public static Action PullAction;
 public static Action AttackAction;
 public static Action SendSpeed;
 public static Action pickUpWeapon;
+public static Action Reset;
 
-public static Action<float> ClimbAction;
+// public static Action<float> ClimbAction;
 public bool canPlay = true; 
 bool pickedUp;
 
@@ -97,4 +98,9 @@ void Start ()
 		yield return new WaitForSeconds(runTime);
 	 }
  }
+
+public void ResetButton()
+{
+	Reset();
+}
  }

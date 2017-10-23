@@ -23,7 +23,6 @@ GameObject:
   - component: {fileID: 136172289321010658}
   - component: {fileID: 23948671221946326}
   - component: {fileID: 114358059469054544}
-  - component: {fileID: 114696970481973426}
   m_Layer: 30
   m_Name: Hitbox
   m_TagString: Untagged
@@ -270,6 +269,11 @@ MonoBehaviour:
   life: 3
   Weapon: {fileID: 0}
   Enemy: {fileID: 1896269789380016}
+  EnemyR: {fileID: 1896269789380016}
+  Hitbox: {fileID: 1056217178198942}
+  Prend: {fileID: 0}
+  Pcoll: {fileID: 0}
+  coll: {fileID: 0}
 --- !u!114 &114632610491235152
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -288,18 +292,8 @@ MonoBehaviour:
   patrolPoints:
   - {x: 112.51, y: 7.164425, z: 0}
   - {x: 127, y: 7.164425, z: 0}
---- !u!114 &114696970481973426
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1056217178198942}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 669f582f30a82c04085265f18ba95cd3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  respawnPoint: {fileID: 0}
+  Enemy: {fileID: 0}
+  startPoint: {fileID: 0}
 --- !u!136 &136094156018296382
 CapsuleCollider:
   m_ObjectHideFlags: 1

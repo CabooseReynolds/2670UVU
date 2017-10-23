@@ -105,8 +105,4 @@ public class EnemyPatrol : MonoBehaviour {
                 }    
             }
         }
-    public void EnemyReset()
-    {
-        Enemy.transform.position = startPoint.position; 
-    }
 }
