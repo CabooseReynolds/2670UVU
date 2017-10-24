@@ -16,13 +16,13 @@ EditorBuildSettings:
     guid: f08db098b2dae2d42bcb88e625b77dcc
   - enabled: 0
     path: 
-    guid: b2eb1c552810ae7428845643c8a5fdce
+    guid: 00000000000000000000000000000000
   - enabled: 0
     path: Assets/Proto3.unity
     guid: 6efe99866514d9f4084087895802c571
   - enabled: 1
     path: Assets/Title Screen.unity
     guid: e037a69c59b077642a479f64028f8e5a
-  - enabled: 0
+  - enabled: 1
     path: Assets/Proto5.unity
     guid: 7767c68beed6d7c40b2edd4f8db6ce87
