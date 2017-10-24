@@ -8,12 +8,22 @@ public class Weapon : MonoBehaviour {
 	public Transform WeaponHolder;
     bool holdingThisWeapon;
     public Weaponpickup pickup;
+    Vector3 startPos;
    
 
-	// void Start()
-	// {
-	// 	Moveinput.pickUPWeapon = null;
-	// }
+	void Start()
+	{
+		Moveinput.Reset += ResetAction;
+		startPos = transform.parent.position;
+        print(startPos);
+	}
+    public void ResetAction()
+		{   
+            transform.parent.parent = null;
+			transform.parent.position = startPos;
+//            transform.parent.parent = null;
+			print(transform.position);
+		}
 
     void pickUpWeapon()
     {

@@ -8,4 +8,9 @@ public class Weaponpickup : MonoBehaviour {
  	public Transform weaponholder;
 		
 	public bool holdingItem = false;
+
+	// void Start()
+	// {
+	// 	holdingItem = false;
+	// }
 }

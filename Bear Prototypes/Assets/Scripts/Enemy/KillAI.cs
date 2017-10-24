@@ -10,8 +10,8 @@ public class KillAI : MonoBehaviour {
 	float startlife;
 	public GameObject Weapon;
     public GameObject Enemy;
-	public GameObject EnemyR;
 	public GameObject Hitbox;
+	Vector3 startPos;
     Transform startPoint;
 	public Renderer Prend;
     public Collider Pcoll;
@@ -19,7 +19,8 @@ public class KillAI : MonoBehaviour {
 void Start()
 	{
 		Moveinput.Reset += ResetAction;
-		startPoint = transform;
+		startPos = transform.position;
+//		print(transform.position);
 		startlife = life;
 		Prend = transform.parent.GetComponent<Renderer>();
 		Pcoll = transform.parent.GetComponent<Collider>();
@@ -42,8 +43,9 @@ void OnTriggerEnter(Collider Weapon)
 	}
 	public void ResetAction()
 		{
-			print("I''m reaagjkl;agjkl;asgjkl;");
-			EnemyR.transform.position = startPoint.position;
+//			print("I''m reaagjkl;agjkl;asgjkl;");
+			Enemy.transform.position = startPos;
+//			print(transform.position);
 			life = startlife;
 			Prend.enabled = true;
 			Pcoll.enabled = true;

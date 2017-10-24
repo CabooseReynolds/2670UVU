@@ -16,9 +16,9 @@ private Image Hbar;
 	
 	private void ChangeHealthBar(float _health)
 	{
-		Hbar.fillAmount = _health;
-		// scale.x = _health;
-		// transform.localScale = scale;
+//		Hbar.fillAmount = _health;
+		scale.x = _health;
+		transform.localScale = scale;
 
 		if(_health > 0.5f){
 			Hbar.color = good;

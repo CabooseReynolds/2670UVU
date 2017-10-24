@@ -13,8 +13,6 @@ public class EnemyPatrol : MonoBehaviour {
     public Vector3[] patrolPoints; //Add in inspector 
     private int patrolPoint = 0;
     private float zPos = 0;
-    public GameObject Enemy;
-    public Transform startPoint;
 
     void Start() 
         {

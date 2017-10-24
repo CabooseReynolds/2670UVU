@@ -25,6 +25,7 @@ public float curFallSpeed;
 Quaternion myRotate;
 Vector3 rotValue;
 Vector3 prevPos;
+Vector3 startPos;
 
 public int waterCount;
 public int climbCount;
@@ -56,7 +57,15 @@ CharacterController cc;
 	OnLandAction += ResetJumps;
     prevPos = transform.position;
     ChangeSpeed.jCount = ResetJumps;
+    Moveinput.Reset += ResetAction;
+    startPos = transform.position;
 
+	}
+
+    public void ResetAction()
+	{
+    transform.position = startPos;
+	print(transform.position);
 	}
 /*    void OnPlay () {
     Moveinput.JumpAction += Jump;
