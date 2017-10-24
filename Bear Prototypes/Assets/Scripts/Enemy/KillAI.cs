@@ -49,7 +49,7 @@ void OnTriggerEnter(Collider Weapon)
 			life = startlife;
 			Prend.enabled = true;
 			Pcoll.enabled = true;
-			coll.enabled = false;
+			coll.enabled = true;
 		}
 }
 

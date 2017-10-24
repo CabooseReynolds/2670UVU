@@ -7,6 +7,8 @@ public float power = 0.1f;
 
 	void OnTriggerEnter () {
 		SendHealth.updateHealth(power);
-		print("health");
+		// print("health");
 	}
+
+	
 }

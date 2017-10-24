@@ -28,9 +28,10 @@ Vector3 prevPos;
 Vector3 startPos;
 
 public int waterCount;
-public int climbCount;
-public bool climbing = false;
+// public int climbCount;
+// public bool climbing = false;
 public float zPos = 0;
+public float power = 1;
 
 private Vector3 moveDirection = Vector3.zero;
 CharacterController cc;
@@ -64,6 +65,7 @@ CharacterController cc;
 
     public void ResetAction()
 	{
+    SendHealth.updateHealth(power);
     transform.position = startPos;
 	print(transform.position);
 	}
