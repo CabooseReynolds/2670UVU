@@ -5,14 +5,7 @@ using System;
 
 [RequireComponent(typeof(CharacterController))]
 public class MoveChar : MonoBehaviour {
-public static Action<float> KeyAction;
-public static Action<bool> JumpAction;
-public static Action CrouchActionDown;
-public static Action CrouchActionUp;
 public static Action RunAction;
-public static Action WalkAction;
-public static Action GrabAction;
-public static Action LetGoAction;
 Action OnLandAction;
 bool gravityOn = false;
 public float speed; 

@@ -22,6 +22,7 @@ public static Action SendSpeed;
 public static Action pickUpWeapon;
 public static Action Reset;
 
+
 // public static Action<float> ClimbAction;
 public bool canPlay = true; 
 bool pickedUp;
@@ -67,7 +68,7 @@ void Start ()
 			{
 			WalkAction();
         	}
-		if (AttackAction != null && Input.GetKeyDown(KeyCode.RightControl))
+		if (AttackAction != null && Input.GetKeyDown(KeyCode.RightShift))
 			{
 				AttackAction();
 			}
@@ -103,4 +104,28 @@ public void ResetButton()
 {
 	Reset();
 }
- }
+
+public static void NullActions()
+{
+KeyAction = null;
+JumpAction = null;
+CrouchActionDown = null;
+CrouchActionUp = null;
+ConstantAction = null;
+GrabAction = null;
+LetGoAction = null;
+RunAction = null;
+WalkAction = null;
+PushAction = null;
+PullAction = null;
+AttackAction = null;
+SendSpeed = null;
+Reset = null;
+pickUpWeapon = null;
+ChangeSpeed.SendSpeed = null;
+ChangeSpeed.jCount = null;
+SendHealth.healthAction = null;
+GetAndSetGameData.UpdateGold = null;
+BuyGold.BuyGoldAction = null;
+}
+}
