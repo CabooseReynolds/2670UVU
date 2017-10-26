@@ -37,6 +37,5 @@ void Start ()
 void OnApplicationQuit()
 	{
         Data.SetData();
-//		PlayerPrefs.GetString("GameData", JsonUtility.ToJson(data));
 	}
 }
