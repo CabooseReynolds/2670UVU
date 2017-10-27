@@ -8,6 +8,7 @@ public class Data {
 	{
 
 	}
+	public const string dataName = "GameData";
 	public int totalScore;
 	public string playerName;
 	public Vector3 checkpoint;
@@ -31,45 +32,51 @@ public class Data {
 	public float lowGJumpHeight = 8;
 	public float lowGMaxJump = 2;
 	public List<string> purchases;
+	public List<PowerUp> powerups;
 	private static Data _Instance;
 	public static Data Instance
-    {
-        get
-        {
-            if (_Instance == null)
-            {
-			// 	// Debug.Log("Instance shouldn't be null: "); 
-			// 	// Debug.Log(_Instance);
-                _Instance = Data.GetData();
-        // If _Instance is still null, that means that there
-        // was no saved data. Let's create an empty Data and *save it*
-        	if (_Instance == null) {
-				Debug.Log("Instance shouldn't be null: "); 
-				Debug.Log(_Instance);
-        		_Instance = new Data();
-        		SetData();
-        		}
-        	}
-            return _Instance;
-        	}
-    	}
+		{
+			get
+			{
+				if (_Instance == null)
+				{
+				// 	// Debug.Log("Instance shouldn't be null: "); 
+				// 	// Debug.Log(_Instance);
+					_Instance = Data.GetData();
+			// If _Instance is still null, that means that there
+			// was no saved data. Let's create an empty Data and *save it*
+				if (_Instance == null) {
+					// Debug.Log("Instance shouldn't be null: "); 
+					// Debug.Log(_Instance);
+					_Instance = new Data();
+					SetData();
+					}
+				}
+			return _Instance;
+			}
+		}
 	public static Data GetData()
-	{
-		//Debug to see if GetData is receiving Data.
-		Debug.Log("<<<" + PlayerPrefs.GetString("GameData")+ ">>> GetData");
-		return JsonUtility.FromJson<Data>(PlayerPrefs.GetString("GameData"));
-	}
+		{
+			//Debug to see if GetData is receiving Data.
+			Debug.Log("<<<" + PlayerPrefs.GetString("GameData")+ ">>> GetData");
+			return JsonUtility.FromJson<Data>(PlayerPrefs.GetString("GameData"));
+		}
+
+	public void SaveDatafromInstance()
+		{
+				PlayerPrefs.SetString(dataName, JsonUtility.ToJson(this));
+		}
 
 	public static void SetData()
-	{
-		// Debug check to see if SetData is actually setting Data.
-		Debug.Log("<<<" + PlayerPrefs.GetString("GameData", JsonUtility.ToJson(_Instance))+ ">>> SetData");
-		PlayerPrefs.SetString("GameData", JsonUtility.ToJson(_Instance));
-	}
-		public enum Gamespeed
-	{
-		DRAG,
-		BOOST,
-		ANTIG,
-	}
+		{
+			// Debug check to see if SetData is actually setting Data.
+			Debug.Log("<<<" + PlayerPrefs.GetString("GameData", JsonUtility.ToJson(_Instance))+ ">>> SetData");
+			PlayerPrefs.SetString("GameData", JsonUtility.ToJson(_Instance));
+		}
+	public enum Gamespeed
+		{
+			DRAG,
+			BOOST,
+			ANTIG,
+		}
 }
