@@ -1,165 +1,165 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project source="Harmony Advanced (HarmonyAdvanced.exe) version 14.0.0 build 11461 2016-06-21 14:02:21" version="1400" build="11461" creator="harmony">
+<project source="Harmony Essentials (HarmonyEssentials.exe) version 15.0.0 build 13055 2017-10-12 14:25:19" version="1500" build="13055" creator="harmony">
  <elements>
   <element id="1" elementName="Drawing" elementFolder="Drawing" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
    <drawings>
-    <dwg name="1" scaleFactor="1"/>
-    <dwg name="2" scaleFactor="1"/>
-    <dwg name="3" scaleFactor="1"/>
-    <dwg name="4" scaleFactor="1"/>
-    <dwg name="5" scaleFactor="1"/>
-    <dwg name="6" scaleFactor="1"/>
-    <dwg name="7" scaleFactor="1"/>
-    <dwg name="8" scaleFactor="1"/>
-    <dwg name="9" scaleFactor="1"/>
-    <dwg name="10" scaleFactor="1"/>
-    <dwg name="11" scaleFactor="1"/>
-    <dwg name="12" scaleFactor="1"/>
-    <dwg name="13" scaleFactor="1"/>
-    <dwg name="14" scaleFactor="1"/>
-    <dwg name="15" scaleFactor="1"/>
-    <dwg name="16" scaleFactor="1"/>
-    <dwg name="17" scaleFactor="1"/>
-    <dwg name="18" scaleFactor="1"/>
-    <dwg name="19" scaleFactor="1"/>
-    <dwg name="20" scaleFactor="1"/>
-    <dwg name="21" scaleFactor="1"/>
-    <dwg name="22" scaleFactor="1"/>
-    <dwg name="23" scaleFactor="1"/>
-    <dwg name="24" scaleFactor="1"/>
-    <dwg name="25" scaleFactor="1"/>
-    <dwg name="26" scaleFactor="1"/>
-    <dwg name="27" scaleFactor="1"/>
-    <dwg name="28" scaleFactor="1"/>
-    <dwg name="29" scaleFactor="1"/>
-    <dwg name="30" scaleFactor="1"/>
-    <dwg name="31" scaleFactor="1"/>
-    <dwg name="32" scaleFactor="1"/>
+    <dwg name="1"/>
+    <dwg name="2"/>
+    <dwg name="3"/>
+    <dwg name="4"/>
+    <dwg name="5"/>
+    <dwg name="6"/>
+    <dwg name="7"/>
+    <dwg name="8"/>
+    <dwg name="9"/>
+    <dwg name="10"/>
+    <dwg name="11"/>
+    <dwg name="12"/>
+    <dwg name="13"/>
+    <dwg name="14"/>
+    <dwg name="15"/>
+    <dwg name="16"/>
+    <dwg name="17"/>
+    <dwg name="18"/>
+    <dwg name="19"/>
+    <dwg name="20"/>
+    <dwg name="21"/>
+    <dwg name="22"/>
+    <dwg name="23"/>
+    <dwg name="24"/>
+    <dwg name="25"/>
+    <dwg name="26"/>
+    <dwg name="27"/>
+    <dwg name="28"/>
+    <dwg name="29"/>
+    <dwg name="30"/>
+    <dwg name="31"/>
+    <dwg name="32"/>
    </drawings>
   </element>
   <element id="3" elementName="10FeetRun00" elementFolder="10FeetRun00" pixmapFormat="10" scanType="2" fieldChart="12" vectorType="0" rootFolder="elements">
    <drawings>
-    <dwg name="1" scaleFactor="1"/>
-    <dwg name="2" scaleFactor="1"/>
-    <dwg name="3" scaleFactor="1"/>
-    <dwg name="4" scaleFactor="1"/>
-    <dwg name="5" scaleFactor="1"/>
-    <dwg name="6" scaleFactor="1"/>
-    <dwg name="7" scaleFactor="1"/>
-    <dwg name="8" scaleFactor="1"/>
-    <dwg name="9" scaleFactor="1"/>
-    <dwg name="10" scaleFactor="1"/>
-    <dwg name="11" scaleFactor="1"/>
-    <dwg name="12" scaleFactor="1"/>
-    <dwg name="13" scaleFactor="1"/>
-    <dwg name="14" scaleFactor="1"/>
-    <dwg name="15" scaleFactor="1"/>
-    <dwg name="16" scaleFactor="1"/>
-    <dwg name="17" scaleFactor="1"/>
-    <dwg name="18" scaleFactor="1"/>
-    <dwg name="19" scaleFactor="1"/>
-    <dwg name="20" scaleFactor="1"/>
-    <dwg name="21" scaleFactor="1"/>
-    <dwg name="22" scaleFactor="1"/>
-    <dwg name="23" scaleFactor="1"/>
-    <dwg name="24" scaleFactor="1"/>
-    <dwg name="25" scaleFactor="1"/>
-    <dwg name="26" scaleFactor="1"/>
-    <dwg name="27" scaleFactor="1"/>
-    <dwg name="28" scaleFactor="1"/>
-    <dwg name="29" scaleFactor="1"/>
-    <dwg name="30" scaleFactor="1"/>
-    <dwg name="31" scaleFactor="1"/>
-    <dwg name="32" scaleFactor="1"/>
-    <dwg name="33" scaleFactor="1"/>
-    <dwg name="34" scaleFactor="1"/>
-    <dwg name="35" scaleFactor="1"/>
-    <dwg name="36" scaleFactor="1"/>
-    <dwg name="37" scaleFactor="1"/>
-    <dwg name="38" scaleFactor="1"/>
-    <dwg name="39" scaleFactor="1"/>
-    <dwg name="40" scaleFactor="1"/>
-    <dwg name="41" scaleFactor="1"/>
-    <dwg name="42" scaleFactor="1"/>
-    <dwg name="43" scaleFactor="1"/>
-    <dwg name="44" scaleFactor="1"/>
-    <dwg name="45" scaleFactor="1"/>
-    <dwg name="46" scaleFactor="1"/>
-    <dwg name="47" scaleFactor="1"/>
-    <dwg name="48" scaleFactor="1"/>
-    <dwg name="49" scaleFactor="1"/>
-    <dwg name="50" scaleFactor="1"/>
-    <dwg name="51" scaleFactor="1"/>
-    <dwg name="52" scaleFactor="1"/>
-    <dwg name="53" scaleFactor="1"/>
-    <dwg name="54" scaleFactor="1"/>
-    <dwg name="55" scaleFactor="1"/>
-    <dwg name="56" scaleFactor="1"/>
-    <dwg name="57" scaleFactor="1"/>
-    <dwg name="58" scaleFactor="1"/>
-    <dwg name="59" scaleFactor="1"/>
-    <dwg name="60" scaleFactor="1"/>
-    <dwg name="61" scaleFactor="1"/>
-    <dwg name="62" scaleFactor="1"/>
-    <dwg name="63" scaleFactor="1"/>
-    <dwg name="64" scaleFactor="1"/>
-    <dwg name="65" scaleFactor="1"/>
-    <dwg name="66" scaleFactor="1"/>
-    <dwg name="67" scaleFactor="1"/>
-    <dwg name="68" scaleFactor="1"/>
-    <dwg name="69" scaleFactor="1"/>
-    <dwg name="70" scaleFactor="1"/>
-    <dwg name="71" scaleFactor="1"/>
-    <dwg name="72" scaleFactor="1"/>
-    <dwg name="73" scaleFactor="1"/>
-    <dwg name="74" scaleFactor="1"/>
-    <dwg name="75" scaleFactor="1"/>
-    <dwg name="76" scaleFactor="1"/>
-    <dwg name="77" scaleFactor="1"/>
-    <dwg name="78" scaleFactor="1"/>
-    <dwg name="79" scaleFactor="1"/>
-    <dwg name="80" scaleFactor="1"/>
-    <dwg name="81" scaleFactor="1"/>
-    <dwg name="82" scaleFactor="1"/>
-    <dwg name="83" scaleFactor="1"/>
-    <dwg name="84" scaleFactor="1"/>
-    <dwg name="85" scaleFactor="1"/>
-    <dwg name="86" scaleFactor="1"/>
-    <dwg name="87" scaleFactor="1"/>
-    <dwg name="88" scaleFactor="1"/>
-    <dwg name="89" scaleFactor="1"/>
-    <dwg name="90" scaleFactor="1"/>
-    <dwg name="91" scaleFactor="1"/>
+    <dwg name="1"/>
+    <dwg name="2"/>
+    <dwg name="3"/>
+    <dwg name="4"/>
+    <dwg name="5"/>
+    <dwg name="6"/>
+    <dwg name="7"/>
+    <dwg name="8"/>
+    <dwg name="9"/>
+    <dwg name="10"/>
+    <dwg name="11"/>
+    <dwg name="12"/>
+    <dwg name="13"/>
+    <dwg name="14"/>
+    <dwg name="15"/>
+    <dwg name="16"/>
+    <dwg name="17"/>
+    <dwg name="18"/>
+    <dwg name="19"/>
+    <dwg name="20"/>
+    <dwg name="21"/>
+    <dwg name="22"/>
+    <dwg name="23"/>
+    <dwg name="24"/>
+    <dwg name="25"/>
+    <dwg name="26"/>
+    <dwg name="27"/>
+    <dwg name="28"/>
+    <dwg name="29"/>
+    <dwg name="30"/>
+    <dwg name="31"/>
+    <dwg name="32"/>
+    <dwg name="33"/>
+    <dwg name="34"/>
+    <dwg name="35"/>
+    <dwg name="36"/>
+    <dwg name="37"/>
+    <dwg name="38"/>
+    <dwg name="39"/>
+    <dwg name="40"/>
+    <dwg name="41"/>
+    <dwg name="42"/>
+    <dwg name="43"/>
+    <dwg name="44"/>
+    <dwg name="45"/>
+    <dwg name="46"/>
+    <dwg name="47"/>
+    <dwg name="48"/>
+    <dwg name="49"/>
+    <dwg name="50"/>
+    <dwg name="51"/>
+    <dwg name="52"/>
+    <dwg name="53"/>
+    <dwg name="54"/>
+    <dwg name="55"/>
+    <dwg name="56"/>
+    <dwg name="57"/>
+    <dwg name="58"/>
+    <dwg name="59"/>
+    <dwg name="60"/>
+    <dwg name="61"/>
+    <dwg name="62"/>
+    <dwg name="63"/>
+    <dwg name="64"/>
+    <dwg name="65"/>
+    <dwg name="66"/>
+    <dwg name="67"/>
+    <dwg name="68"/>
+    <dwg name="69"/>
+    <dwg name="70"/>
+    <dwg name="71"/>
+    <dwg name="72"/>
+    <dwg name="73"/>
+    <dwg name="74"/>
+    <dwg name="75"/>
+    <dwg name="76"/>
+    <dwg name="77"/>
+    <dwg name="78"/>
+    <dwg name="79"/>
+    <dwg name="80"/>
+    <dwg name="81"/>
+    <dwg name="82"/>
+    <dwg name="83"/>
+    <dwg name="84"/>
+    <dwg name="85"/>
+    <dwg name="86"/>
+    <dwg name="87"/>
+    <dwg name="88"/>
+    <dwg name="89"/>
+    <dwg name="90"/>
+    <dwg name="91"/>
    </drawings>
   </element>
   <element id="15" elementName="Drawing_1" elementFolder="Drawing_1" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
    <drawings>
-    <dwg name="1" scaleFactor="1"/>
-    <dwg name="2" scaleFactor="1"/>
-    <dwg name="3" scaleFactor="1"/>
-    <dwg name="4" scaleFactor="1"/>
-    <dwg name="5" scaleFactor="1"/>
-    <dwg name="6" scaleFactor="1"/>
-    <dwg name="7" scaleFactor="1"/>
-    <dwg name="8" scaleFactor="1"/>
-    <dwg name="9" scaleFactor="1"/>
-    <dwg name="10" scaleFactor="1"/>
-    <dwg name="11" scaleFactor="1"/>
-    <dwg name="12" scaleFactor="1"/>
-    <dwg name="13" scaleFactor="1"/>
-    <dwg name="14" scaleFactor="1"/>
-    <dwg name="15" scaleFactor="1"/>
-    <dwg name="16" scaleFactor="1"/>
-    <dwg name="17" scaleFactor="1"/>
-    <dwg name="18" scaleFactor="1"/>
-    <dwg name="19" scaleFactor="1"/>
-    <dwg name="20" scaleFactor="1"/>
-    <dwg name="21" scaleFactor="1"/>
-    <dwg name="22" scaleFactor="1"/>
-    <dwg name="23" scaleFactor="1"/>
-    <dwg name="24" scaleFactor="1"/>
-    <dwg name="25" scaleFactor="1"/>
-    <dwg name="26" scaleFactor="1"/>
+    <dwg name="1"/>
+    <dwg name="2"/>
+    <dwg name="3"/>
+    <dwg name="4"/>
+    <dwg name="5"/>
+    <dwg name="6"/>
+    <dwg name="7"/>
+    <dwg name="8"/>
+    <dwg name="9"/>
+    <dwg name="10"/>
+    <dwg name="11"/>
+    <dwg name="12"/>
+    <dwg name="13"/>
+    <dwg name="14"/>
+    <dwg name="15"/>
+    <dwg name="16"/>
+    <dwg name="17"/>
+    <dwg name="18"/>
+    <dwg name="19"/>
+    <dwg name="20"/>
+    <dwg name="21"/>
+    <dwg name="22"/>
+    <dwg name="23"/>
+    <dwg name="24"/>
+    <dwg name="25"/>
+    <dwg name="26"/>
    </drawings>
   </element>
  </elements>
@@ -169,6 +169,7 @@
   <framerate val="24"/>
   <zdragging val="true"/>
   <zOrderCompatibilityWith7_3 val="false"/>
+  <pixelPerModelUnitForVectorLayers val="0.28799999999999998"/>
   <pixelPerModelUnitForBitmapLayers val="0.28800000000000009"/>
   <canvasForBitmapLayers size="3840,2160"/>
   <cameraInSymbols val="true"/>
@@ -209,7 +210,7 @@
      <elementSeq exposures="71" val="30" id="1"/>
      <elementSeq exposures="72" val="31" id="1"/>
     </column>
-    <column type="0" name="ATV-08D4C22487701038" display="false" displayOrder="0" width="100" anonymous="true" id="3">
+    <column type="0" name="ATV-08D4C22487701038" displayOrder="0" width="100" anonymous="true" id="3">
      <elementSeq exposures="1" val="1" id="3"/>
      <elementSeq exposures="2" val="2" id="3"/>
      <elementSeq exposures="3" val="3" id="3"/>
@@ -333,8 +334,8 @@
     <nodeslist>
      <module type="COMPOSITE" name="Composite" pos="0,0,0" publishUnderTab="Composite">
       <options>
-       <version val="1"/>
        <collapsed val="false"/>
+       <version val="1"/>
       </options>
       <attrs>
        <compositeMode val="compositeBitmap"/>
@@ -352,19 +353,20 @@
      </module>
      <module type="DISPLAY" name="Display" pos="50,50,0" publishUnderTab="Display">
       <options>
-       <version val="1"/>
        <collapsed val="false"/>
+       <version val="1"/>
       </options>
      </module>
      <module type="WRITE" name="Write" pos="-50,50,0" publishUnderTab="Write">
       <options>
-       <version val="1"/>
        <collapsed val="false"/>
+       <version val="1"/>
       </options>
       <attrs>
        <exportToMovie val="false"/>
        <drawingName val="frames/final-"/>
        <moviePath val="frames/output"/>
+       <movieFormat val="com.toonboom.quicktime.legacy"/>
        <movieAudio/>
        <movieVideo/>
        <movieVideoaudio/>
@@ -384,8 +386,8 @@
      </module>
      <module type="READ" name="Drawing" pos="-65,-50,0" publishUnderTab="Drawing">
       <options>
-       <version val="1"/>
        <collapsed val="false"/>
+       <version val="1"/>
       </options>
       <attrs>
        <enable3d val="false"/>
@@ -459,6 +461,10 @@
        <lineArtDrawingMode val="VectorDrawingMode"/>
        <colorArtDrawingMode val="VectorDrawingMode"/>
        <underlayArtDrawingMode val="VectorDrawingMode"/>
+       <pencilLineDeformationPreserveThickness val="false"/>
+       <pencilLineDeformationQuality val="Low"/>
+       <pencilLineDeformationSmooth val="1"/>
+       <pencilLineDeformationFitError val="3" defaultValue="3"/>
        <readColor val="true"/>
        <readTransparency val="true"/>
        <applyMatteToColor val="N"/>
@@ -489,8 +495,8 @@
      <module type="READ" name="10FeetRun00" pos="0,0,0" publishUnderTab="10FeetRun00">
       <options>
        <disabled val="true"/>
-       <version val="1"/>
        <collapsed val="false"/>
+       <version val="1"/>
       </options>
       <attrs>
        <enable3d val="false"/>
@@ -564,6 +570,10 @@
        <lineArtDrawingMode val="VectorDrawingMode"/>
        <colorArtDrawingMode val="VectorDrawingMode"/>
        <underlayArtDrawingMode val="VectorDrawingMode"/>
+       <pencilLineDeformationPreserveThickness val="false"/>
+       <pencilLineDeformationQuality val="Low"/>
+       <pencilLineDeformationSmooth val="1"/>
+       <pencilLineDeformationFitError val="3" defaultValue="3"/>
        <readColor val="true"/>
        <readTransparency val="true"/>
        <applyMatteToColor val="W"/>
@@ -593,8 +603,8 @@
      </module>
      <module type="READ" name="Drawing_1" pos="0,0,0" publishUnderTab="Drawing_1">
       <options>
-       <version val="1"/>
        <collapsed val="false"/>
+       <version val="1"/>
       </options>
       <attrs>
        <enable3d val="false"/>
@@ -668,6 +678,10 @@
        <lineArtDrawingMode val="VectorDrawingMode"/>
        <colorArtDrawingMode val="VectorDrawingMode"/>
        <underlayArtDrawingMode val="VectorDrawingMode"/>
+       <pencilLineDeformationPreserveThickness val="false"/>
+       <pencilLineDeformationQuality val="Low"/>
+       <pencilLineDeformationSmooth val="1"/>
+       <pencilLineDeformationFitError val="3" defaultValue="3"/>
        <readColor val="true"/>
        <readTransparency val="true"/>
        <applyMatteToColor val="N"/>
@@ -704,6 +718,11 @@
      <link out="Drawing_1" in="Composite" inport="2"/>
     </linkedlist>
    </rootgroup>
+   <metas>
+    <meta type="guideList" name="guideList" creator="Harmony Essentials" version="1.0">
+     <guideList selectedGuide="-1"/>
+    </meta>
+   </metas>
   </scene>
  </scenes>
  <symbols>

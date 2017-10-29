@@ -1,0 +1,70 @@
+newmtl Water
+Kd 0.2388624 0.4478627 0.6911765
+map_Kd null
+illum 2
+
+newmtl Default-Material
+Kd 1 1 1
+illum 2
+
+newmtl lambert7
+Kd 0 0.5661765 0.09761665
+map_Kd null
+illum 2
+
+newmtl Ground
+Kd 0.5147059 0.3886395 0.1173227
+map_Kd null
+illum 2
+
+newmtl Wood
+Kd 0.8161765 0.6526479 0.4620999
+map_Kd null
+illum 2
+
+newmtl Stone
+Kd 1 1 1
+map_Kd null
+illum 2
+
+newmtl Stone2
+Kd 0.7205882 0.7205882 0.7205882
+map_Kd null
+illum 2
+
+newmtl Transparent
+Kd 0 0.04827571 1
+Tr 1
+d 0
+illum 2
+
+newmtl Grass
+Kd 0.2132353 0.8529412 0.2705882
+map_Kd null
+illum 2
+
+newmtl Doors
+Kd 0.4044118 0.4044118 0.4044118
+map_Kd null
+illum 2
+
+newmtl lambert6
+Kd 0.2867647 0.1349481 0.1349481
+map_Kd null
+illum 2
+
+newmtl WaterContaminated
+Kd 0.4234429 0.6544118 0.4826569
+map_Kd null
+illum 2
+
+newmtl lambert8
+Kd 0.3449395 0.4019509 0.4044118
+map_Kd null
+illum 2
+
+newmtl lambert9
+Kd 0.7033976 0 0.7132353
+map_Kd null
+illum 2
+
