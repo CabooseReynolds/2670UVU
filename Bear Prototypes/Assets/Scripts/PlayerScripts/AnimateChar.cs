@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class AnimateChar : MonoBehaviour {
 CharacterController cc;
-[RequireComponent]
+//[RequireComponent]
 Animator anims;
 Vector3 move;
 public float Speed = 5;
@@ -17,7 +17,7 @@ public float Speed = 5;
 void update (){
 	move.x = Input.GetAxis("Horizontal") * Time.deltaTime * Speed;
 	anims.speed = move.x;
-	cc= 
+	//cc= 
 
 }
 
