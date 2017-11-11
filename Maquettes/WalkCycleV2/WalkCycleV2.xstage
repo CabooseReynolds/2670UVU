@@ -1,101 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project source="Harmony Advanced (HarmonyAdvanced.exe) version 14.0.0 build 11461 2016-06-21 14:02:21" version="1400" build="11461" creator="harmony">
  <elements>
-  <element id="3" elementName="10FeetRun00" elementFolder="10FeetRun00" pixmapFormat="10" scanType="2" fieldChart="12" vectorType="0" rootFolder="elements">
-   <drawings>
-    <dwg name="1" scaleFactor="1"/>
-    <dwg name="2" scaleFactor="1"/>
-    <dwg name="3" scaleFactor="1"/>
-    <dwg name="4" scaleFactor="1"/>
-    <dwg name="5" scaleFactor="1"/>
-    <dwg name="6" scaleFactor="1"/>
-    <dwg name="7" scaleFactor="1"/>
-    <dwg name="8" scaleFactor="1"/>
-    <dwg name="9" scaleFactor="1"/>
-    <dwg name="10" scaleFactor="1"/>
-    <dwg name="11" scaleFactor="1"/>
-    <dwg name="12" scaleFactor="1"/>
-    <dwg name="13" scaleFactor="1"/>
-    <dwg name="14" scaleFactor="1"/>
-    <dwg name="15" scaleFactor="1"/>
-    <dwg name="16" scaleFactor="1"/>
-    <dwg name="17" scaleFactor="1"/>
-    <dwg name="18" scaleFactor="1"/>
-    <dwg name="19" scaleFactor="1"/>
-    <dwg name="20" scaleFactor="1"/>
-    <dwg name="21" scaleFactor="1"/>
-    <dwg name="22" scaleFactor="1"/>
-    <dwg name="23" scaleFactor="1"/>
-    <dwg name="24" scaleFactor="1"/>
-    <dwg name="25" scaleFactor="1"/>
-    <dwg name="26" scaleFactor="1"/>
-    <dwg name="27" scaleFactor="1"/>
-    <dwg name="28" scaleFactor="1"/>
-    <dwg name="29" scaleFactor="1"/>
-    <dwg name="30" scaleFactor="1"/>
-    <dwg name="31" scaleFactor="1"/>
-    <dwg name="32" scaleFactor="1"/>
-    <dwg name="33" scaleFactor="1"/>
-    <dwg name="34" scaleFactor="1"/>
-    <dwg name="35" scaleFactor="1"/>
-    <dwg name="36" scaleFactor="1"/>
-    <dwg name="37" scaleFactor="1"/>
-    <dwg name="38" scaleFactor="1"/>
-    <dwg name="39" scaleFactor="1"/>
-    <dwg name="40" scaleFactor="1"/>
-    <dwg name="41" scaleFactor="1"/>
-    <dwg name="42" scaleFactor="1"/>
-    <dwg name="43" scaleFactor="1"/>
-    <dwg name="44" scaleFactor="1"/>
-    <dwg name="45" scaleFactor="1"/>
-    <dwg name="46" scaleFactor="1"/>
-    <dwg name="47" scaleFactor="1"/>
-    <dwg name="48" scaleFactor="1"/>
-    <dwg name="49" scaleFactor="1"/>
-    <dwg name="50" scaleFactor="1"/>
-    <dwg name="51" scaleFactor="1"/>
-    <dwg name="52" scaleFactor="1"/>
-    <dwg name="53" scaleFactor="1"/>
-    <dwg name="54" scaleFactor="1"/>
-    <dwg name="55" scaleFactor="1"/>
-    <dwg name="56" scaleFactor="1"/>
-    <dwg name="57" scaleFactor="1"/>
-    <dwg name="58" scaleFactor="1"/>
-    <dwg name="59" scaleFactor="1"/>
-    <dwg name="60" scaleFactor="1"/>
-    <dwg name="61" scaleFactor="1"/>
-    <dwg name="62" scaleFactor="1"/>
-    <dwg name="63" scaleFactor="1"/>
-    <dwg name="64" scaleFactor="1"/>
-    <dwg name="65" scaleFactor="1"/>
-    <dwg name="66" scaleFactor="1"/>
-    <dwg name="67" scaleFactor="1"/>
-    <dwg name="68" scaleFactor="1"/>
-    <dwg name="69" scaleFactor="1"/>
-    <dwg name="70" scaleFactor="1"/>
-    <dwg name="71" scaleFactor="1"/>
-    <dwg name="72" scaleFactor="1"/>
-    <dwg name="73" scaleFactor="1"/>
-    <dwg name="74" scaleFactor="1"/>
-    <dwg name="75" scaleFactor="1"/>
-    <dwg name="76" scaleFactor="1"/>
-    <dwg name="77" scaleFactor="1"/>
-    <dwg name="78" scaleFactor="1"/>
-    <dwg name="79" scaleFactor="1"/>
-    <dwg name="80" scaleFactor="1"/>
-    <dwg name="81" scaleFactor="1"/>
-    <dwg name="82" scaleFactor="1"/>
-    <dwg name="83" scaleFactor="1"/>
-    <dwg name="84" scaleFactor="1"/>
-    <dwg name="85" scaleFactor="1"/>
-    <dwg name="86" scaleFactor="1"/>
-    <dwg name="87" scaleFactor="1"/>
-    <dwg name="88" scaleFactor="1"/>
-    <dwg name="89" scaleFactor="1"/>
-    <dwg name="90" scaleFactor="1"/>
-    <dwg name="91" scaleFactor="1"/>
-   </drawings>
-  </element>
   <element id="15" elementName="Drawing_1" elementFolder="Drawing_1" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
    <drawings>
     <dwg name="1" scaleFactor="1"/>
@@ -127,63 +32,6 @@
    </drawings>
   </element>
   <element id="16" elementName="background" elementFolder="background" pixmapFormat="10" scanType="2" fieldChart="12" vectorType="0" rootFolder="elements">
-   <drawings>
-    <dwg name="1" scaleFactor="1"/>
-   </drawings>
-  </element>
-  <element id="17" elementName="Bearpaw1" elementFolder="Bearpaw1" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
-   <drawings>
-    <dwg name="32" scaleFactor="1"/>
-    <dwg name="1" scaleFactor="1"/>
-    <dwg name="2" scaleFactor="1"/>
-    <dwg name="3" scaleFactor="1"/>
-    <dwg name="4" scaleFactor="1"/>
-    <dwg name="5" scaleFactor="1"/>
-    <dwg name="6" scaleFactor="1"/>
-    <dwg name="7" scaleFactor="1"/>
-    <dwg name="8" scaleFactor="1"/>
-    <dwg name="9" scaleFactor="1"/>
-    <dwg name="10" scaleFactor="1"/>
-    <dwg name="11" scaleFactor="1"/>
-    <dwg name="12" scaleFactor="1"/>
-    <dwg name="13" scaleFactor="1"/>
-    <dwg name="14" scaleFactor="1"/>
-    <dwg name="16" scaleFactor="1"/>
-    <dwg name="17" scaleFactor="1"/>
-    <dwg name="18" scaleFactor="1"/>
-    <dwg name="19" scaleFactor="1"/>
-    <dwg name="20" scaleFactor="1"/>
-    <dwg name="21" scaleFactor="1"/>
-    <dwg name="22" scaleFactor="1"/>
-    <dwg name="23" scaleFactor="1"/>
-    <dwg name="24" scaleFactor="1"/>
-    <dwg name="25" scaleFactor="1"/>
-    <dwg name="28" scaleFactor="1"/>
-    <dwg name="29" scaleFactor="1"/>
-    <dwg name="30" scaleFactor="1"/>
-    <dwg name="31" scaleFactor="1"/>
-    <dwg name="15" scaleFactor="1"/>
-    <dwg name="26" scaleFactor="1"/>
-    <dwg name="27" scaleFactor="1"/>
-    <dwg name="33" scaleFactor="1"/>
-    <dwg name="34" scaleFactor="1"/>
-    <dwg name="35" scaleFactor="1"/>
-    <dwg name="36" scaleFactor="1"/>
-    <dwg name="37" scaleFactor="1"/>
-    <dwg name="38" scaleFactor="1"/>
-    <dwg name="39" scaleFactor="1"/>
-    <dwg name="40" scaleFactor="1"/>
-    <dwg name="41" scaleFactor="1"/>
-    <dwg name="42" scaleFactor="1"/>
-    <dwg name="43" scaleFactor="1"/>
-    <dwg name="44" scaleFactor="1"/>
-    <dwg name="45" scaleFactor="1"/>
-    <dwg name="46" scaleFactor="1"/>
-    <dwg name="47" scaleFactor="1"/>
-    <dwg name="48" scaleFactor="1"/>
-   </drawings>
-  </element>
-  <element id="19" elementName="bearcharacter_sheet_2" elementFolder="bearcharacter_sheet_2" pixmapFormat="11" scanType="2" fieldChart="12" vectorType="0" rootFolder="elements">
    <drawings>
     <dwg name="1" scaleFactor="1"/>
    </drawings>
@@ -332,59 +180,6 @@
     <dwg name="9" scaleFactor="1"/>
    </drawings>
   </element>
-  <element id="29" elementName="Bearpaw2" elementFolder="Bearpaw2.29" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
-   <drawings>
-    <dwg name="33" scaleFactor="1"/>
-    <dwg name="34" scaleFactor="1"/>
-    <dwg name="35" scaleFactor="1"/>
-    <dwg name="36" scaleFactor="1"/>
-    <dwg name="37" scaleFactor="1"/>
-    <dwg name="38" scaleFactor="1"/>
-    <dwg name="39" scaleFactor="1"/>
-    <dwg name="40" scaleFactor="1"/>
-    <dwg name="1" scaleFactor="1"/>
-    <dwg name="10" scaleFactor="1"/>
-    <dwg name="11" scaleFactor="1"/>
-    <dwg name="12" scaleFactor="1"/>
-    <dwg name="13" scaleFactor="1"/>
-    <dwg name="14" scaleFactor="1"/>
-    <dwg name="15" scaleFactor="1"/>
-    <dwg name="16" scaleFactor="1"/>
-    <dwg name="17" scaleFactor="1"/>
-    <dwg name="18" scaleFactor="1"/>
-    <dwg name="19" scaleFactor="1"/>
-    <dwg name="2" scaleFactor="1"/>
-    <dwg name="20" scaleFactor="1"/>
-    <dwg name="21" scaleFactor="1"/>
-    <dwg name="22" scaleFactor="1"/>
-    <dwg name="23" scaleFactor="1"/>
-    <dwg name="24" scaleFactor="1"/>
-    <dwg name="25" scaleFactor="1"/>
-    <dwg name="26" scaleFactor="1"/>
-    <dwg name="27" scaleFactor="1"/>
-    <dwg name="28" scaleFactor="1"/>
-    <dwg name="29" scaleFactor="1"/>
-    <dwg name="3" scaleFactor="1"/>
-    <dwg name="30" scaleFactor="1"/>
-    <dwg name="31" scaleFactor="1"/>
-    <dwg name="32" scaleFactor="1"/>
-    <dwg name="4" scaleFactor="1"/>
-    <dwg name="5" scaleFactor="1"/>
-    <dwg name="6" scaleFactor="1"/>
-    <dwg name="7" scaleFactor="1"/>
-    <dwg name="8" scaleFactor="1"/>
-    <dwg name="9" scaleFactor="1"/>
-    <dwg name="41" scaleFactor="1"/>
-    <dwg name="42" scaleFactor="1"/>
-    <dwg name="43" scaleFactor="1"/>
-    <dwg name="44" scaleFactor="1"/>
-    <dwg name="45" scaleFactor="1"/>
-    <dwg name="46" scaleFactor="1"/>
-    <dwg name="47" scaleFactor="1"/>
-    <dwg name="48" scaleFactor="1"/>
-    <dwg name="49" scaleFactor="1"/>
-   </drawings>
-  </element>
   <element id="30" elementName="Bearpaw1" elementFolder="Bearpaw1.30" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
    <drawings>
     <dwg name="22" scaleFactor="1"/>
@@ -427,9 +222,18 @@
     <dwg name="7" scaleFactor="1"/>
     <dwg name="8" scaleFactor="1"/>
     <dwg name="9" scaleFactor="1"/>
+    <dwg name="41" scaleFactor="1"/>
+    <dwg name="42" scaleFactor="1"/>
+    <dwg name="43" scaleFactor="1"/>
+    <dwg name="44" scaleFactor="1"/>
+    <dwg name="45" scaleFactor="1"/>
+    <dwg name="46" scaleFactor="1"/>
+    <dwg name="47" scaleFactor="1"/>
+    <dwg name="48" scaleFactor="1"/>
+    <dwg name="49" scaleFactor="1"/>
    </drawings>
   </element>
-  <element id="31" elementName="Bearpaw1" elementFolder="Bearpaw1.31" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
+  <element id="33" elementName="Bearpaw2" elementFolder="Bearpaw2" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
    <drawings>
     <dwg name="41" scaleFactor="1"/>
     <dwg name="42" scaleFactor="1"/>
@@ -439,6 +243,7 @@
     <dwg name="46" scaleFactor="1"/>
     <dwg name="47" scaleFactor="1"/>
     <dwg name="48" scaleFactor="1"/>
+    <dwg name="49" scaleFactor="1"/>
     <dwg name="1" scaleFactor="1"/>
     <dwg name="10" scaleFactor="1"/>
     <dwg name="11" scaleFactor="1"/>
@@ -479,71 +284,8 @@
     <dwg name="7" scaleFactor="1"/>
     <dwg name="8" scaleFactor="1"/>
     <dwg name="9" scaleFactor="1"/>
-    <dwg name="49" scaleFactor="1"/>
     <dwg name="50" scaleFactor="1"/>
     <dwg name="51" scaleFactor="1"/>
-    <dwg name="52" scaleFactor="1"/>
-    <dwg name="53" scaleFactor="1"/>
-    <dwg name="54" scaleFactor="1"/>
-    <dwg name="55" scaleFactor="1"/>
-    <dwg name="56" scaleFactor="1"/>
-    <dwg name="57" scaleFactor="1"/>
-   </drawings>
-  </element>
-  <element id="32" elementName="Bearpaw1" elementFolder="Bearpaw1.32" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
-   <drawings>
-    <dwg name="49" scaleFactor="1"/>
-    <dwg name="1" scaleFactor="1"/>
-    <dwg name="10" scaleFactor="1"/>
-    <dwg name="11" scaleFactor="1"/>
-    <dwg name="12" scaleFactor="1"/>
-    <dwg name="13" scaleFactor="1"/>
-    <dwg name="14" scaleFactor="1"/>
-    <dwg name="15" scaleFactor="1"/>
-    <dwg name="16" scaleFactor="1"/>
-    <dwg name="17" scaleFactor="1"/>
-    <dwg name="18" scaleFactor="1"/>
-    <dwg name="19" scaleFactor="1"/>
-    <dwg name="2" scaleFactor="1"/>
-    <dwg name="20" scaleFactor="1"/>
-    <dwg name="21" scaleFactor="1"/>
-    <dwg name="22" scaleFactor="1"/>
-    <dwg name="23" scaleFactor="1"/>
-    <dwg name="24" scaleFactor="1"/>
-    <dwg name="25" scaleFactor="1"/>
-    <dwg name="26" scaleFactor="1"/>
-    <dwg name="27" scaleFactor="1"/>
-    <dwg name="28" scaleFactor="1"/>
-    <dwg name="29" scaleFactor="1"/>
-    <dwg name="3" scaleFactor="1"/>
-    <dwg name="30" scaleFactor="1"/>
-    <dwg name="31" scaleFactor="1"/>
-    <dwg name="32" scaleFactor="1"/>
-    <dwg name="33" scaleFactor="1"/>
-    <dwg name="34" scaleFactor="1"/>
-    <dwg name="35" scaleFactor="1"/>
-    <dwg name="36" scaleFactor="1"/>
-    <dwg name="37" scaleFactor="1"/>
-    <dwg name="38" scaleFactor="1"/>
-    <dwg name="39" scaleFactor="1"/>
-    <dwg name="4" scaleFactor="1"/>
-    <dwg name="40" scaleFactor="1"/>
-    <dwg name="41" scaleFactor="1"/>
-    <dwg name="42" scaleFactor="1"/>
-    <dwg name="43" scaleFactor="1"/>
-    <dwg name="44" scaleFactor="1"/>
-    <dwg name="45" scaleFactor="1"/>
-    <dwg name="46" scaleFactor="1"/>
-    <dwg name="47" scaleFactor="1"/>
-    <dwg name="48" scaleFactor="1"/>
-    <dwg name="5" scaleFactor="1"/>
-    <dwg name="6" scaleFactor="1"/>
-    <dwg name="7" scaleFactor="1"/>
-    <dwg name="8" scaleFactor="1"/>
-    <dwg name="9" scaleFactor="1"/>
-    <dwg name="50" scaleFactor="1"/>
-    <dwg name="51" scaleFactor="1"/>
-    <dwg name="52" scaleFactor="1"/>
    </drawings>
   </element>
  </elements>
@@ -562,194 +304,11 @@
  <scenes>
   <scene name="Top" id="08d4c224877007e6" nbframes="87">
    <columns>
-    <column type="0" name="ATV-08D4C22487701038" displayOrder="0" width="100" anonymous="true" id="3">
-     <elementSeq exposures="1" val="1" id="3"/>
-     <elementSeq exposures="2" val="2" id="3"/>
-     <elementSeq exposures="3" val="3" id="3"/>
-     <elementSeq exposures="4" val="4" id="3"/>
-     <elementSeq exposures="5" val="5" id="3"/>
-     <elementSeq exposures="6" val="6" id="3"/>
-     <elementSeq exposures="7" val="7" id="3"/>
-     <elementSeq exposures="8" val="8" id="3"/>
-     <elementSeq exposures="9" val="9" id="3"/>
-     <elementSeq exposures="10" val="10" id="3"/>
-     <elementSeq exposures="11" val="11" id="3"/>
-     <elementSeq exposures="12" val="12" id="3"/>
-     <elementSeq exposures="13" val="13" id="3"/>
-     <elementSeq exposures="14" val="14" id="3"/>
-     <elementSeq exposures="15" val="15" id="3"/>
-     <elementSeq exposures="16" val="16" id="3"/>
-     <elementSeq exposures="17" val="17" id="3"/>
-     <elementSeq exposures="18" val="18" id="3"/>
-     <elementSeq exposures="19" val="19" id="3"/>
-     <elementSeq exposures="20" val="20" id="3"/>
-     <elementSeq exposures="21" val="21" id="3"/>
-     <elementSeq exposures="22" val="22" id="3"/>
-     <elementSeq exposures="23" val="23" id="3"/>
-     <elementSeq exposures="24" val="24" id="3"/>
-     <elementSeq exposures="25" val="25" id="3"/>
-     <elementSeq exposures="26" val="26" id="3"/>
-     <elementSeq exposures="27" val="27" id="3"/>
-     <elementSeq exposures="28" val="28" id="3"/>
-     <elementSeq exposures="29" val="29" id="3"/>
-     <elementSeq exposures="30" val="30" id="3"/>
-     <elementSeq exposures="31" val="31" id="3"/>
-     <elementSeq exposures="32" val="32" id="3"/>
-     <elementSeq exposures="33" val="33" id="3"/>
-     <elementSeq exposures="34" val="34" id="3"/>
-     <elementSeq exposures="35" val="35" id="3"/>
-     <elementSeq exposures="36" val="36" id="3"/>
-     <elementSeq exposures="37" val="37" id="3"/>
-     <elementSeq exposures="38" val="38" id="3"/>
-     <elementSeq exposures="39" val="39" id="3"/>
-     <elementSeq exposures="40" val="40" id="3"/>
-     <elementSeq exposures="41" val="41" id="3"/>
-     <elementSeq exposures="42" val="43" id="3"/>
-     <elementSeq exposures="43" val="44" id="3"/>
-     <elementSeq exposures="44" val="45" id="3"/>
-     <elementSeq exposures="45" val="46" id="3"/>
-     <elementSeq exposures="46" val="47" id="3"/>
-     <elementSeq exposures="47" val="48" id="3"/>
-     <elementSeq exposures="48" val="49" id="3"/>
-     <elementSeq exposures="49" val="50" id="3"/>
-     <elementSeq exposures="50" val="51" id="3"/>
-     <elementSeq exposures="51" val="52" id="3"/>
-     <elementSeq exposures="52" val="53" id="3"/>
-     <elementSeq exposures="53" val="54" id="3"/>
-     <elementSeq exposures="54" val="55" id="3"/>
-     <elementSeq exposures="55" val="56" id="3"/>
-     <elementSeq exposures="56" val="57" id="3"/>
-     <elementSeq exposures="57" val="58" id="3"/>
-     <elementSeq exposures="58" val="59" id="3"/>
-     <elementSeq exposures="59" val="60" id="3"/>
-     <elementSeq exposures="60" val="61" id="3"/>
-     <elementSeq exposures="61" val="62" id="3"/>
-     <elementSeq exposures="62" val="63" id="3"/>
-     <elementSeq exposures="63" val="64" id="3"/>
-     <elementSeq exposures="64" val="65" id="3"/>
-     <elementSeq exposures="65" val="66" id="3"/>
-     <elementSeq exposures="66" val="67" id="3"/>
-     <elementSeq exposures="67" val="68" id="3"/>
-     <elementSeq exposures="68" val="69" id="3"/>
-     <elementSeq exposures="69" val="73" id="3"/>
-     <elementSeq exposures="70" val="74" id="3"/>
-     <elementSeq exposures="71" val="75" id="3"/>
-     <elementSeq exposures="72" val="76" id="3"/>
-     <elementSeq exposures="73" val="77" id="3"/>
-     <elementSeq exposures="74" val="78" id="3"/>
-     <elementSeq exposures="75" val="79" id="3"/>
-     <elementSeq exposures="76" val="80" id="3"/>
-     <elementSeq exposures="77" val="81" id="3"/>
-     <elementSeq exposures="78" val="82" id="3"/>
-     <elementSeq exposures="79" val="83" id="3"/>
-     <elementSeq exposures="80" val="84" id="3"/>
-     <elementSeq exposures="81" val="85" id="3"/>
-     <elementSeq exposures="82" val="86" id="3"/>
-     <elementSeq exposures="83" val="87" id="3"/>
-     <elementSeq exposures="84" val="88" id="3"/>
-     <elementSeq exposures="85" val="89" id="3"/>
-     <elementSeq exposures="86" val="90" id="3"/>
-     <elementSeq exposures="87" val="91" id="3"/>
-    </column>
     <column type="0" name="ATV-08D4C22487775491" displayOrder="0" width="100" anonymous="true" id="15">
      <elementSeq exposures="1-88,155-158" val="1" id="15"/>
     </column>
     <column type="0" name="ATV-08D75139A0A074D2" displayOrder="0" width="100" anonymous="true" id="16">
      <elementSeq exposures="1-87" val="1" id="16"/>
-    </column>
-    <column type="0" name="Bearpaw1" color="#FFFFFFFF" display="false" displayOrder="0" width="100" anonymous="true" id="17">
-     <elementSeq exposures="63" val="41" id="17"/>
-     <elementSeq exposures="64" val="42" id="17"/>
-     <elementSeq exposures="65" val="43" id="17"/>
-     <elementSeq exposures="66" val="44" id="17"/>
-     <elementSeq exposures="67" val="45" id="17"/>
-     <elementSeq exposures="68" val="46" id="17"/>
-     <elementSeq exposures="69" val="47" id="17"/>
-     <elementSeq exposures="70" val="48" id="17"/>
-    </column>
-    <column type="3" name="ATV-08D8D14A9A91C5AD" displayOrder="0" width="100" anonymous="true">
-     <step val="1" start="1" stop="1"/>
-     <noFrames/>
-    </column>
-    <column type="0" name="ATV-08D8D14A9A9310B0" displayOrder="0" width="100" anonymous="true" id="19">
-     <elementSeq exposures="1-87" val="1" id="19"/>
-    </column>
-    <column type="3" name="ATV-08D8D14A9A91C5AE" displayOrder="0" width="100" anonymous="true">
-     <step val="1" start="1" stop="1"/>
-     <noFrames/>
-    </column>
-    <column type="3" name="ATV-08D8D14A9A91C5AF" displayOrder="0" width="100" anonymous="true">
-     <step val="1" start="1" stop="1"/>
-     <noFrames/>
-    </column>
-    <column type="3" name="ATV-08D8D14A9A91C5B0" displayOrder="0" width="100" anonymous="true">
-     <step val="1" start="1" stop="1"/>
-     <noFrames/>
-    </column>
-    <column type="3" name="ATV-08D8D14A9A9315DD" displayOrder="0" width="100" anonymous="true">
-     <step val="1" start="1" stop="1"/>
-     <noFrames/>
-     <points version="2">
-      <pt constSeg="false" x="67" yLocal="-34.779577525738226" y="-34.779577525738226"/>
-      <pt constSeg="false" x="1" yLocal="0" y="0"/>
-     </points>
-    </column>
-    <column type="3" name="ATV-08D8D14A9A91C5B2" displayOrder="0" width="100" anonymous="true">
-     <step val="1" start="1" stop="1"/>
-     <noFrames/>
-    </column>
-    <column type="3" name="ATV-08D8D14A9A9315DE" displayOrder="0" width="100" anonymous="true">
-     <step val="1" start="1" stop="1"/>
-     <noFrames/>
-     <points version="2">
-      <pt constSeg="false" x="1" yLocal="0" y="0"/>
-      <pt constSeg="false" x="67" yLocal="27.620272678334828" y="27.620272678334828"/>
-     </points>
-    </column>
-    <column type="3" name="ATV-08D8D14A9A91C5B3" displayOrder="0" width="100" anonymous="true">
-     <step val="1" start="1" stop="1"/>
-     <noFrames/>
-    </column>
-    <column type="3" name="ATV-08D8D14A9A9315DF" displayOrder="0" width="100" anonymous="true">
-     <step val="1" start="1" stop="1"/>
-     <noFrames/>
-     <points version="2">
-      <pt constSeg="false" x="1,67" yLocal="0" y="0"/>
-     </points>
-    </column>
-    <column type="3" name="ATV-08D8D14A9A91C5B1" displayOrder="0" width="100" anonymous="true">
-     <step val="1" start="1" stop="1"/>
-     <noFrames/>
-    </column>
-    <column type="3" name="ATV-08D8D14A9A9315E0" displayOrder="0" width="100" anonymous="true">
-     <step val="1" start="1" stop="1"/>
-     <noFrames/>
-     <points version="2">
-      <pt constSeg="false" x="1" yLocal="1" y="1"/>
-      <pt constSeg="false" x="67" yLocal="8.4907890146651699" y="8.4907890146651699"/>
-     </points>
-    </column>
-    <column type="3" name="ATV-08D8D14A9A9315E1" displayOrder="0" width="100" anonymous="true">
-     <step val="1" start="1" stop="1"/>
-     <noFrames/>
-     <points version="2">
-      <pt constSeg="false" x="1" yLocal="1" y="1"/>
-      <pt constSeg="false" x="67" yLocal="8.4907890146651894" y="8.4907890146651894"/>
-     </points>
-    </column>
-    <column type="3" name="ATV-08D8D14A9A9315E2" displayOrder="0" width="100" anonymous="true">
-     <step val="1" start="1" stop="1"/>
-     <noFrames/>
-     <points version="2">
-      <pt constSeg="false" x="1,67" yLocal="0" y="0"/>
-     </points>
-    </column>
-    <column type="3" name="ATV-08D8D14A9A9315E3" displayOrder="0" width="100" anonymous="true">
-     <step val="1" start="1" stop="1"/>
-     <noFrames/>
-     <points version="2">
-      <pt constSeg="false" x="1,67" yLocal="0" y="0"/>
-     </points>
     </column>
     <column type="0" name="OlderBoyLeg" color="#FFFFFFFF" displayOrder="0" width="100" anonymous="true" id="22">
      <elementSeq exposures="10" val="1" id="22"/>
@@ -821,182 +380,76 @@
      <step val="1" start="1" stop="1"/>
      <noFrames/>
     </column>
-    <column type="0" name="Bearpaw2" color="#FFFFFFFF" display="false" displayOrder="0" width="100" anonymous="true" id="29">
-     <elementSeq exposures="65" val="49" id="29"/>
-     <elementSeq exposures="66" val="41" id="29"/>
-     <elementSeq exposures="67" val="42" id="29"/>
-     <elementSeq exposures="68" val="43" id="29"/>
-     <elementSeq exposures="69" val="44" id="29"/>
-     <elementSeq exposures="70" val="45" id="29"/>
-     <elementSeq exposures="71" val="46" id="29"/>
-     <elementSeq exposures="72" val="47" id="29"/>
-     <elementSeq exposures="73" val="48" id="29"/>
-    </column>
-    <column type="3" name="ATV-08DA0904F334C094" color="#C7C6BBFF" displayOrder="0" width="100" anonymous="true">
-     <step val="1" start="1" stop="1"/>
-     <noFrames/>
-    </column>
-    <column type="3" name="ATV-08DA0904F334C096" color="#C7C6BBFF" displayOrder="0" width="100" anonymous="true">
-     <step val="1" start="1" stop="1"/>
-     <noFrames/>
-    </column>
-    <column type="3" name="ATV-08DA0904F334C098" color="#C7C6BBFF" displayOrder="0" width="100" anonymous="true">
-     <step val="1" start="1" stop="1"/>
-     <noFrames/>
-    </column>
-    <column type="3" name="ATV-08DA0904F334C09A" color="#C7C6BBFF" displayOrder="0" width="100" anonymous="true">
-     <step val="1" start="1" stop="1"/>
-     <noFrames/>
-    </column>
-    <column type="3" name="ATV-08DA0904F334C09C" color="#C7C6BBFF" displayOrder="0" width="100" anonymous="true">
-     <step val="1" start="1" stop="1"/>
-     <noFrames/>
-    </column>
-    <column type="3" name="ATV-08DA0904F334C09E" color="#C7C6BBFF" displayOrder="0" width="100" anonymous="true">
-     <step val="1" start="1" stop="1"/>
-     <noFrames/>
-    </column>
-    <column type="3" name="ATV-08DA0904F334C0A0" color="#C7C6BBFF" displayOrder="0" width="100" anonymous="true">
-     <step val="1" start="1" stop="1"/>
-     <noFrames/>
-    </column>
-    <column type="0" name="ATV-08DA0904F3371B6D" color="#FFFFFFFF" displayOrder="0" width="100" anonymous="true" id="30">
-     <elementSeq exposures="63" val="22" id="30"/>
-     <elementSeq exposures="64" val="23" id="30"/>
-     <elementSeq exposures="65" val="24" id="30"/>
-     <elementSeq exposures="66" val="25" id="30"/>
-     <elementSeq exposures="67" val="28" id="30"/>
-     <elementSeq exposures="68" val="29" id="30"/>
-     <elementSeq exposures="69" val="30" id="30"/>
-     <elementSeq exposures="70" val="31" id="30"/>
+    <column type="0" name="Bearpaw1" color="#FFFFFFFF" displayOrder="0" width="100" anonymous="true" id="30">
+     <elementSeq exposures="63" val="41" id="30"/>
+     <elementSeq exposures="64" val="42" id="30"/>
+     <elementSeq exposures="65" val="43" id="30"/>
+     <elementSeq exposures="66" val="44" id="30"/>
+     <elementSeq exposures="67" val="45" id="30"/>
+     <elementSeq exposures="68" val="46" id="30"/>
+     <elementSeq exposures="69" val="47" id="30"/>
+     <elementSeq exposures="70" val="48" id="30"/>
+     <elementSeq exposures="71" val="49" id="30"/>
     </column>
     <column type="3" name="ATV-08DA0904F3371B6F" color="#C7C6BBFF" displayOrder="0" width="100" anonymous="true">
      <step val="1" start="1" stop="1"/>
      <noFrames/>
-     <points version="2">
-      <pt constSeg="false" x="63,65,70" yLocal="4.1491425820178947" y="4.1491425820178947"/>
-     </points>
     </column>
     <column type="3" name="ATV-08DA0904F3371B71" color="#C7C6BBFF" displayOrder="0" width="100" anonymous="true">
      <step val="1" start="1" stop="1"/>
      <noFrames/>
-     <points version="2">
-      <pt constSeg="false" x="63,65,70" yLocal="0" y="0"/>
-     </points>
     </column>
     <column type="3" name="ATV-08DA0904F3371B73" color="#C7C6BBFF" displayOrder="0" width="100" anonymous="true">
      <step val="1" start="1" stop="1"/>
      <noFrames/>
-     <points version="2">
-      <pt constSeg="false" x="63,65,70" yLocal="0" y="0"/>
-     </points>
     </column>
     <column type="3" name="ATV-08DA0904F3371B75" color="#C7C6BBFF" displayOrder="0" width="100" anonymous="true">
      <step val="1" start="1" stop="1"/>
      <noFrames/>
-     <points version="2">
-      <pt constSeg="false" x="63,65,70" yLocal="0" y="0"/>
-     </points>
     </column>
     <column type="3" name="ATV-08DA0904F3371B77" color="#C7C6BBFF" displayOrder="0" width="100" anonymous="true">
      <step val="1" start="1" stop="1"/>
      <noFrames/>
-     <points version="2">
-      <pt constSeg="false" x="63,65,70" yLocal="1" y="1"/>
-     </points>
     </column>
     <column type="3" name="ATV-08DA0904F3371B79" color="#C7C6BBFF" displayOrder="0" width="100" anonymous="true">
      <step val="1" start="1" stop="1"/>
      <noFrames/>
-     <points version="2">
-      <pt constSeg="false" x="63,65,70" yLocal="1" y="1"/>
-     </points>
     </column>
     <column type="3" name="ATV-08DA0904F3371B7B" color="#C7C6BBFF" displayOrder="0" width="100" anonymous="true">
      <step val="1" start="1" stop="1"/>
      <noFrames/>
-     <points version="2">
-      <pt constSeg="false" x="63,65,70" yLocal="0" y="0"/>
-     </points>
     </column>
-    <column type="0" name="ATV-08DAD5D49F2069EC" color="#FFFFFFFF" displayOrder="0" width="100" anonymous="true" id="31">
-     <elementSeq exposures="63" val="50" id="31"/>
-     <elementSeq exposures="64" val="51" id="31"/>
-     <elementSeq exposures="65" val="52" id="31"/>
-     <elementSeq exposures="66" val="57" id="31"/>
-     <elementSeq exposures="67" val="53" id="31"/>
-     <elementSeq exposures="68" val="54" id="31"/>
-     <elementSeq exposures="69-70" val="55" id="31"/>
-     <elementSeq exposures="71" val="56" id="31"/>
+    <column type="0" name="Bearpaw2" color="#FFFFFFFF" displayOrder="0" width="100" anonymous="true" id="33">
+     <elementSeq exposures="65" val="49" id="33"/>
+     <elementSeq exposures="66" val="41" id="33"/>
+     <elementSeq exposures="67" val="42" id="33"/>
+     <elementSeq exposures="68" val="43" id="33"/>
+     <elementSeq exposures="69" val="44" id="33"/>
+     <elementSeq exposures="70" val="45" id="33"/>
+     <elementSeq exposures="71" val="46" id="33"/>
+     <elementSeq exposures="72" val="47" id="33"/>
+     <elementSeq exposures="73" val="48" id="33"/>
     </column>
-    <column type="3" name="ATV-08DAD5D49F2069EE" color="#C7C6BBFF" displayOrder="0" width="100" anonymous="true">
+    <column type="3" name="ATV-08DAC1CBD9545CAD" color="#C7C6BBFF" displayOrder="0" width="100" anonymous="true">
      <step val="1" start="1" stop="1"/>
     </column>
-    <column type="3" name="ATV-08DAD5D49F2069F0" color="#C7C6BBFF" displayOrder="0" width="100" anonymous="true">
+    <column type="3" name="ATV-08DAC1CBD9545CAF" color="#C7C6BBFF" displayOrder="0" width="100" anonymous="true">
      <step val="1" start="1" stop="1"/>
     </column>
-    <column type="3" name="ATV-08DAD5D49F2069F2" color="#C7C6BBFF" displayOrder="0" width="100" anonymous="true">
+    <column type="3" name="ATV-08DAC1CBD9545CB1" color="#C7C6BBFF" displayOrder="0" width="100" anonymous="true">
      <step val="1" start="1" stop="1"/>
     </column>
-    <column type="3" name="ATV-08DAD5D49F2069F4" color="#C7C6BBFF" displayOrder="0" width="100" anonymous="true">
+    <column type="3" name="ATV-08DAC1CBD9545CB3" color="#C7C6BBFF" displayOrder="0" width="100" anonymous="true">
      <step val="1" start="1" stop="1"/>
     </column>
-    <column type="3" name="ATV-08DAD5D49F2069F6" color="#C7C6BBFF" displayOrder="0" width="100" anonymous="true">
+    <column type="3" name="ATV-08DAC1CBD9545CB5" color="#C7C6BBFF" displayOrder="0" width="100" anonymous="true">
      <step val="1" start="1" stop="1"/>
     </column>
-    <column type="3" name="ATV-08DAD5D49F2069F8" color="#C7C6BBFF" displayOrder="0" width="100" anonymous="true">
+    <column type="3" name="ATV-08DAC1CBD9545CB7" color="#C7C6BBFF" displayOrder="0" width="100" anonymous="true">
      <step val="1" start="1" stop="1"/>
     </column>
-    <column type="3" name="ATV-08DAD5D49F2069FA" color="#C7C6BBFF" displayOrder="0" width="100" anonymous="true">
+    <column type="3" name="ATV-08DAC1CBD9545CB9" color="#C7C6BBFF" displayOrder="0" width="100" anonymous="true">
      <step val="1" start="1" stop="1"/>
-    </column>
-    <column type="0" name="ATV-08DAD5D49F220458" color="#FFFFFFFF" display="false" displayOrder="0" width="100" anonymous="true" id="32">
-     <elementSeq exposures="63" val="49" id="32"/>
-     <elementSeq exposures="64" val="50" id="32"/>
-     <elementSeq exposures="65-69" val="51" id="32"/>
-     <elementSeq exposures="70" val="52" id="32"/>
-    </column>
-    <column type="3" name="ATV-08DAD5D49F22045A" color="#C7C6BBFF" displayOrder="0" width="100" anonymous="true">
-     <step val="1" start="1" stop="1"/>
-     <points version="2">
-      <pt constSeg="false" x="63,70" yLocal="11.041639995776142" y="11.041639995776142"/>
-     </points>
-    </column>
-    <column type="3" name="ATV-08DAD5D49F22045C" color="#C7C6BBFF" displayOrder="0" width="100" anonymous="true">
-     <step val="1" start="1" stop="1"/>
-     <points version="2">
-      <pt constSeg="false" x="63,70" yLocal="-0.99999758452312193" y="-0.99999758452312193"/>
-     </points>
-    </column>
-    <column type="3" name="ATV-08DAD5D49F22045E" color="#C7C6BBFF" displayOrder="0" width="100" anonymous="true">
-     <step val="1" start="1" stop="1"/>
-     <points version="2">
-      <pt constSeg="false" x="63,70" yLocal="0" y="0"/>
-     </points>
-    </column>
-    <column type="3" name="ATV-08DAD5D49F220460" color="#C7C6BBFF" displayOrder="0" width="100" anonymous="true">
-     <step val="1" start="1" stop="1"/>
-     <points version="2">
-      <pt constSeg="false" x="63,70" yLocal="0" y="0"/>
-     </points>
-    </column>
-    <column type="3" name="ATV-08DAD5D49F220462" color="#C7C6BBFF" displayOrder="0" width="100" anonymous="true">
-     <step val="1" start="1" stop="1"/>
-     <points version="2">
-      <pt constSeg="false" x="63,70" yLocal="1.6992312897649662" y="1.6992312897649662"/>
-     </points>
-    </column>
-    <column type="3" name="ATV-08DAD5D49F220464" color="#C7C6BBFF" displayOrder="0" width="100" anonymous="true">
-     <step val="1" start="1" stop="1"/>
-     <points version="2">
-      <pt constSeg="false" x="63,70" yLocal="1.6992312897649662" y="1.6992312897649662"/>
-     </points>
-    </column>
-    <column type="3" name="ATV-08DAD5D49F220466" color="#C7C6BBFF" displayOrder="0" width="100" anonymous="true">
-     <step val="1" start="1" stop="1"/>
-     <points version="2">
-      <pt constSeg="false" x="63,70" yLocal="0" y="0"/>
-     </points>
     </column>
    </columns>
    <options>
@@ -1058,9 +511,8 @@
        <cleanUpPartitionFolders val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="Bearpaw1" pos="-65,-50,0" publishUnderTab="Drawing">
+     <module type="READ" name="Bearpaw1" pos="-65,-50,0" publishUnderTab="Bearpaw1">
       <options>
-       <disabled val="true"/>
        <version val="1"/>
        <collapsed val="true"/>
       </options>
@@ -1070,26 +522,26 @@
        <cameraAlignment val="NO_CAMERA_ALIGNMENT"/>
        <offset>
         <separate val="true"/>
-        <x val="0" defaultValue="0" col="ATV-08D8D14A9A91C5AD"/>
-        <y val="0" defaultValue="0" col="ATV-08D8D14A9A91C5AE"/>
-        <z val="0" defaultValue="0" col="ATV-08D8D14A9A91C5AF"/>
+        <x val="0" defaultValue="0" col="ATV-08DA0904F3371B6F"/>
+        <y val="0" defaultValue="0" col="ATV-08DA0904F3371B71"/>
+        <z val="0" defaultValue="0" col="ATV-08DA0904F3371B73"/>
        </offset>
        <scale>
         <separate val="true"/>
         <inFields val="false"/>
         <xy val="1" defaultValue="1"/>
-        <x val="1" defaultValue="1" col="ATV-08D8D14A9A91C5B0"/>
-        <y val="1" defaultValue="1" col="ATV-08D8D14A9A91C5B1"/>
+        <x val="1" defaultValue="1" col="ATV-08DA0904F3371B77"/>
+        <y val="1" defaultValue="1" col="ATV-08DA0904F3371B79"/>
         <z val="1" defaultValue="1"/>
        </scale>
        <rotation>
         <separate val="false"/>
         <anglex val="0" defaultValue="0"/>
         <angley val="0" defaultValue="0"/>
-        <anglez val="0" defaultValue="0" col="ATV-08D8D14A9A91C5B2"/>
+        <anglez val="0" defaultValue="0" col="ATV-08DA0904F3371B75"/>
        </rotation>
-       <angle val="0" defaultValue="0" col="ATV-08D8D14A9A91C5B2"/>
-       <skew val="0" defaultValue="0" col="ATV-08D8D14A9A91C5B3"/>
+       <angle val="0" defaultValue="0" col="ATV-08DA0904F3371B75"/>
+       <skew val="0" defaultValue="0" col="ATV-08DA0904F3371B7B"/>
        <pivot>
         <x val="0" defaultValue="0"/>
         <y val="0" defaultValue="0"/>
@@ -1163,7 +615,7 @@
        <canAnimate val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="Bearpaw1_1" pos="-65,-50,0" publishUnderTab="Bearpaw1">
+     <module type="READ" name="Bearpaw2" pos="-65,-50,0" publishUnderTab="Bearpaw1_2">
       <options>
        <version val="1"/>
        <collapsed val="true"/>
@@ -1174,341 +626,26 @@
        <cameraAlignment val="NO_CAMERA_ALIGNMENT"/>
        <offset>
         <separate val="true"/>
-        <x val="0" defaultValue="0" col="ATV-08DAD5D49F2069EE"/>
-        <y val="0" defaultValue="0" col="ATV-08DAD5D49F2069F0"/>
-        <z val="0" defaultValue="0" col="ATV-08DAD5D49F2069F2"/>
+        <x val="0" defaultValue="0" col="ATV-08DAC1CBD9545CAD"/>
+        <y val="0" defaultValue="0" col="ATV-08DAC1CBD9545CAF"/>
+        <z val="0" defaultValue="0" col="ATV-08DAC1CBD9545CB1"/>
        </offset>
        <scale>
         <separate val="true"/>
         <inFields val="false"/>
         <xy val="1" defaultValue="1"/>
-        <x val="1" defaultValue="1" col="ATV-08DAD5D49F2069F6"/>
-        <y val="1" defaultValue="1" col="ATV-08DAD5D49F2069F8"/>
+        <x val="1" defaultValue="1" col="ATV-08DAC1CBD9545CB5"/>
+        <y val="1" defaultValue="1" col="ATV-08DAC1CBD9545CB7"/>
         <z val="1" defaultValue="1"/>
        </scale>
        <rotation>
         <separate val="false"/>
         <anglex val="0" defaultValue="0"/>
         <angley val="0" defaultValue="0"/>
-        <anglez val="0" defaultValue="0" col="ATV-08DAD5D49F2069F4"/>
+        <anglez val="0" defaultValue="0" col="ATV-08DAC1CBD9545CB3"/>
        </rotation>
-       <angle val="0" defaultValue="0" col="ATV-08DAD5D49F2069F4"/>
-       <skew val="0" defaultValue="0" col="ATV-08DAD5D49F2069FA"/>
-       <pivot>
-        <x val="0" defaultValue="0"/>
-        <y val="0" defaultValue="0"/>
-        <z val="0" defaultValue="0"/>
-       </pivot>
-       <splineOffset>
-        <x val="0" defaultValue="0"/>
-        <y val="0" defaultValue="0"/>
-        <z val="0" defaultValue="0"/>
-       </splineOffset>
-       <ignoreParentPegScaling val="false"/>
-       <disableFieldRendering val="false"/>
-       <depth val="0"/>
-       <enableMinMaxAngle val="false"/>
-       <minAngle val="-360" defaultValue="-360"/>
-       <maxAngle val="360" defaultValue="360"/>
-       <nailForChildren val="false"/>
-       <ikHoldOrientation val="false"/>
-       <ikHoldX val="false"/>
-       <ikHoldY val="false"/>
-       <ikExcluded val="false"/>
-       <ikCanRotate val="true"/>
-       <ikCanTranslateX val="false"/>
-       <ikCanTranslateY val="false"/>
-       <ikBoneX val="0.20000000000000001" defaultValue="0.20000000000000001"/>
-       <ikBoneY val="0" defaultValue="0"/>
-       <ikStiffness val="1" defaultValue="1"/>
-       <drawing>
-        <elementMode val="true"/>
-        <element col="ATV-08DAD5D49F2069EC">
-         <layer/>
-        </element>
-        <customName>
-         <name/>
-         <extension val="tga"/>
-         <fieldChart val="12" defaultValue="12"/>
-        </customName>
-       </drawing>
-       <readOverlay val="true"/>
-       <readLineArt val="true"/>
-       <readColorArt val="true"/>
-       <readUnderlay val="true"/>
-       <overlayArtDrawingMode val="VectorDrawingMode"/>
-       <lineArtDrawingMode val="VectorDrawingMode"/>
-       <colorArtDrawingMode val="VectorDrawingMode"/>
-       <underlayArtDrawingMode val="VectorDrawingMode"/>
-       <readColor val="true"/>
-       <readTransparency val="true"/>
-       <applyMatteToColor val="N"/>
-       <enableLineTexture val="true"/>
-       <antialiasingQuality val="HIGH"/>
-       <antialiasingExponent val="1" defaultValue="1"/>
-       <opacity val="100" defaultValue="100"/>
-       <textureFilter val="NEAREST_FILTERED"/>
-       <adjustPencilThickness val="false"/>
-       <normalLineArtThickness val="true"/>
-       <zoomIndependentLineArtThickness val="true"/>
-       <multLineArtThickness val="1" defaultValue="1"/>
-       <addLineArtThickness val="0" defaultValue="0"/>
-       <minLineArtThickness val="0" defaultValue="0"/>
-       <maxLineArtThickness val="0" defaultValue="0"/>
-       <useDrawingPivot val="APPLY_ON_READ_TRANSFORM"/>
-       <flipHor val="false"/>
-       <flipVert val="false"/>
-       <turnBeforeAlignment val="false"/>
-       <noClipping val="false"/>
-       <xClipFactor val="0"/>
-       <yClipFactor val="0"/>
-       <alignmentRule val="CENTER_FIRST_PAGE"/>
-       <morphingVelo val="0" defaultValue="0"/>
-       <canAnimate val="true"/>
-      </attrs>
-     </module>
-     <module type="READ" name="Bearpaw1_3" pos="-65,-50,0" publishUnderTab="Bearpaw1_1">
-      <options>
-       <disabled val="true"/>
-       <version val="1"/>
-       <collapsed val="true"/>
-      </options>
-      <attrs>
-       <enable3d val="false"/>
-       <faceCamera val="false"/>
-       <cameraAlignment val="NO_CAMERA_ALIGNMENT"/>
-       <offset>
-        <separate val="true"/>
-        <x val="0" defaultValue="0" col="ATV-08DAD5D49F22045A"/>
-        <y val="0" defaultValue="0" col="ATV-08DAD5D49F22045C"/>
-        <z val="0" defaultValue="0" col="ATV-08DAD5D49F22045E"/>
-       </offset>
-       <scale>
-        <separate val="true"/>
-        <inFields val="false"/>
-        <xy val="1" defaultValue="1"/>
-        <x val="1" defaultValue="1" col="ATV-08DAD5D49F220462"/>
-        <y val="1" defaultValue="1" col="ATV-08DAD5D49F220464"/>
-        <z val="1" defaultValue="1"/>
-       </scale>
-       <rotation>
-        <separate val="false"/>
-        <anglex val="0" defaultValue="0"/>
-        <angley val="0" defaultValue="0"/>
-        <anglez val="0" defaultValue="0" col="ATV-08DAD5D49F220460"/>
-       </rotation>
-       <angle val="0" defaultValue="0" col="ATV-08DAD5D49F220460"/>
-       <skew val="0" defaultValue="0" col="ATV-08DAD5D49F220466"/>
-       <pivot>
-        <x val="0" defaultValue="0"/>
-        <y val="0" defaultValue="0"/>
-        <z val="0" defaultValue="0"/>
-       </pivot>
-       <splineOffset>
-        <x val="0" defaultValue="0"/>
-        <y val="0" defaultValue="0"/>
-        <z val="0" defaultValue="0"/>
-       </splineOffset>
-       <ignoreParentPegScaling val="false"/>
-       <disableFieldRendering val="false"/>
-       <depth val="0"/>
-       <enableMinMaxAngle val="false"/>
-       <minAngle val="-360" defaultValue="-360"/>
-       <maxAngle val="360" defaultValue="360"/>
-       <nailForChildren val="false"/>
-       <ikHoldOrientation val="false"/>
-       <ikHoldX val="false"/>
-       <ikHoldY val="false"/>
-       <ikExcluded val="false"/>
-       <ikCanRotate val="true"/>
-       <ikCanTranslateX val="false"/>
-       <ikCanTranslateY val="false"/>
-       <ikBoneX val="0.20000000000000001" defaultValue="0.20000000000000001"/>
-       <ikBoneY val="0" defaultValue="0"/>
-       <ikStiffness val="1" defaultValue="1"/>
-       <drawing>
-        <elementMode val="true"/>
-        <element col="ATV-08DAD5D49F220458">
-         <layer/>
-        </element>
-        <customName>
-         <name/>
-         <extension val="tga"/>
-         <fieldChart val="12" defaultValue="12"/>
-        </customName>
-       </drawing>
-       <readOverlay val="true"/>
-       <readLineArt val="true"/>
-       <readColorArt val="true"/>
-       <readUnderlay val="true"/>
-       <overlayArtDrawingMode val="VectorDrawingMode"/>
-       <lineArtDrawingMode val="VectorDrawingMode"/>
-       <colorArtDrawingMode val="VectorDrawingMode"/>
-       <underlayArtDrawingMode val="VectorDrawingMode"/>
-       <readColor val="true"/>
-       <readTransparency val="true"/>
-       <applyMatteToColor val="N"/>
-       <enableLineTexture val="true"/>
-       <antialiasingQuality val="HIGH"/>
-       <antialiasingExponent val="1" defaultValue="1"/>
-       <opacity val="100" defaultValue="100"/>
-       <textureFilter val="NEAREST_FILTERED"/>
-       <adjustPencilThickness val="false"/>
-       <normalLineArtThickness val="true"/>
-       <zoomIndependentLineArtThickness val="true"/>
-       <multLineArtThickness val="1" defaultValue="1"/>
-       <addLineArtThickness val="0" defaultValue="0"/>
-       <minLineArtThickness val="0" defaultValue="0"/>
-       <maxLineArtThickness val="0" defaultValue="0"/>
-       <useDrawingPivot val="APPLY_ON_READ_TRANSFORM"/>
-       <flipHor val="false"/>
-       <flipVert val="false"/>
-       <turnBeforeAlignment val="false"/>
-       <noClipping val="false"/>
-       <xClipFactor val="0"/>
-       <yClipFactor val="0"/>
-       <alignmentRule val="CENTER_FIRST_PAGE"/>
-       <morphingVelo val="0" defaultValue="0"/>
-       <canAnimate val="true"/>
-      </attrs>
-     </module>
-     <module type="READ" name="Bearpaw1_2" pos="-65,-50,0" publishUnderTab="Bearpaw1">
-      <options>
-       <disabled val="true"/>
-       <version val="1"/>
-       <collapsed val="true"/>
-      </options>
-      <attrs>
-       <enable3d val="false"/>
-       <faceCamera val="false"/>
-       <cameraAlignment val="NO_CAMERA_ALIGNMENT"/>
-       <offset>
-        <separate val="true"/>
-        <x val="0" defaultValue="0" col="ATV-08DA0904F3371B6F"/>
-        <y val="0" defaultValue="0" col="ATV-08DA0904F3371B71"/>
-        <z val="0" defaultValue="0" col="ATV-08DA0904F3371B73"/>
-       </offset>
-       <scale>
-        <separate val="true"/>
-        <inFields val="false"/>
-        <xy val="1" defaultValue="1"/>
-        <x val="1" defaultValue="1" col="ATV-08DA0904F3371B77"/>
-        <y val="1" defaultValue="1" col="ATV-08DA0904F3371B79"/>
-        <z val="1" defaultValue="1"/>
-       </scale>
-       <rotation>
-        <separate val="false"/>
-        <anglex val="0" defaultValue="0"/>
-        <angley val="0" defaultValue="0"/>
-        <anglez val="0" defaultValue="0" col="ATV-08DA0904F3371B75"/>
-       </rotation>
-       <angle val="0" defaultValue="0" col="ATV-08DA0904F3371B75"/>
-       <skew val="0" defaultValue="0" col="ATV-08DA0904F3371B7B"/>
-       <pivot>
-        <x val="0" defaultValue="0"/>
-        <y val="0" defaultValue="0"/>
-        <z val="0" defaultValue="0"/>
-       </pivot>
-       <splineOffset>
-        <x val="0" defaultValue="0"/>
-        <y val="0" defaultValue="0"/>
-        <z val="0" defaultValue="0"/>
-       </splineOffset>
-       <ignoreParentPegScaling val="false"/>
-       <disableFieldRendering val="false"/>
-       <depth val="0"/>
-       <enableMinMaxAngle val="false"/>
-       <minAngle val="-360" defaultValue="-360"/>
-       <maxAngle val="360" defaultValue="360"/>
-       <nailForChildren val="false"/>
-       <ikHoldOrientation val="false"/>
-       <ikHoldX val="false"/>
-       <ikHoldY val="false"/>
-       <ikExcluded val="false"/>
-       <ikCanRotate val="true"/>
-       <ikCanTranslateX val="false"/>
-       <ikCanTranslateY val="false"/>
-       <ikBoneX val="0.20000000000000001" defaultValue="0.20000000000000001"/>
-       <ikBoneY val="0" defaultValue="0"/>
-       <ikStiffness val="1" defaultValue="1"/>
-       <drawing>
-        <elementMode val="true"/>
-        <element col="ATV-08DA0904F3371B6D">
-         <layer/>
-        </element>
-        <customName>
-         <name/>
-         <extension val="tga"/>
-         <fieldChart val="12" defaultValue="12"/>
-        </customName>
-       </drawing>
-       <readOverlay val="true"/>
-       <readLineArt val="true"/>
-       <readColorArt val="true"/>
-       <readUnderlay val="true"/>
-       <overlayArtDrawingMode val="VectorDrawingMode"/>
-       <lineArtDrawingMode val="VectorDrawingMode"/>
-       <colorArtDrawingMode val="VectorDrawingMode"/>
-       <underlayArtDrawingMode val="VectorDrawingMode"/>
-       <readColor val="true"/>
-       <readTransparency val="true"/>
-       <applyMatteToColor val="N"/>
-       <enableLineTexture val="true"/>
-       <antialiasingQuality val="HIGH"/>
-       <antialiasingExponent val="1" defaultValue="1"/>
-       <opacity val="100" defaultValue="100"/>
-       <textureFilter val="NEAREST_FILTERED"/>
-       <adjustPencilThickness val="false"/>
-       <normalLineArtThickness val="true"/>
-       <zoomIndependentLineArtThickness val="true"/>
-       <multLineArtThickness val="1" defaultValue="1"/>
-       <addLineArtThickness val="0" defaultValue="0"/>
-       <minLineArtThickness val="0" defaultValue="0"/>
-       <maxLineArtThickness val="0" defaultValue="0"/>
-       <useDrawingPivot val="APPLY_ON_READ_TRANSFORM"/>
-       <flipHor val="false"/>
-       <flipVert val="false"/>
-       <turnBeforeAlignment val="false"/>
-       <noClipping val="false"/>
-       <xClipFactor val="0"/>
-       <yClipFactor val="0"/>
-       <alignmentRule val="CENTER_FIRST_PAGE"/>
-       <morphingVelo val="0" defaultValue="0"/>
-       <canAnimate val="true"/>
-      </attrs>
-     </module>
-     <module type="READ" name="Bearpaw2" pos="-65,-50,0" publishUnderTab="Bearpaw1">
-      <options>
-       <disabled val="true"/>
-       <version val="1"/>
-       <collapsed val="true"/>
-      </options>
-      <attrs>
-       <enable3d val="false"/>
-       <faceCamera val="false"/>
-       <cameraAlignment val="NO_CAMERA_ALIGNMENT"/>
-       <offset>
-        <separate val="true"/>
-        <x val="0" defaultValue="0" col="ATV-08DA0904F334C094"/>
-        <y val="0" defaultValue="0" col="ATV-08DA0904F334C096"/>
-        <z val="0" defaultValue="0" col="ATV-08DA0904F334C098"/>
-       </offset>
-       <scale>
-        <separate val="true"/>
-        <inFields val="false"/>
-        <xy val="1" defaultValue="1"/>
-        <x val="1" defaultValue="1" col="ATV-08DA0904F334C09C"/>
-        <y val="1" defaultValue="1" col="ATV-08DA0904F334C09E"/>
-        <z val="1" defaultValue="1"/>
-       </scale>
-       <rotation>
-        <separate val="false"/>
-        <anglex val="0" defaultValue="0"/>
-        <angley val="0" defaultValue="0"/>
-        <anglez val="0" defaultValue="0" col="ATV-08DA0904F334C09A"/>
-       </rotation>
-       <angle val="0" defaultValue="0" col="ATV-08DA0904F334C09A"/>
-       <skew val="0" defaultValue="0" col="ATV-08DA0904F334C0A0"/>
+       <angle val="0" defaultValue="0" col="ATV-08DAC1CBD9545CB3"/>
+       <skew val="0" defaultValue="0" col="ATV-08DAC1CBD9545CB9"/>
        <pivot>
         <x val="0" defaultValue="0"/>
         <y val="0" defaultValue="0"/>
@@ -1578,111 +715,6 @@
        <xClipFactor val="0"/>
        <yClipFactor val="0"/>
        <alignmentRule val="CENTER_FIRST_PAGE"/>
-       <morphingVelo val="0" defaultValue="0"/>
-       <canAnimate val="true"/>
-      </attrs>
-     </module>
-     <module type="READ" name="bearcharacter_sheet_2" pos="0,0,0" publishUnderTab="bearcharacter_sheet_2">
-      <options>
-       <disabled val="true"/>
-       <version val="1"/>
-       <collapsed val="true"/>
-      </options>
-      <attrs>
-       <enable3d val="false"/>
-       <faceCamera val="false"/>
-       <cameraAlignment val="NO_CAMERA_ALIGNMENT"/>
-       <offset>
-        <separate val="true"/>
-        <x val="0" defaultValue="0" col="ATV-08D8D14A9A9315DD"/>
-        <y val="0" defaultValue="0" col="ATV-08D8D14A9A9315DE"/>
-        <z val="0" defaultValue="0" col="ATV-08D8D14A9A9315DF"/>
-       </offset>
-       <scale>
-        <separate val="true"/>
-        <inFields val="false"/>
-        <xy val="1" defaultValue="1"/>
-        <x val="1" defaultValue="1" col="ATV-08D8D14A9A9315E0"/>
-        <y val="1" defaultValue="1" col="ATV-08D8D14A9A9315E1"/>
-        <z val="1" defaultValue="1"/>
-       </scale>
-       <rotation>
-        <separate val="false"/>
-        <anglex val="0" defaultValue="0"/>
-        <angley val="0" defaultValue="0"/>
-        <anglez val="0" defaultValue="0" col="ATV-08D8D14A9A9315E2"/>
-       </rotation>
-       <angle val="0" defaultValue="0" col="ATV-08D8D14A9A9315E2"/>
-       <skew val="0" defaultValue="0" col="ATV-08D8D14A9A9315E3"/>
-       <pivot>
-        <x val="0" defaultValue="0"/>
-        <y val="0" defaultValue="0"/>
-        <z val="0" defaultValue="0"/>
-       </pivot>
-       <splineOffset>
-        <x val="0" defaultValue="0"/>
-        <y val="0" defaultValue="0"/>
-        <z val="0" defaultValue="0"/>
-       </splineOffset>
-       <ignoreParentPegScaling val="false"/>
-       <disableFieldRendering val="false"/>
-       <depth val="0"/>
-       <enableMinMaxAngle val="false"/>
-       <minAngle val="-360" defaultValue="-360"/>
-       <maxAngle val="360" defaultValue="360"/>
-       <nailForChildren val="false"/>
-       <ikHoldOrientation val="false"/>
-       <ikHoldX val="false"/>
-       <ikHoldY val="false"/>
-       <ikExcluded val="false"/>
-       <ikCanRotate val="true"/>
-       <ikCanTranslateX val="false"/>
-       <ikCanTranslateY val="false"/>
-       <ikBoneX val="0.20000000000000001" defaultValue="0.20000000000000001"/>
-       <ikBoneY val="0" defaultValue="0"/>
-       <ikStiffness val="1" defaultValue="1"/>
-       <drawing>
-        <elementMode val="true"/>
-        <element col="ATV-08D8D14A9A9310B0">
-         <layer/>
-        </element>
-        <customName>
-         <name/>
-         <extension val="tga"/>
-         <fieldChart val="12" defaultValue="12"/>
-        </customName>
-       </drawing>
-       <readOverlay val="true"/>
-       <readLineArt val="true"/>
-       <readColorArt val="true"/>
-       <readUnderlay val="true"/>
-       <overlayArtDrawingMode val="VectorDrawingMode"/>
-       <lineArtDrawingMode val="VectorDrawingMode"/>
-       <colorArtDrawingMode val="VectorDrawingMode"/>
-       <underlayArtDrawingMode val="VectorDrawingMode"/>
-       <readColor val="true"/>
-       <readTransparency val="true"/>
-       <applyMatteToColor val="W"/>
-       <enableLineTexture val="true"/>
-       <antialiasingQuality val="HIGH"/>
-       <antialiasingExponent val="1" defaultValue="1"/>
-       <opacity val="100" defaultValue="100"/>
-       <textureFilter val="NEAREST_FILTERED"/>
-       <adjustPencilThickness val="false"/>
-       <normalLineArtThickness val="true"/>
-       <zoomIndependentLineArtThickness val="true"/>
-       <multLineArtThickness val="1" defaultValue="1"/>
-       <addLineArtThickness val="0" defaultValue="0"/>
-       <minLineArtThickness val="0" defaultValue="0"/>
-       <maxLineArtThickness val="0" defaultValue="0"/>
-       <useDrawingPivot val="APPLY_ON_READ_TRANSFORM"/>
-       <flipHor val="false"/>
-       <flipVert val="false"/>
-       <turnBeforeAlignment val="false"/>
-       <noClipping val="false"/>
-       <xClipFactor val="0"/>
-       <yClipFactor val="0"/>
-       <alignmentRule val="CENTER_FIT"/>
        <morphingVelo val="0" defaultValue="0"/>
        <canAnimate val="true"/>
       </attrs>
@@ -2103,111 +1135,6 @@
        <canAnimate val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="10FeetRun00" pos="0,0,0" publishUnderTab="10FeetRun00">
-      <options>
-       <disabled val="true"/>
-       <version val="1"/>
-       <collapsed val="true"/>
-      </options>
-      <attrs>
-       <enable3d val="false"/>
-       <faceCamera val="false"/>
-       <cameraAlignment val="NO_CAMERA_ALIGNMENT"/>
-       <offset>
-        <separate val="true"/>
-        <x val="0" defaultValue="0"/>
-        <y val="0" defaultValue="0"/>
-        <z val="0" defaultValue="0"/>
-       </offset>
-       <scale>
-        <separate val="true"/>
-        <inFields val="false"/>
-        <xy val="1" defaultValue="1"/>
-        <x val="1" defaultValue="1"/>
-        <y val="1" defaultValue="1"/>
-        <z val="1" defaultValue="1"/>
-       </scale>
-       <rotation>
-        <separate val="false"/>
-        <anglex val="0" defaultValue="0"/>
-        <angley val="0" defaultValue="0"/>
-        <anglez val="0" defaultValue="0"/>
-       </rotation>
-       <angle val="0" defaultValue="0"/>
-       <skew val="0" defaultValue="0"/>
-       <pivot>
-        <x val="0" defaultValue="0"/>
-        <y val="0" defaultValue="0"/>
-        <z val="0" defaultValue="0"/>
-       </pivot>
-       <splineOffset>
-        <x val="0" defaultValue="0"/>
-        <y val="0" defaultValue="0"/>
-        <z val="0" defaultValue="0"/>
-       </splineOffset>
-       <ignoreParentPegScaling val="false"/>
-       <disableFieldRendering val="false"/>
-       <depth val="0"/>
-       <enableMinMaxAngle val="false"/>
-       <minAngle val="-360" defaultValue="-360"/>
-       <maxAngle val="360" defaultValue="360"/>
-       <nailForChildren val="false"/>
-       <ikHoldOrientation val="false"/>
-       <ikHoldX val="false"/>
-       <ikHoldY val="false"/>
-       <ikExcluded val="false"/>
-       <ikCanRotate val="true"/>
-       <ikCanTranslateX val="false"/>
-       <ikCanTranslateY val="false"/>
-       <ikBoneX val="0.20000000000000001" defaultValue="0.20000000000000001"/>
-       <ikBoneY val="0" defaultValue="0"/>
-       <ikStiffness val="1" defaultValue="1"/>
-       <drawing>
-        <elementMode val="true"/>
-        <element col="ATV-08D4C22487701038">
-         <layer/>
-        </element>
-        <customName>
-         <name/>
-         <extension val="tga"/>
-         <fieldChart val="12" defaultValue="12"/>
-        </customName>
-       </drawing>
-       <readOverlay val="true"/>
-       <readLineArt val="true"/>
-       <readColorArt val="true"/>
-       <readUnderlay val="true"/>
-       <overlayArtDrawingMode val="VectorDrawingMode"/>
-       <lineArtDrawingMode val="VectorDrawingMode"/>
-       <colorArtDrawingMode val="VectorDrawingMode"/>
-       <underlayArtDrawingMode val="VectorDrawingMode"/>
-       <readColor val="true"/>
-       <readTransparency val="true"/>
-       <applyMatteToColor val="W"/>
-       <enableLineTexture val="true"/>
-       <antialiasingQuality val="HIGH"/>
-       <antialiasingExponent val="1" defaultValue="1"/>
-       <opacity val="100" defaultValue="100"/>
-       <textureFilter val="NEAREST_FILTERED"/>
-       <adjustPencilThickness val="false"/>
-       <normalLineArtThickness val="true"/>
-       <zoomIndependentLineArtThickness val="true"/>
-       <multLineArtThickness val="1" defaultValue="1"/>
-       <addLineArtThickness val="0" defaultValue="0"/>
-       <minLineArtThickness val="0" defaultValue="0"/>
-       <maxLineArtThickness val="0" defaultValue="0"/>
-       <useDrawingPivot val="APPLY_ON_READ_TRANSFORM"/>
-       <flipHor val="false"/>
-       <flipVert val="false"/>
-       <turnBeforeAlignment val="false"/>
-       <noClipping val="false"/>
-       <xClipFactor val="0"/>
-       <yClipFactor val="0"/>
-       <alignmentRule val="CENTER_FIT"/>
-       <morphingVelo val="0" defaultValue="0"/>
-       <canAnimate val="true"/>
-      </attrs>
-     </module>
      <module type="READ" name="Drawing_1" pos="0,0,0" publishUnderTab="Drawing_1">
       <options>
        <version val="1"/>
@@ -2420,18 +1347,13 @@
     <linkedlist>
      <link out="Composite" in="Display"/>
      <link out="Composite" in="Write"/>
-     <link out="Bearpaw1" in="Composite" inport="11"/>
-     <link out="Bearpaw1_1" in="Composite" inport="10"/>
-     <link out="Bearpaw1_3" in="Composite" inport="9"/>
-     <link out="Bearpaw1_2" in="Composite" inport="8"/>
-     <link out="Bearpaw2" in="Composite" inport="7"/>
-     <link out="bearcharacter_sheet_2" in="Composite" inport="6"/>
-     <link out="OlderBoyPants" in="Composite" inport="5"/>
-     <link out="OlderBoyLeg" in="Composite" inport="4"/>
-     <link out="YoungBoyPants" in="Composite" inport="3"/>
-     <link out="YoungerBoyLeg" in="Composite" inport="2"/>
-     <link out="10FeetRun00" in="Composite" inport="1"/>
-     <link out="Drawing_1" in="Composite" inport="12"/>
+     <link out="Bearpaw1" in="Composite" inport="6"/>
+     <link out="Bearpaw2" in="Composite" inport="5"/>
+     <link out="OlderBoyPants" in="Composite" inport="4"/>
+     <link out="OlderBoyLeg" in="Composite" inport="3"/>
+     <link out="YoungBoyPants" in="Composite" inport="2"/>
+     <link out="YoungerBoyLeg" in="Composite" inport="1"/>
+     <link out="Drawing_1" in="Composite" inport="7"/>
      <link out="background" in="Composite" inport="0"/>
     </linkedlist>
    </rootgroup>
