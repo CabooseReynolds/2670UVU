@@ -1,0 +1,18 @@
+walk
+-Key 1 - frame 1
+-last Key - frame 25
+Range - [1-24]
+
+run
+-Key 1 - frame 51
+-last Key - frame 67
+Range - [51-66]
+
+jump - full thing is from 100 to 141.
+jump - [100 - 123]
+fall - [123-141] (also for when you fall off an edge without jumping)
+
+Swim
+[150-180]
+or if he is just floating there, no longer pulling, just hold frame 160.
+

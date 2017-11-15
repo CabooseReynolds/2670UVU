@@ -1,0 +1,226 @@
+fileFormatVersion: 2
+guid: 541614d4b588a2c4d81b4bffb7a74041
+timeCreated: 1510685875
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: JagBackLeftLowerLeg
+    100002: JagBackLeftUpperLeg
+    100004: JagBackRightLowerLeg
+    100006: JagBackRightUpperLeg
+    100008: JagHead
+    100010: JagLeftBackFoot
+    100012: JagLeftFrontFoot
+    100014: JagLeftFrontLeg
+    100016: JagLeftFrontShoulder
+    100018: JagLeftThigh
+    100020: JagRightBackFoot
+    100022: JagRightFrontFoot
+    100024: JagRightFrontLeg
+    100026: JagRightFrontShoulder
+    100028: JagRightThigh
+    100030: JagTail
+    100032: //RootNode
+    400000: JagBackLeftLowerLeg
+    400002: JagBackLeftUpperLeg
+    400004: JagBackRightLowerLeg
+    400006: JagBackRightUpperLeg
+    400008: JagHead
+    400010: JagLeftBackFoot
+    400012: JagLeftFrontFoot
+    400014: JagLeftFrontLeg
+    400016: JagLeftFrontShoulder
+    400018: JagLeftThigh
+    400020: JagRightBackFoot
+    400022: JagRightFrontFoot
+    400024: JagRightFrontLeg
+    400026: JagRightFrontShoulder
+    400028: JagRightThigh
+    400030: JagTail
+    400032: //RootNode
+    2300000: JagBackLeftLowerLeg
+    2300002: JagBackLeftUpperLeg
+    2300004: JagBackRightLowerLeg
+    2300006: JagBackRightUpperLeg
+    2300008: JagHead
+    2300010: JagLeftBackFoot
+    2300012: JagLeftFrontFoot
+    2300014: JagLeftFrontLeg
+    2300016: JagLeftFrontShoulder
+    2300018: JagLeftThigh
+    2300020: JagRightBackFoot
+    2300022: JagRightFrontFoot
+    2300024: JagRightFrontLeg
+    2300026: JagRightFrontShoulder
+    2300028: JagRightThigh
+    2300030: JagTail
+    2300032: //RootNode
+    3300000: JagBackLeftLowerLeg
+    3300002: JagBackLeftUpperLeg
+    3300004: JagBackRightLowerLeg
+    3300006: JagBackRightUpperLeg
+    3300008: JagHead
+    3300010: JagLeftBackFoot
+    3300012: JagLeftFrontFoot
+    3300014: JagLeftFrontLeg
+    3300016: JagLeftFrontShoulder
+    3300018: JagLeftThigh
+    3300020: JagRightBackFoot
+    3300022: JagRightFrontFoot
+    3300024: JagRightFrontLeg
+    3300026: JagRightFrontShoulder
+    3300028: JagRightThigh
+    3300030: JagTail
+    3300032: //RootNode
+    4300000: JagTorso
+    4300002: JagRightFrontShoulder
+    4300004: JagRightFrontLeg
+    4300006: JagRightFrontFoot
+    4300008: JagLeftFrontShoulder
+    4300010: JagLeftFrontLeg
+    4300012: JagLeftFrontFoot
+    4300014: JagLeftThigh
+    4300016: JagBackLeftUpperLeg
+    4300018: JagBackLeftLowerLeg
+    4300020: JagLeftBackFoot
+    4300022: JagRightThigh
+    4300024: JagBackRightUpperLeg
+    4300026: JagBackRightLowerLeg
+    4300028: JagRightBackFoot
+    4300030: JagHead
+    4300032: JagTail
+    7400000: Run
+    7400002: Idle
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Run
+      takeName: Take 001
+      firstFrame: 50
+      lastFrame: 62
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 16
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
