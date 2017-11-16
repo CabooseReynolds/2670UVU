@@ -1,28 +1,56 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
-public class AnimateChar : MonoBehaviour {
-CharacterController cc;
-//[RequireComponent]
-Animator anims;
-Vector3 move;
-public float Speed = 5;
-	// Use this for initialization
-	void Start () {
-		cc = GetComponent<CharacterController>();
-		anims = gameObject.GetComponent<Animator>();
+public class AnimateCharacter : MonoBehaviour 
+{
+	public static UnityAction PushAction;
+	Animator anims;
+	bool crouching = false;
+
+	void Start () 
+	{
+		anims = GetComponentInChildren<Animator>();
+		Moveinput.GrabAction += AnimGrab;
+		Moveinput.KeyAction += AnimRun;
+		Moveinput.JumpAction += AnimJump;
+		Moveinput.CrouchActionDown += AnimCrouch;
 	}
-void update (){
-	move.x = Input.GetAxis("Horizontal") * Time.deltaTime * Speed;
-	anims.speed = move.x;
-	//cc= 
-
-}
-
-    private void Animate(float obj)
+	
+    private void AnimRun(float obj)
     {
-        anims.SetFloat("Walk", obj);
+		if(obj < 0)
+		{
+			obj *= -1;
+		}
+		anims.SetFloat("Run", obj);
     }
+
+	private void AnimJump()
+	{
+		anims.SetTrigger("Jump");
+	}
+
+	private void AnimCrouch()
+	{
+		if(crouching == false)
+		{
+			anims.SetBool("Crouch", true);
+			crouching = true;
+		} else {
+			anims.SetBool("Crouch", false);
+			crouching = false;
+		}
+	}
+
+	private void AnimDamage()
+	{
+		anims.SetTrigger("Damaged");
+	}
+
+	private void AnimGrab()
+	{
+		anims.SetTrigger("Grab");
+	}
 }
