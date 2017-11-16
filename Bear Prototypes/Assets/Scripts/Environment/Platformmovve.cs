@@ -11,7 +11,7 @@ public class Platformmovve : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		Moveinput.ConstantAction += MovePlatform;
+//		Moveinput.ConstantAction += MovePlatform;
 	}
 	
 	void MovePlatform()

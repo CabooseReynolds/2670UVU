@@ -104,13 +104,13 @@ CharacterController cc;
         speed /= 2.0f;
         }
     private void CrouchDown(){
-        this.transform.localScale = new Vector3(1f, 0.5f, 1f);
-        speed /= 2.0f;
+        cc.height = 1;
+		cc.center = new Vector3(0,-0.5f,0);
 
         }
     private void CrouchUp(){
-        this.transform.localScale = new Vector3(1f, 1f, 1f); 
-        speed *= 2.0f;
+        cc.height = 2;
+		cc.center = new Vector3(0,0,0);
         }
 
     // public void ClimbingStart()
