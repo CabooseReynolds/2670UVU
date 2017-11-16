@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class AnimateCharacter : MonoBehaviour 
+public class AnimateChar : MonoBehaviour 
 {
 	public static UnityAction PushAction;
 	Animator anims;
@@ -15,7 +15,8 @@ public class AnimateCharacter : MonoBehaviour
 		Moveinput.GrabAction += AnimGrab;
 		Moveinput.KeyAction += AnimRun;
 		Moveinput.JumpAction += AnimJump;
-		Moveinput.CrouchActionDown += AnimCrouch;
+		Moveinput.CrouchActionDown += AnimCrouchDown;
+		Moveinput.CrouchActionUp += AnimCrouchUp;
 	}
 	
     private void AnimRun(float obj)
@@ -24,7 +25,7 @@ public class AnimateCharacter : MonoBehaviour
 		{
 			obj *= -1;
 		}
-		anims.SetFloat("Run", obj);
+		anims.SetFloat("Walk", obj);
     }
 
 	private void AnimJump()
@@ -32,17 +33,26 @@ public class AnimateCharacter : MonoBehaviour
 		anims.SetTrigger("Jump");
 	}
 
-	private void AnimCrouch()
+	private void AnimCrouchDown()
 	{
-		if(crouching == false)
-		{
-			anims.SetBool("Crouch", true);
-			crouching = true;
-		} else {
-			anims.SetBool("Crouch", false);
-			crouching = false;
-		}
-	}
+	anims.SetBool("Crawl", true);
+    }
+	private void AnimCrouchUp()
+	{
+	anims.SetBool("Crawl", false);	
+    }
+
+	// private void AnimCrouch()
+	// {
+	// 	if(crouching == false)
+	// 	{
+	// 		anims.SetBool("Crouch", true);
+	// 		crouching = true;
+	// 	} else {
+	// 		anims.SetBool("Crouch", false);
+	// 		crouching = false;
+	// 	}
+	// }
 
 	private void AnimDamage()
 	{

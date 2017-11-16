@@ -11,7 +11,7 @@ bool gravityOn = false;
 public float speed; 
 public float gravity;
 public float jumpHeight; 
-private float maxJump;
+public float maxJump;
 public int jumpCount;
 public float maxFallSpeed = -30;
 public float curFallSpeed;
@@ -106,11 +106,13 @@ CharacterController cc;
     private void CrouchDown(){
         cc.height = 1;
 		cc.center = new Vector3(0,-0.5f,0);
+        speed /= 2.0f;
 
         }
     private void CrouchUp(){
         cc.height = 2;
 		cc.center = new Vector3(0,0,0);
+        speed *= 2.0f;
         }
 
     // public void ClimbingStart()
