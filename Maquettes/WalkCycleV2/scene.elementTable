@@ -8,4 +8,10 @@
  <element id="25" elementName="YoungBoyPants" elementFolder="YoungBoyPants" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
  <element id="30" elementName="Bearpaw1" elementFolder="Bearpaw1.30" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
  <element id="33" elementName="Bearpaw2" elementFolder="Bearpaw2" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="34" elementName="OlderBoyPantsColor" elementFolder="OlderBoyPantsColor" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="35" elementName="OlderBoyLegColor" elementFolder="OlderBoyLegColor" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="36" elementName="YoungBoyPantsColor" elementFolder="YoungBoyPantsColor" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="37" elementName="YoungerBoyLegColor" elementFolder="YoungerBoyLegColor" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="38" elementName="Bearpaw1Color" elementFolder="Bearpaw1Color" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="39" elementName="Bearpaw2Color" elementFolder="Bearpaw2Color" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
 </elements>
