@@ -13,25 +13,25 @@ AnimatorController:
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
-  - m_Name: Run
+    m_Controller: {fileID: 9100000}
+  - m_Name: Jump
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
-  - m_Name: jump
-    m_Type: 4
-    m_DefaultFloat: 0
-    m_DefaultInt: 0
-    m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: Walk
     m_Type: 1
     m_DefaultFloat: 0.01
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
+  - m_Name: Run
+    m_Type: 1
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
@@ -52,9 +52,9 @@ AnimatorStateTransition:
   m_PrefabInternal: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 1
+  - m_ConditionMode: 3
     m_ConditionEvent: Run
-    m_EventTreshold: 0
+    m_EventTreshold: 10.1
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102727453260900112}
   m_Solo: 0
@@ -123,7 +123,10 @@ AnimatorStateTransition:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: 
-  m_Conditions: []
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: Jump
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102270621035787412}
   m_Solo: 0
@@ -169,9 +172,9 @@ AnimatorStateTransition:
   m_PrefabInternal: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 2
+  - m_ConditionMode: 4
     m_ConditionEvent: Run
-    m_EventTreshold: 0
+    m_EventTreshold: 10.1
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102137331122168004}
   m_Solo: 0
@@ -193,9 +196,9 @@ AnimatorStateTransition:
   m_PrefabInternal: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 1
+  - m_ConditionMode: 3
     m_ConditionEvent: Run
-    m_EventTreshold: 0
+    m_EventTreshold: 10.1
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102727453260900112}
   m_Solo: 0
@@ -289,9 +292,9 @@ AnimatorStateTransition:
   m_PrefabInternal: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 2
+  - m_ConditionMode: 4
     m_ConditionEvent: Run
-    m_EventTreshold: 0
+    m_EventTreshold: 10.1
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102005627114335396}
   m_Solo: 0
@@ -401,7 +404,7 @@ AnimatorState:
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
-  m_Motion: {fileID: 0}
+  m_Motion: {fileID: 7400004, guid: 7b572e59572301f4b81b9e872651c34c, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -426,7 +429,7 @@ AnimatorState:
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
-  m_Motion: {fileID: 0}
+  m_Motion: {fileID: 7400002, guid: 7b572e59572301f4b81b9e872651c34c, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -450,7 +453,7 @@ AnimatorStateMachine:
     m_Position: {x: 492, y: 48, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102727453260900112}
-    m_Position: {x: 492, y: 240, z: 0}
+    m_Position: {x: 696, y: 132, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102270621035787412}
     m_Position: {x: -12, y: 24, z: 0}

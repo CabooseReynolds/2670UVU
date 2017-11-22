@@ -13,13 +13,13 @@ public class AnimateChar : MonoBehaviour
 	{
 		anims = GetComponentInChildren<Animator>();
 		Moveinput.GrabAction += AnimGrab;
-		Moveinput.KeyAction += AnimRun;
+		Moveinput.KeyAction += AnimWalk;
 		Moveinput.JumpAction += AnimJump;
 		Moveinput.CrouchActionDown += AnimCrouchDown;
 		Moveinput.CrouchActionUp += AnimCrouchUp;
 	}
 	
-    private void AnimRun(float obj)
+    private void AnimWalk(float obj)
     {
 		if(obj < 0)
 		{
@@ -32,6 +32,10 @@ public class AnimateChar : MonoBehaviour
 	{
 		anims.SetTrigger("Jump");
 	}
+	// 	private void AnimJump()
+	// {
+	// 	anims.SetTrigger("Jump");
+	// }
 
 	private void AnimCrouchDown()
 	{
