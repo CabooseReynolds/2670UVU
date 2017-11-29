@@ -1,0 +1,226 @@
+fileFormatVersion: 2
+guid: 04e73c8f58776424f85860e5e5cc7c5c
+timeCreated: 1511921588
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: group
+    100002: pasted__Belt
+    100004: pasted__Body
+    100006: pasted__L_Eye
+    100008: pasted__L_EyeBrow
+    100010: pasted__OB
+    100012: pasted__OB_Chest_DEF
+    100014: pasted__OB_Geo
+    100016: pasted__OB_Head_DEF
+    100018: pasted__OB_L_Ankle_DEF
+    100020: pasted__OB_L_Collar_DEF
+    100022: pasted__OB_L_Elbow_DEF
+    100024: pasted__OB_L_Fingers1_DEF
+    100026: pasted__OB_L_Fingers2_DEF
+    100028: pasted__OB_L_Fingers3_DEF
+    100030: pasted__OB_L_Hip_DEF
+    100032: pasted__OB_L_Index1_DEF
+    100034: pasted__OB_L_Index2_DEF
+    100036: pasted__OB_L_Index3_DEF
+    100038: pasted__OB_L_Knee_DEF
+    100040: pasted__OB_L_Shoulder_DEF
+    100042: pasted__OB_L_Thumb1_DEF
+    100044: pasted__OB_L_Thumb2_DEF
+    100046: pasted__OB_L_Thumb3_DEF
+    100048: pasted__OB_L_Toes_DEF
+    100050: pasted__OB_L_Wrist_DEF
+    100052: pasted__OB_Neck_DEF
+    100054: pasted__OB_R_Ankle_DEF
+    100056: pasted__OB_R_Elbow_DEF
+    100058: pasted__OB_R_Fingers1_DEF
+    100060: pasted__OB_R_Fingers2_DEF
+    100062: pasted__OB_R_Fingers3_DEF
+    100064: pasted__OB_R_Hip_DEF
+    100066: pasted__OB_R_Index1_DEF
+    100068: pasted__OB_R_Index2_DEF
+    100070: pasted__OB_R_Index3_DEF
+    100072: pasted__OB_R_Knee_DEF
+    100074: pasted__OB_R_R_Collar_DEF
+    100076: pasted__OB_R_Shoulder_DEF
+    100078: pasted__OB_R_Thumb1_DEF
+    100080: pasted__OB_R_Thumb2_DEF
+    100082: pasted__OB_R_Thumb3_DEF
+    100084: pasted__OB_R_Toes_DEF
+    100086: pasted__OB_R_Wrist_DEF
+    100088: pasted__OB_Root_ctrl
+    100090: pasted__OB_Root_DEF
+    100092: pasted__OB_Spine_DEF
+    100094: pasted__Pants
+    100096: pasted__Pants 1
+    100098: pasted__Pants1
+    100100: pasted__pCube11
+    100102: pasted__pCube12
+    100104: pasted__pCube13
+    100106: pasted__pCube14
+    100108: pasted__R_EyeBrow
+    100110: //RootNode
+    100112: transform1
+    100114: transform2
+    100116: transform3
+    100118: transform4
+    100120: transform5
+    100122: transform6
+    400000: group
+    400002: pasted__Belt
+    400004: pasted__Body
+    400006: pasted__L_Eye
+    400008: pasted__L_EyeBrow
+    400010: pasted__OB
+    400012: pasted__OB_Chest_DEF
+    400014: pasted__OB_Geo
+    400016: pasted__OB_Head_DEF
+    400018: pasted__OB_L_Ankle_DEF
+    400020: pasted__OB_L_Collar_DEF
+    400022: pasted__OB_L_Elbow_DEF
+    400024: pasted__OB_L_Fingers1_DEF
+    400026: pasted__OB_L_Fingers2_DEF
+    400028: pasted__OB_L_Fingers3_DEF
+    400030: pasted__OB_L_Hip_DEF
+    400032: pasted__OB_L_Index1_DEF
+    400034: pasted__OB_L_Index2_DEF
+    400036: pasted__OB_L_Index3_DEF
+    400038: pasted__OB_L_Knee_DEF
+    400040: pasted__OB_L_Shoulder_DEF
+    400042: pasted__OB_L_Thumb1_DEF
+    400044: pasted__OB_L_Thumb2_DEF
+    400046: pasted__OB_L_Thumb3_DEF
+    400048: pasted__OB_L_Toes_DEF
+    400050: pasted__OB_L_Wrist_DEF
+    400052: pasted__OB_Neck_DEF
+    400054: pasted__OB_R_Ankle_DEF
+    400056: pasted__OB_R_Elbow_DEF
+    400058: pasted__OB_R_Fingers1_DEF
+    400060: pasted__OB_R_Fingers2_DEF
+    400062: pasted__OB_R_Fingers3_DEF
+    400064: pasted__OB_R_Hip_DEF
+    400066: pasted__OB_R_Index1_DEF
+    400068: pasted__OB_R_Index2_DEF
+    400070: pasted__OB_R_Index3_DEF
+    400072: pasted__OB_R_Knee_DEF
+    400074: pasted__OB_R_R_Collar_DEF
+    400076: pasted__OB_R_Shoulder_DEF
+    400078: pasted__OB_R_Thumb1_DEF
+    400080: pasted__OB_R_Thumb2_DEF
+    400082: pasted__OB_R_Thumb3_DEF
+    400084: pasted__OB_R_Toes_DEF
+    400086: pasted__OB_R_Wrist_DEF
+    400088: pasted__OB_Root_ctrl
+    400090: pasted__OB_Root_DEF
+    400092: pasted__OB_Spine_DEF
+    400094: pasted__Pants
+    400096: pasted__Pants 1
+    400098: pasted__Pants1
+    400100: pasted__pCube11
+    400102: pasted__pCube12
+    400104: pasted__pCube13
+    400106: pasted__pCube14
+    400108: pasted__R_EyeBrow
+    400110: //RootNode
+    400112: transform1
+    400114: transform2
+    400116: transform3
+    400118: transform4
+    400120: transform5
+    400122: transform6
+    2300000: pasted__Belt
+    2300002: pasted__Pants1
+    2300004: pasted__pCube11
+    2300006: pasted__pCube12
+    2300008: pasted__pCube13
+    2300010: pasted__pCube14
+    3300000: pasted__Belt
+    3300002: pasted__Pants1
+    3300004: pasted__pCube11
+    3300006: pasted__pCube12
+    3300008: pasted__pCube13
+    3300010: pasted__pCube14
+    4300000: pasted__Belt
+    4300002: pasted__pCube11
+    4300004: pasted__pCube12
+    4300006: pasted__pCube13
+    4300008: pasted__pCube14
+    4300010: pasted__Pants1
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
