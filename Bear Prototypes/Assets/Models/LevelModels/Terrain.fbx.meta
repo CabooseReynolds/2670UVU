@@ -3,7 +3,7 @@ guid: 2f74a487bd84fc846bb85c83141de202
 timeCreated: 1511921589
 licenseType: Free
 ModelImporter:
-  serializedVersion: 21
+  serializedVersion: 22
   fileIDToRecycleName:
     100000: group
     100002: group1
@@ -545,6 +545,29 @@ ModelImporter:
     101074: transform7
     101076: transform8
     101078: transform9
+    101080: Cave
+    101082: Cave1
+    101084: Cave2
+    101086: Cave3
+    101088: Cave4
+    101090: Cave5
+    101092: Cave6
+    101094: Cave7
+    101096: Cave8
+    101098: Ground
+    101100: Ground1
+    101102: Ground10
+    101104: Ground11
+    101106: Ground12
+    101108: Ground13
+    101110: Ground2
+    101112: Ground3
+    101114: Ground4
+    101116: Ground5
+    101118: Ground6
+    101120: Ground7
+    101122: Ground8
+    101124: Ground9
     400000: group
     400002: group1
     400004: pasted__Ground1
@@ -1085,6 +1108,29 @@ ModelImporter:
     401074: transform7
     401076: transform8
     401078: transform9
+    401080: Cave
+    401082: Cave1
+    401084: Cave2
+    401086: Cave3
+    401088: Cave4
+    401090: Cave5
+    401092: Cave6
+    401094: Cave7
+    401096: Cave8
+    401098: Ground
+    401100: Ground1
+    401102: Ground10
+    401104: Ground11
+    401106: Ground12
+    401108: Ground13
+    401110: Ground2
+    401112: Ground3
+    401114: Ground4
+    401116: Ground5
+    401118: Ground6
+    401120: Ground7
+    401122: Ground8
+    401124: Ground9
     2300000: pasted__Ground1
     2300002: pasted__Ground11
     2300004: pasted__Ground13
@@ -1106,6 +1152,27 @@ ModelImporter:
     2300036: polySurface7
     2300038: polySurface8
     2300040: polySurface9
+    2300042: Cave1
+    2300044: Cave2
+    2300046: Cave3
+    2300048: Cave4
+    2300050: Cave5
+    2300052: Cave6
+    2300054: Cave7
+    2300056: Cave8
+    2300058: Ground1
+    2300060: Ground10
+    2300062: Ground11
+    2300064: Ground12
+    2300066: Ground13
+    2300068: Ground2
+    2300070: Ground3
+    2300072: Ground4
+    2300074: Ground5
+    2300076: Ground6
+    2300078: Ground7
+    2300080: Ground8
+    2300082: Ground9
     3300000: pasted__Ground1
     3300002: pasted__Ground11
     3300004: pasted__Ground13
@@ -1127,6 +1194,27 @@ ModelImporter:
     3300036: polySurface7
     3300038: polySurface8
     3300040: polySurface9
+    3300042: Cave1
+    3300044: Cave2
+    3300046: Cave3
+    3300048: Cave4
+    3300050: Cave5
+    3300052: Cave6
+    3300054: Cave7
+    3300056: Cave8
+    3300058: Ground1
+    3300060: Ground10
+    3300062: Ground11
+    3300064: Ground12
+    3300066: Ground13
+    3300068: Ground2
+    3300070: Ground3
+    3300072: Ground4
+    3300074: Ground5
+    3300076: Ground6
+    3300078: Ground7
+    3300080: Ground8
+    3300082: Ground9
     4300000: polySurface11
     4300002: polySurface12
     4300004: polySurface13
@@ -1148,11 +1236,44 @@ ModelImporter:
     4300036: polySurface2
     4300038: polySurface17
     4300040: polySurface18
+    4300042: Ground1
+    4300044: Ground2
+    4300046: Ground3
+    4300048: Ground4
+    4300050: Ground5
+    4300052: Ground6
+    4300054: Ground8
+    4300056: Ground7
+    4300058: Ground9
+    4300060: Ground10
+    4300062: Ground11
+    4300064: Ground12
+    4300066: Ground13
+    4300068: Cave1
+    4300070: Cave7
+    4300072: Cave8
+    4300074: Cave6
+    4300076: Cave5
+    4300078: Cave4
+    4300080: Cave3
+    4300082: Cave2
     9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Terrain2
+    second: {fileID: 2100000, guid: fe31ab9c3d4db704b900fc640aa1dcca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Terrian
+    second: {fileID: 2100000, guid: 8d5e8e5b404bcb24ba17a36540151d2f, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -1165,6 +1286,7 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
