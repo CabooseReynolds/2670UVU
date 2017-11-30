@@ -24,6 +24,33 @@ ModelImporter:
     100032: pasted__polySurface2403
     100034: pasted__polySurface2408
     100036: pasted__polySurface64
+    100038: CaveRock
+    100040: CaveRock1
+    100042: CaveRock2
+    100044: CaveRock3
+    100046: CaveRock4
+    100048: CaveRock5
+    100050: CaveRock6
+    100052: CaveRock7
+    100054: CaveRock8
+    100056: CaveRock9
+    100058: CliffFace1
+    100060: CliffFace1A
+    100062: CliffFace1A1
+    100064: CliffFace1B
+    100066: CliffFace2
+    100068: CliffFaec3
+    100070: polySurface1
+    100072: polySurface2
+    100074: polySurface3
+    100076: polySurface4
+    100078: polySurface5
+    100080: polySurface6
+    100082: StepRock1
+    100084: StepRock2
+    100086: transform1
+    100088: transform2
+    100090: transform3
     400000: //RootNode
     400002: pasted__CliffFace1
     400004: pasted__CliffFace1A
@@ -43,6 +70,33 @@ ModelImporter:
     400032: pasted__polySurface2403
     400034: pasted__polySurface2408
     400036: pasted__polySurface64
+    400038: CaveRock
+    400040: CaveRock1
+    400042: CaveRock2
+    400044: CaveRock3
+    400046: CaveRock4
+    400048: CaveRock5
+    400050: CaveRock6
+    400052: CaveRock7
+    400054: CaveRock8
+    400056: CaveRock9
+    400058: CliffFace1
+    400060: CliffFace1A
+    400062: CliffFace1A1
+    400064: CliffFace1B
+    400066: CliffFace2
+    400068: CliffFaec3
+    400070: polySurface1
+    400072: polySurface2
+    400074: polySurface3
+    400076: polySurface4
+    400078: polySurface5
+    400080: polySurface6
+    400082: StepRock1
+    400084: StepRock2
+    400086: transform1
+    400088: transform2
+    400090: transform3
     2300000: pasted__CliffFace1
     2300002: pasted__CliffFace1A
     2300004: pasted__CliffFace1A3
@@ -61,6 +115,27 @@ ModelImporter:
     2300030: pasted__polySurface2403
     2300032: pasted__polySurface2408
     2300034: pasted__polySurface64
+    2300036: CaveRock
+    2300038: CaveRock1
+    2300040: CaveRock3
+    2300042: CaveRock4
+    2300044: CaveRock5
+    2300046: CaveRock6
+    2300048: CaveRock7
+    2300050: CaveRock8
+    2300052: CaveRock9
+    2300054: CliffFace1A
+    2300056: CliffFace1A1
+    2300058: CliffFace1B
+    2300060: CliffFaec3
+    2300062: polySurface1
+    2300064: polySurface2
+    2300066: polySurface3
+    2300068: polySurface4
+    2300070: polySurface5
+    2300072: polySurface6
+    2300074: StepRock1
+    2300076: StepRock2
     3300000: pasted__CliffFace1
     3300002: pasted__CliffFace1A
     3300004: pasted__CliffFace1A3
@@ -79,6 +154,27 @@ ModelImporter:
     3300030: pasted__polySurface2403
     3300032: pasted__polySurface2408
     3300034: pasted__polySurface64
+    3300036: CaveRock
+    3300038: CaveRock1
+    3300040: CaveRock3
+    3300042: CaveRock4
+    3300044: CaveRock5
+    3300046: CaveRock6
+    3300048: CaveRock7
+    3300050: CaveRock8
+    3300052: CaveRock9
+    3300054: CliffFace1A
+    3300056: CliffFace1A1
+    3300058: CliffFace1B
+    3300060: CliffFaec3
+    3300062: polySurface1
+    3300064: polySurface2
+    3300066: polySurface3
+    3300068: polySurface4
+    3300070: polySurface5
+    3300072: polySurface6
+    3300074: StepRock1
+    3300076: StepRock2
     4300000: pasted__polySurface2403
     4300002: pasted__polySurface2408
     4300004: pasted__CliffFace1
@@ -97,6 +193,27 @@ ModelImporter:
     4300030: pasted__pasted__pasted__polySurface3233
     4300032: pasted__pasted__pasted__polySurface3234
     4300034: pasted__pasted__pasted__polySurface3173
+    4300036: StepRock1
+    4300038: StepRock2
+    4300040: polySurface1
+    4300042: polySurface2
+    4300044: CliffFace1B
+    4300046: polySurface3
+    4300048: polySurface4
+    4300050: CliffFaec3
+    4300052: CliffFace1A
+    4300054: CliffFace1A1
+    4300056: CaveRock
+    4300058: CaveRock1
+    4300060: polySurface5
+    4300062: polySurface6
+    4300064: CaveRock3
+    4300066: CaveRock4
+    4300068: CaveRock5
+    4300070: CaveRock6
+    4300072: CaveRock7
+    4300074: CaveRock8
+    4300076: CaveRock9
     9500000: //RootNode
   materials:
     importMaterials: 1

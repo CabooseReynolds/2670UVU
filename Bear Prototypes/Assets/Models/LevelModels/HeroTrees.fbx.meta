@@ -23,6 +23,12 @@ ModelImporter:
     100030: polySurface56
     100032: polySurface57
     100034: polySurface58
+    100036: polySurface59
+    100038: polySurface60
+    100040: polySurface61
+    100042: polySurface62
+    100044: transform1
+    100046: transform2
     400000: //RootNode
     400002: pasted__pasted__pCylinder57
     400004: pasted__pasted__pCylinder58
@@ -41,6 +47,12 @@ ModelImporter:
     400030: polySurface56
     400032: polySurface57
     400034: polySurface58
+    400036: polySurface59
+    400038: polySurface60
+    400040: polySurface61
+    400042: polySurface62
+    400044: transform1
+    400046: transform2
     2300000: pasted__pasted__pCylinder57
     2300002: pasted__pasted__pCylinder58
     2300004: pasted__pasted__pCylinder59
@@ -58,6 +70,10 @@ ModelImporter:
     2300028: polySurface56
     2300030: polySurface57
     2300032: polySurface58
+    2300034: polySurface59
+    2300036: polySurface60
+    2300038: polySurface61
+    2300040: polySurface62
     3300000: pasted__pasted__pCylinder57
     3300002: pasted__pasted__pCylinder58
     3300004: pasted__pasted__pCylinder59
@@ -75,6 +91,10 @@ ModelImporter:
     3300028: polySurface56
     3300030: polySurface57
     3300032: polySurface58
+    3300034: polySurface59
+    3300036: polySurface60
+    3300038: polySurface61
+    3300040: polySurface62
     4300000: pasted__pasted__pCylinder57
     4300002: polySurface52
     4300004: polySurface1
@@ -92,6 +112,10 @@ ModelImporter:
     4300028: pasted__pasted__pCylinder63
     4300030: pasted__pasted__pCylinder64
     4300032: pasted__pasted__pCylinder65
+    4300034: polySurface61
+    4300036: polySurface62
+    4300038: polySurface59
+    4300040: polySurface60
     9500000: //RootNode
   materials:
     importMaterials: 1
