@@ -720,7 +720,7 @@
      <step val="1" start="1" stop="1"/>
      <noFrames/>
     </column>
-    <column type="0" name="Bearpaw2" color="#FFFFFFFF" display="false" displayOrder="0" width="100" anonymous="true" id="33">
+    <column type="0" name="Bearpaw2" color="#FFFFFFFF" displayOrder="0" width="100" anonymous="true" id="33">
      <elementSeq exposures="65" val="49" id="33"/>
      <elementSeq exposures="66" val="41" id="33"/>
      <elementSeq exposures="67" val="42" id="33"/>
@@ -840,7 +840,7 @@
      <step val="1" start="1" stop="1"/>
      <noFrames/>
     </column>
-    <column type="0" name="ATV-08DC4CDDDA1623D1" color="#FFFFFFFF" display="false" displayOrder="0" width="100" anonymous="true" id="39">
+    <column type="0" name="ATV-08DC4CDDDA1623D1" color="#FFFFFFFF" displayOrder="0" width="100" anonymous="true" id="39">
      <elementSeq exposures="65" val="52" id="39"/>
      <elementSeq exposures="66" val="53" id="39"/>
      <elementSeq exposures="67" val="54" id="39"/>
@@ -944,7 +944,6 @@
      </module>
      <module type="READ" name="Bearpaw2" pos="-65,-50,0" publishUnderTab="Bearpaw1_2">
       <options>
-       <disabled val="true"/>
        <version val="1"/>
        <collapsed val="true"/>
       </options>
@@ -1049,7 +1048,6 @@
      </module>
      <module type="READ" name="Bearpaw2Color" pos="-65,-50,0" publishUnderTab="Bearpaw2">
       <options>
-       <disabled val="true"/>
        <version val="1"/>
        <collapsed val="true"/>
       </options>
