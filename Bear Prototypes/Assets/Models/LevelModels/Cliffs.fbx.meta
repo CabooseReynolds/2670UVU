@@ -51,6 +51,10 @@ ModelImporter:
     100086: transform1
     100088: transform2
     100090: transform3
+    100092: CaveRock10
+    100094: CaveRock11
+    100096: CaveRock12
+    100098: StepRock3
     400000: //RootNode
     400002: pasted__CliffFace1
     400004: pasted__CliffFace1A
@@ -97,6 +101,10 @@ ModelImporter:
     400086: transform1
     400088: transform2
     400090: transform3
+    400092: CaveRock10
+    400094: CaveRock11
+    400096: CaveRock12
+    400098: StepRock3
     2300000: pasted__CliffFace1
     2300002: pasted__CliffFace1A
     2300004: pasted__CliffFace1A3
@@ -136,6 +144,10 @@ ModelImporter:
     2300072: polySurface6
     2300074: StepRock1
     2300076: StepRock2
+    2300078: CaveRock10
+    2300080: CaveRock11
+    2300082: CaveRock12
+    2300084: StepRock3
     3300000: pasted__CliffFace1
     3300002: pasted__CliffFace1A
     3300004: pasted__CliffFace1A3
@@ -175,6 +187,10 @@ ModelImporter:
     3300072: polySurface6
     3300074: StepRock1
     3300076: StepRock2
+    3300078: CaveRock10
+    3300080: CaveRock11
+    3300082: CaveRock12
+    3300084: StepRock3
     4300000: pasted__polySurface2403
     4300002: pasted__polySurface2408
     4300004: pasted__CliffFace1
@@ -214,6 +230,10 @@ ModelImporter:
     4300072: CaveRock7
     4300074: CaveRock8
     4300076: CaveRock9
+    4300078: CaveRock10
+    4300080: StepRock3
+    4300082: CaveRock11
+    4300084: CaveRock12
     9500000: //RootNode
   materials:
     importMaterials: 1
