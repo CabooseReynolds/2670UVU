@@ -7,3 +7,5 @@ Solid    Blue                       0x08d4c224877007fa   0   0 255 255
 Solid    BearOutline                0x0000000000000003  72  95 103 255
 Solid    Skin                       0x08dc4cddda101965 171 130  91 255
 Solid    Pants                      0x08dc4cddda101d66  66 100 184 255
+Solid    WaterBlue                  0x08e0d5b5871195f2  83 186 255 255
+Solid    WaterWhite                 0x08e0d5b587119bb5 209 237 255 255

@@ -15,4 +15,12 @@
  <element id="38" elementName="Bearpaw1Color" elementFolder="Bearpaw1Color" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
  <element id="39" elementName="Bearpaw2Color" elementFolder="Bearpaw2Color" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
  <element id="40" elementName="Drawing_1" elementFolder="Drawing_1.40" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="43" elementName="WaterLineOlderBoy" elementFolder="WaterLineOlderBoy" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="46" elementName="WaterLineBackOlderBoy" elementFolder="WaterLineBackOlderBoy" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="47" elementName="WaterLineBackYoungerBoy" elementFolder="WaterLineBackYoungerBoy" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="48" elementName="WaterLineYoungerBoy" elementFolder="WaterLineYoungerBoy" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="49" elementName="WaterLineBear1" elementFolder="WaterLineBear1" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="50" elementName="WaterLineBackBear1" elementFolder="WaterLineBackBear1" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="51" elementName="WaterLineBackBear2" elementFolder="WaterLineBackBear2" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="52" elementName="WaterLineBear2" elementFolder="WaterLineBear2" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
 </elements>
