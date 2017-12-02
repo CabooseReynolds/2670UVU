@@ -3,7 +3,7 @@ guid: 5af35e9124ba1414a8c98a7fbb73babf
 timeCreated: 1511921591
 licenseType: Free
 ModelImporter:
-  serializedVersion: 22
+  serializedVersion: 21
   fileIDToRecycleName:
     100000: group
     100002: group1
@@ -1300,6 +1300,71 @@ ModelImporter:
     102584: transform7
     102586: transform8
     102588: transform9
+    102590: BigTree
+    102592: BigTree 1
+    102594: Bush
+    102596: BushLeaves
+    102598: pasted__group1
+    102600: pasted__group2
+    102602: pasted__pasted__Logs
+    102604: pasted__pasted__polySurface1609
+    102606: pasted__pasted__polySurface2415
+    102608: pasted__pasted__polySurface2416
+    102610: pasted__pasted__polySurface2417
+    102612: pasted__pasted__polySurface2418
+    102614: pasted__pasted__polySurface2419
+    102616: pasted__pasted__polySurface2420
+    102618: pasted__pasted__polySurface2421
+    102620: pasted__pasted__polySurface2422
+    102622: pasted__pasted__polySurface32
+    102624: pasted__polySurface40
+    102626: pasted__pSphere36
+    102628: pasted__pSphere37
+    102630: pasted__pSphere38
+    102632: pasted__pSphere39
+    102634: pasted__pSphere40
+    102636: pasted__pSphere41
+    102638: pasted__pSphere42
+    102640: pasted__pSphere43
+    102642: pSphere1
+    102644: pSphere10
+    102646: pSphere11
+    102648: pSphere12
+    102650: pSphere13
+    102652: pSphere14
+    102654: pSphere15
+    102656: pSphere16
+    102658: pSphere17
+    102660: pSphere18
+    102662: pSphere19
+    102664: pSphere2
+    102666: pSphere20
+    102668: pSphere21
+    102670: pSphere22
+    102672: pSphere23
+    102674: pSphere24
+    102676: pSphere25
+    102678: pSphere26
+    102680: pSphere27
+    102682: pSphere28
+    102684: pSphere29
+    102686: pSphere30
+    102688: pSphere31
+    102690: pSphere32
+    102692: pSphere33
+    102694: pSphere34
+    102696: pSphere35
+    102698: pSphere4
+    102700: pSphere5
+    102702: pSphere6
+    102704: pSphere7
+    102706: pSphere8
+    102708: pSphere9
+    102710: SmallTree
+    102712: SmallTree 1
+    102714: Stump1
+    102716: Stump2
+    102718: Stump3
     400000: group
     400002: group1
     400004: group2
@@ -2595,6 +2660,71 @@ ModelImporter:
     402584: transform7
     402586: transform8
     402588: transform9
+    402590: BigTree
+    402592: BigTree 1
+    402594: Bush
+    402596: BushLeaves
+    402598: pasted__group1
+    402600: pasted__group2
+    402602: pasted__pasted__Logs
+    402604: pasted__pasted__polySurface1609
+    402606: pasted__pasted__polySurface2415
+    402608: pasted__pasted__polySurface2416
+    402610: pasted__pasted__polySurface2417
+    402612: pasted__pasted__polySurface2418
+    402614: pasted__pasted__polySurface2419
+    402616: pasted__pasted__polySurface2420
+    402618: pasted__pasted__polySurface2421
+    402620: pasted__pasted__polySurface2422
+    402622: pasted__pasted__polySurface32
+    402624: pasted__polySurface40
+    402626: pasted__pSphere36
+    402628: pasted__pSphere37
+    402630: pasted__pSphere38
+    402632: pasted__pSphere39
+    402634: pasted__pSphere40
+    402636: pasted__pSphere41
+    402638: pasted__pSphere42
+    402640: pasted__pSphere43
+    402642: pSphere1
+    402644: pSphere10
+    402646: pSphere11
+    402648: pSphere12
+    402650: pSphere13
+    402652: pSphere14
+    402654: pSphere15
+    402656: pSphere16
+    402658: pSphere17
+    402660: pSphere18
+    402662: pSphere19
+    402664: pSphere2
+    402666: pSphere20
+    402668: pSphere21
+    402670: pSphere22
+    402672: pSphere23
+    402674: pSphere24
+    402676: pSphere25
+    402678: pSphere26
+    402680: pSphere27
+    402682: pSphere28
+    402684: pSphere29
+    402686: pSphere30
+    402688: pSphere31
+    402690: pSphere32
+    402692: pSphere33
+    402694: pSphere34
+    402696: pSphere35
+    402698: pSphere4
+    402700: pSphere5
+    402702: pSphere6
+    402704: pSphere7
+    402706: pSphere8
+    402708: pSphere9
+    402710: SmallTree
+    402712: SmallTree 1
+    402714: Stump1
+    402716: Stump2
+    402718: Stump3
     2300000: pasted__polySurface1609
     2300002: pasted__polySurface1612
     2300004: pasted__polySurface1613
@@ -2612,6 +2742,64 @@ ModelImporter:
     2300028: pasted__polySurface32
     2300030: polySurface40
     2300032: polySurface5
+    2300034: BigTree 1
+    2300036: pasted__pasted__polySurface1609
+    2300038: pasted__pasted__polySurface2415
+    2300040: pasted__pasted__polySurface2416
+    2300042: pasted__pasted__polySurface2417
+    2300044: pasted__pasted__polySurface2418
+    2300046: pasted__pasted__polySurface2419
+    2300048: pasted__pasted__polySurface2420
+    2300050: pasted__pasted__polySurface2421
+    2300052: pasted__pasted__polySurface2422
+    2300054: pasted__pasted__polySurface32
+    2300056: pasted__polySurface40
+    2300058: pasted__pSphere36
+    2300060: pasted__pSphere37
+    2300062: pasted__pSphere38
+    2300064: pasted__pSphere39
+    2300066: pasted__pSphere40
+    2300068: pasted__pSphere41
+    2300070: pasted__pSphere42
+    2300072: pasted__pSphere43
+    2300074: pSphere1
+    2300076: pSphere10
+    2300078: pSphere11
+    2300080: pSphere12
+    2300082: pSphere13
+    2300084: pSphere14
+    2300086: pSphere15
+    2300088: pSphere16
+    2300090: pSphere17
+    2300092: pSphere18
+    2300094: pSphere19
+    2300096: pSphere2
+    2300098: pSphere20
+    2300100: pSphere21
+    2300102: pSphere22
+    2300104: pSphere23
+    2300106: pSphere24
+    2300108: pSphere25
+    2300110: pSphere26
+    2300112: pSphere27
+    2300114: pSphere28
+    2300116: pSphere29
+    2300118: pSphere30
+    2300120: pSphere31
+    2300122: pSphere32
+    2300124: pSphere33
+    2300126: pSphere34
+    2300128: pSphere35
+    2300130: pSphere4
+    2300132: pSphere5
+    2300134: pSphere6
+    2300136: pSphere7
+    2300138: pSphere8
+    2300140: pSphere9
+    2300142: SmallTree 1
+    2300144: Stump1
+    2300146: Stump2
+    2300148: Stump3
     3300000: pasted__polySurface1609
     3300002: pasted__polySurface1612
     3300004: pasted__polySurface1613
@@ -2629,6 +2817,64 @@ ModelImporter:
     3300028: pasted__polySurface32
     3300030: polySurface40
     3300032: polySurface5
+    3300034: BigTree 1
+    3300036: pasted__pasted__polySurface1609
+    3300038: pasted__pasted__polySurface2415
+    3300040: pasted__pasted__polySurface2416
+    3300042: pasted__pasted__polySurface2417
+    3300044: pasted__pasted__polySurface2418
+    3300046: pasted__pasted__polySurface2419
+    3300048: pasted__pasted__polySurface2420
+    3300050: pasted__pasted__polySurface2421
+    3300052: pasted__pasted__polySurface2422
+    3300054: pasted__pasted__polySurface32
+    3300056: pasted__polySurface40
+    3300058: pasted__pSphere36
+    3300060: pasted__pSphere37
+    3300062: pasted__pSphere38
+    3300064: pasted__pSphere39
+    3300066: pasted__pSphere40
+    3300068: pasted__pSphere41
+    3300070: pasted__pSphere42
+    3300072: pasted__pSphere43
+    3300074: pSphere1
+    3300076: pSphere10
+    3300078: pSphere11
+    3300080: pSphere12
+    3300082: pSphere13
+    3300084: pSphere14
+    3300086: pSphere15
+    3300088: pSphere16
+    3300090: pSphere17
+    3300092: pSphere18
+    3300094: pSphere19
+    3300096: pSphere2
+    3300098: pSphere20
+    3300100: pSphere21
+    3300102: pSphere22
+    3300104: pSphere23
+    3300106: pSphere24
+    3300108: pSphere25
+    3300110: pSphere26
+    3300112: pSphere27
+    3300114: pSphere28
+    3300116: pSphere29
+    3300118: pSphere30
+    3300120: pSphere31
+    3300122: pSphere32
+    3300124: pSphere33
+    3300126: pSphere34
+    3300128: pSphere35
+    3300130: pSphere4
+    3300132: pSphere5
+    3300134: pSphere6
+    3300136: pSphere7
+    3300138: pSphere8
+    3300140: pSphere9
+    3300142: SmallTree 1
+    3300144: Stump1
+    3300146: Stump2
+    3300148: Stump3
     4300000: pasted__polySurface1612
     4300002: pasted__polySurface1613
     4300004: pasted__polySurface1614
@@ -2646,18 +2892,69 @@ ModelImporter:
     4300028: pasted__polySurface2422
     4300030: polySurface5
     4300032: polySurface40
+    4300034: BigTree
+    4300036: pSphere1
+    4300038: pSphere2
+    4300040: pSphere4
+    4300042: pSphere5
+    4300044: pSphere6
+    4300046: pSphere7
+    4300048: pSphere8
+    4300050: pSphere10
+    4300052: pSphere11
+    4300054: pSphere12
+    4300056: pSphere13
+    4300058: pSphere14
+    4300060: pSphere15
+    4300062: pSphere16
+    4300064: pSphere17
+    4300066: pSphere18
+    4300068: pSphere19
+    4300070: pSphere20
+    4300072: pSphere21
+    4300074: SmallTree
+    4300076: pSphere22
+    4300078: pSphere23
+    4300080: pSphere24
+    4300082: pSphere25
+    4300084: pSphere26
+    4300086: pSphere27
+    4300088: pSphere28
+    4300090: pSphere29
+    4300092: pSphere30
+    4300094: pSphere31
+    4300096: pSphere32
+    4300098: pSphere33
+    4300100: pSphere34
+    4300102: pSphere9
+    4300104: pSphere35
+    4300106: Stump1
+    4300108: Stump2
+    4300110: Stump3
+    4300112: pasted__pSphere36
+    4300114: pasted__pSphere37
+    4300116: pasted__pSphere38
+    4300118: pasted__pSphere39
+    4300120: pasted__pSphere40
+    4300122: pasted__pSphere41
+    4300124: pasted__pSphere42
+    4300126: pasted__pSphere43
+    4300128: pasted__pasted__polySurface1609
+    4300130: pasted__pasted__polySurface32
+    4300132: pasted__pasted__polySurface2415
+    4300134: pasted__pasted__polySurface2416
+    4300136: pasted__pasted__polySurface2417
+    4300138: pasted__pasted__polySurface2418
+    4300140: pasted__pasted__polySurface2419
+    4300142: pasted__pasted__polySurface2420
+    4300144: pasted__pasted__polySurface2421
+    4300146: pasted__pasted__polySurface2422
+    4300148: pasted__polySurface40
     9500000: //RootNode
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Trees
-    second: {fileID: 2100000, guid: 9042948e79b9e2b45a862fdb3d6cb177, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
-    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -2670,7 +2967,6 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
-    importAnimatedCustomProperties: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5

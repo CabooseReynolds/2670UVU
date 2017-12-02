@@ -3,7 +3,7 @@ guid: 2f74a487bd84fc846bb85c83141de202
 timeCreated: 1511921589
 licenseType: Free
 ModelImporter:
-  serializedVersion: 22
+  serializedVersion: 21
   fileIDToRecycleName:
     100000: group
     100002: group1
@@ -568,6 +568,7 @@ ModelImporter:
     101120: Ground7
     101122: Ground8
     101124: Ground9
+    101126: Swamp
     400000: group
     400002: group1
     400004: pasted__Ground1
@@ -1131,6 +1132,7 @@ ModelImporter:
     401120: Ground7
     401122: Ground8
     401124: Ground9
+    401126: Swamp
     2300000: pasted__Ground1
     2300002: pasted__Ground11
     2300004: pasted__Ground13
@@ -1258,22 +1260,10 @@ ModelImporter:
     4300080: Cave3
     4300082: Cave2
     9500000: //RootNode
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Terrain2
-    second: {fileID: 2100000, guid: fe31ab9c3d4db704b900fc640aa1dcca, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Terrian
-    second: {fileID: 2100000, guid: 8d5e8e5b404bcb24ba17a36540151d2f, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
-    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -1286,7 +1276,6 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
-    importAnimatedCustomProperties: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5

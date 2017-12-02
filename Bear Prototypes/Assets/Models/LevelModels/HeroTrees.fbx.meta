@@ -29,6 +29,10 @@ ModelImporter:
     100042: polySurface62
     100044: transform1
     100046: transform2
+    100048: BigHeroTree
+    100050: BigHeroTreeVines
+    100052: SmallHeroTree
+    100054: SmallHeroTreeVines
     400000: //RootNode
     400002: pasted__pasted__pCylinder57
     400004: pasted__pasted__pCylinder58
@@ -53,6 +57,10 @@ ModelImporter:
     400042: polySurface62
     400044: transform1
     400046: transform2
+    400048: BigHeroTree
+    400050: BigHeroTreeVines
+    400052: SmallHeroTree
+    400054: SmallHeroTreeVines
     2300000: pasted__pasted__pCylinder57
     2300002: pasted__pasted__pCylinder58
     2300004: pasted__pasted__pCylinder59
