@@ -17,6 +17,7 @@ public class AnimateChar : MonoBehaviour
 		Moveinput.JumpAction += AnimJump;
 		Moveinput.CrouchActionDown += AnimCrouchDown;
 		Moveinput.CrouchActionUp += AnimCrouchUp;
+		Moveinput.AttackAction += AnimAttack;
 	}
 	
     private void AnimWalk(float obj)
@@ -32,11 +33,10 @@ public class AnimateChar : MonoBehaviour
 	{
 		anims.SetTrigger("Jump");
 	}
-	// 	private void AnimJump()
-	// {
-	// 	anims.SetTrigger("Jump");
-	// }
-
+		private void AnimAttack()
+	{
+		anims.SetTrigger("Attack");
+	}
 	private void AnimCrouchDown()
 	{
 	anims.SetBool("Crawl", true);
