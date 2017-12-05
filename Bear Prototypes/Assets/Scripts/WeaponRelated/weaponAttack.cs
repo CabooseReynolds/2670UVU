@@ -10,12 +10,13 @@ public class weaponAttack : MonoBehaviour {
 	public float attackAngle = 90f;
 
 	Vector3 rotAmount;
+	Vector3 startPos;
 
 	void Start()
 	{
 		StartRotation = transform.rotation;
 		Moveinput.AttackAction += attack;
-		rotAmount.z = 0;
+		rotAmount.z = -90;
 	}
 
 
@@ -37,7 +38,7 @@ public class weaponAttack : MonoBehaviour {
 		}
 		print("Pow");
 		transform.localRotation = StartRotation;
-		rotAmount.z = 0;
+		transform.position = startPos;
 		}
 		
 	}
