@@ -38,7 +38,6 @@ public class weaponAttack : MonoBehaviour {
 		}
 		print("Pow");
 		transform.localRotation = StartRotation;
-		transform.position = startPos;
 		}
 		
 	}
