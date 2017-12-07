@@ -1,19 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <elements source="Harmony Advanced (HarmonyAdvanced.exe) version 14.0.0 build 11461 2016-06-21 14:02:21" version="1400" build="11461">
- <element id="15" elementName="Drawing_1" elementFolder="Drawing_1" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
  <element id="16" elementName="background" elementFolder="background" pixmapFormat="10" scanType="2" fieldChart="12" vectorType="0" rootFolder="elements"/>
- <element id="22" elementName="OlderBoyLeg" elementFolder="OlderBoyLeg" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
- <element id="23" elementName="OlderBoyPants" elementFolder="OlderBoyPants" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
- <element id="24" elementName="YoungerBoyLeg" elementFolder="YoungerBoyLeg" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
- <element id="25" elementName="YoungBoyPants" elementFolder="YoungBoyPants" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
- <element id="30" elementName="Bearpaw1" elementFolder="Bearpaw1.30" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
- <element id="33" elementName="Bearpaw2" elementFolder="Bearpaw2" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
- <element id="34" elementName="OlderBoyPantsColor" elementFolder="OlderBoyPantsColor" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
- <element id="35" elementName="OlderBoyLegColor" elementFolder="OlderBoyLegColor" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
- <element id="36" elementName="YoungBoyPantsColor" elementFolder="YoungBoyPantsColor" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
- <element id="37" elementName="YoungerBoyLegColor" elementFolder="YoungerBoyLegColor" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
- <element id="38" elementName="Bearpaw1Color" elementFolder="Bearpaw1Color" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
- <element id="39" elementName="Bearpaw2Color" elementFolder="Bearpaw2Color" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="34" elementName="OlderBoyPants" elementFolder="OlderBoyPants.34" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="35" elementName="OlderBoyLeg" elementFolder="OlderBoyLeg.35" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="36" elementName="YoungBoyPants" elementFolder="YoungBoyPants.36" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="37" elementName="YoungerBoyLeg" elementFolder="YoungerBoyLeg.37" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="38" elementName="Bearpaw1" elementFolder="Bearpaw1" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="39" elementName="Bearpaw2" elementFolder="Bearpaw2.39" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
  <element id="40" elementName="Drawing_1" elementFolder="Drawing_1.40" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
  <element id="46" elementName="WaterLineBackOlderBoy" elementFolder="WaterLineBackOlderBoy" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
  <element id="54" elementName="WaterLineOlderBoy" elementFolder="WaterLineOlderBoy.54" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
