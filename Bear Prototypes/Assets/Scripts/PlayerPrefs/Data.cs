@@ -15,7 +15,7 @@ public class Data {
 	public int gold = 100;
 	public bool weaponsEnabled = true;
 	public float health = 1.0f;
-	public float speed = 10;
+	public float speed = 6;
 	public float gravity = 20;
 	public float jumpHeight = 8;
 	public static int jumpCount;
@@ -28,7 +28,7 @@ public class Data {
 	public float boostGravity = 10;
 	public float boostJumpHeight = 16;
 	public float boostMaxJump = 2;
-	public float lowGSpeed = 10;
+	public float lowGSpeed = 6;
 	public float lowGGravity = 15;
 	public float lowGJumpHeight = 8;
 	public float lowGMaxJump = 2;
