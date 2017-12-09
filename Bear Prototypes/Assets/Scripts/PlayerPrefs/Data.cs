@@ -15,9 +15,9 @@ public class Data {
 	public int gold = 100;
 	public bool weaponsEnabled = true;
 	public float health = 1.0f;
-	public float speed = 6;
+	public float speed = 5;
 	public float gravity = 20;
-	public float jumpHeight = 8;
+	public float jumpHeight = 10;
 	public static int jumpCount;
 	public static int maxJump = 2;
 	public float dragSpeed = 4;

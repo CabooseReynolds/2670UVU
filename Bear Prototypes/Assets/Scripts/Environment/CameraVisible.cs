@@ -2,7 +2,16 @@
 using System.Collections;
 
 public class CameraVisible : MonoBehaviour {
+
+    public ParticleSystem PS;
+    void Start ()
+        {
+            PS = GetComponent<ParticleSystem>();
+        }
     void OnBecameVisible() {
-        enabled = true;
+        PS.Play();
+    }
+    void OnBecameInvisible(){
+        PS.Stop();
     }
 }
