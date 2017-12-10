@@ -18,8 +18,8 @@ public class Data {
 	public float speed = 5;
 	public float gravity = 20;
 	public float jumpHeight = 10;
-	public static int jumpCount;
-	public static int maxJump = 2;
+	public float jumpCount;
+	public float maxJump = 2;
 	public float dragSpeed = 4;
 	public float dragGravity = 4;
 	public float dragJumpHeight = 4;

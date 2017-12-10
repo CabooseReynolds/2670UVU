@@ -11,7 +11,7 @@ bool gravityOn = false;
 public float speed; 
 public float gravity;
 public float jumpHeight; 
-public float maxJump;
+private float maxJump;
 public int jumpCount;
 public float maxFallSpeed = -30;
 public float curFallSpeed;
@@ -33,7 +33,7 @@ CharacterController cc;
 	cc = GetComponent<CharacterController>();
     speed = Data.Instance.speed;
     jumpHeight = Data.Instance.jumpHeight;
-// maxJump = Data.Instance.maxJump;
+    maxJump = Data.Instance.maxJump;
     gravity = Data.Instance.gravity;
 //    PlayButton.Play += OnPlay;
     Moveinput.JumpAction += Jump;
@@ -53,7 +53,6 @@ CharacterController cc;
     ChangeSpeed.jCount = ResetJumps;
     Moveinput.Reset += ResetAction;
     startPos = transform.position;
-    JumpCount.JumpCountAction = JumpCountHandler;
 
 	}
 
@@ -71,10 +70,11 @@ CharacterController cc;
     Moveinput.WalkAction += Walk;
     PlayButton.Play -=OnPlay;
 	} */
-     private void SendSpeed(float _speed, float _gravity, float _jumpHeight)
+     private void SendSpeed(float _speed, float _gravity, float _maxJump, float _jumpHeight)
     {
 		speed = _speed;
 		gravity = _gravity;
+        maxJump = _maxJump;
         jumpHeight = _jumpHeight;
     }
 
@@ -106,18 +106,12 @@ CharacterController cc;
     private void CrouchDown(){
         cc.height = 1;
 		cc.center = new Vector3(0,-0.5f,0);
-        speed /= 2.0f;
 
         }
     private void CrouchUp(){
         cc.height = 2;
 		cc.center = new Vector3(0,0,0);
-        speed *= 2.0f;
         }
-    private void JumpCountHandler(int _newCount)
-	{
-		Data.jumpCount = _newCount;
-	}
 
     // public void ClimbingStart()
     // {
@@ -177,13 +171,13 @@ CharacterController cc;
          }
     }
     public void Jump(){
-        if (Data.jumpCount < Data.maxJump && cc.collisionFlags != CollisionFlags.Sides)
+        if (jumpCount < maxJump && cc.collisionFlags != CollisionFlags.Sides)
         {
             if (cc.isGrounded)
             {
             StartCoroutine(Gravity());
             }
-            Data.jumpCount++;
+            jumpCount++;
             //print(jumpCount);
             moveDirection.y = jumpHeight;
         }
@@ -196,7 +190,7 @@ CharacterController cc;
 
     public void ResetJumps()
         {
-        Data.jumpCount = 0;
+        jumpCount = 0;
         }
 
     IEnumerator Gravity()

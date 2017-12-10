@@ -5,7 +5,7 @@ using System;
 
 public class ChangeSpeed : MonoBehaviour {
 MoveChar character;
-public static Action<float, float, float> SendSpeed;
+public static Action<float, float, float, float> SendSpeed;
 public static Action jCount;
 
 
@@ -22,15 +22,15 @@ void OnTriggerEnter (Collider other){
 	switch (speedType)
 	{
 		case Data.Gamespeed.DRAG:
-			SendSpeed(Data.Instance.dragSpeed, Data.Instance.dragGravity,Data.Instance.dragJumpHeight);
+			SendSpeed(Data.Instance.dragSpeed, Data.Instance.dragGravity, Data.Instance.dragMaxJump,Data.Instance.dragJumpHeight);
 			break;
 
 		case Data.Gamespeed.BOOST:
-			SendSpeed(Data.Instance.boostSpeed, Data.Instance.boostGravity, Data.Instance.boostJumpHeight);
+			SendSpeed(Data.Instance.boostSpeed, Data.Instance.boostGravity, Data.Instance.boostMaxJump,Data.Instance.boostJumpHeight);
 			break;
 		
 		case Data.Gamespeed.ANTIG:
-			SendSpeed(Data.Instance.lowGSpeed, Data.Instance.lowGGravity, Data.Instance.lowGJumpHeight);
+			SendSpeed(Data.Instance.lowGSpeed, Data.Instance.lowGGravity, Data.Instance.lowGMaxJump, Data.Instance.lowGJumpHeight);
 			break;
 
 
@@ -44,7 +44,7 @@ void OnTriggerExit (Collider other){
 
 			if(character.waterCount <= 0)
 			{
-	SendSpeed(Data.Instance.speed, Data.Instance.gravity, Data.Instance.jumpHeight);
+	SendSpeed(Data.Instance.speed, Data.Instance.gravity, Data.Instance.maxJump, Data.Instance.jumpHeight);
 	jCount();
 }
 }

@@ -47,7 +47,7 @@ void OnTriggerEnter(Collider Weapon)
 			Enemy.transform.position = startPos;
 //			print(transform.position);
 			life = startlife;
-			Prend.enabled = true;
+			Prend.enabled = false;
 			Pcoll.enabled = true;
 			coll.enabled = true;
 		}
