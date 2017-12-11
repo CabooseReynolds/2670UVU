@@ -1,6 +1,6 @@
 //Maya ASCII 2017ff05 scene
 //Name: LBattack3.ma
-//Last modified: Sat, Dec 09, 2017 11:33:05 AM
+//Last modified: Sat, Dec 09, 2017 10:15:09 PM
 //Codeset: 1252
 requires maya "2017ff05";
 requires -nodeType "renderSetup" "renderSetup.py" "1.0";
@@ -14,7 +14,7 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "546C077D-406B-55FA-40DB-15A792481F8F";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -21.477832594029486 11.501053987422226 46.362484377163916 ;
+	setAttr ".t" -type "double3" -16.548345366697081 9.279902876837701 27.534138591071446 ;
 	setAttr ".r" -type "double3" 713.06164327786098 -14791.799999968332 0 ;
 	setAttr ".rp" -type "double3" 1.1102230246251565e-016 1.7763568394002505e-015 4.4408920985006262e-016 ;
 	setAttr ".rpt" -type "double3" 1.7849976010464665e-016 7.0344876724068756e-018 -1.2679258421052118e-016 ;
@@ -22,11 +22,11 @@ createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "7E27FED8-4A03-85C0-4E37-7C837D701059";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 52.600567999171972;
+	setAttr ".coi" 30.844353108695827;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
-	setAttr ".tp" -type "double3" -0.26648236915381407 5.5745360217036275 1.4011192833576245 ;
+	setAttr ".tp" -type "double3" -0.41376492060399106 5.5538613965747139 1.511724263999076 ;
 	setAttr ".hc" -type "string" "viewSet -p %camera";
 createNode transform -s -n "top";
 	rename -uid "C096FF9C-40CE-6815-8F9C-7CBB77ED65AD";
@@ -29041,8 +29041,8 @@ createNode animCurveTU -n "pasted__LB_scaleZ1";
 	setAttr ".tan" 18;
 	setAttr ".ktv[0]"  1 1;
 select -ne :time1;
-	setAttr ".o" 44;
-	setAttr ".unw" 44;
+	setAttr ".o" 1;
+	setAttr ".unw" 1;
 select -ne :hardwareRenderingGlobals;
 	setAttr ".otfna" -type "stringArray" 22 "NURBS Curves" "NURBS Surfaces" "Polygons" "Subdiv Surface" "Particles" "Particle Instance" "Fluids" "Strokes" "Image Planes" "UI" "Lights" "Cameras" "Locators" "Joints" "IK Handles" "Deformers" "Motion Trails" "Components" "Hair Systems" "Follicles" "Misc. UI" "Ornaments"  ;
 	setAttr ".otfva" -type "Int32Array" 22 0 1 1 1 1 1

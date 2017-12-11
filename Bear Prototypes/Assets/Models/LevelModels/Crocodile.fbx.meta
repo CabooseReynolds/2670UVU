@@ -1,0 +1,261 @@
+fileFormatVersion: 2
+guid: 8979f90a25fd8ac4f8514752c94d2530
+timeCreated: 1512930520
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: CrocodileStatic:Croc_CSpine
+    100004: CrocodileStatic:Croc_CSpine_ctrl
+    100006: CrocodileStatic:Croc_CSpine_grp
+    100008: CrocodileStatic:Croc_Geo
+    100010: CrocodileStatic:Croc_geo
+    100012: CrocodileStatic:Croc_Head
+    100014: CrocodileStatic:Croc_Head_ctrl
+    100016: CrocodileStatic:Croc_Head_grp
+    100018: CrocodileStatic:Croc_Jaw
+    100020: CrocodileStatic:Croc_Jaw_crtl
+    100022: CrocodileStatic:Croc_Jaw_grp
+    100024: CrocodileStatic:Croc_L_Elbow
+    100026: CrocodileStatic:Croc_L_Elbow_crtl
+    100028: CrocodileStatic:Croc_L_Elbow_grp
+    100030: CrocodileStatic:Croc_L_Foot
+    100032: CrocodileStatic:Croc_L_Foot_crtl
+    100034: CrocodileStatic:Croc_L_Foot_grp
+    100036: CrocodileStatic:Croc_L_Hand
+    100038: CrocodileStatic:Croc_L_Hand_crtl
+    100040: CrocodileStatic:Croc_L_Hand_grp
+    100042: CrocodileStatic:Croc_L_Hip
+    100044: CrocodileStatic:Croc_L_Hip_crtl
+    100046: CrocodileStatic:Croc_L_Hip_crtl 1
+    100048: CrocodileStatic:Croc_L_Knee
+    100050: CrocodileStatic:Croc_L_Knee_ctrl
+    100052: CrocodileStatic:Croc_L_Knee_grp
+    100054: CrocodileStatic:Croc_L_Shoulder
+    100056: CrocodileStatic:Croc_L_Shoulder_ctrl
+    100058: CrocodileStatic:Croc_L_Shoulder_grp
+    100060: CrocodileStatic:Croc_Maw
+    100062: CrocodileStatic:Croc_Maw_crtl
+    100064: CrocodileStatic:Croc_Maw_grp
+    100066: CrocodileStatic:Croc_R_Elbow
+    100068: CrocodileStatic:Croc_R_Elbow_crtl
+    100070: CrocodileStatic:Croc_R_Elbow_crtl 1
+    100072: CrocodileStatic:Croc_R_Foot
+    100074: CrocodileStatic:Croc_R_Foot_crtl
+    100076: CrocodileStatic:Croc_R_Foot_grp
+    100078: CrocodileStatic:Croc_R_Hand
+    100080: CrocodileStatic:Croc_R_Hand_crtl
+    100082: CrocodileStatic:Croc_R_Hand_grp
+    100084: CrocodileStatic:Croc_R_Hip
+    100086: CrocodileStatic:Croc_R_Hip_crtl
+    100088: CrocodileStatic:Croc_R_Hip_crtl 1
+    100090: CrocodileStatic:Croc_R_Knee
+    100092: CrocodileStatic:Croc_R_Knee_ctrl
+    100094: CrocodileStatic:Croc_R_Knee_grp
+    100096: CrocodileStatic:Croc_R_Shoulder
+    100098: CrocodileStatic:Croc_R_Shoulder_ctrl
+    100100: CrocodileStatic:Croc_R_Shoulder_grp
+    100102: CrocodileStatic:Croc_Root
+    100104: CrocodileStatic:Croc_Root_ctrl
+    100106: CrocodileStatic:Croc_Spine
+    100108: CrocodileStatic:Croc_Spine_crtl
+    100110: CrocodileStatic:Croc_Tail_01
+    100112: CrocodileStatic:Croc_Tail_01_ctrl
+    100114: CrocodileStatic:Croc_Tail_01_grp
+    100116: CrocodileStatic:Croc_Tail_02
+    100118: CrocodileStatic:Croc_Tail_02_ctrl
+    100120: CrocodileStatic:Croc_Tail_02_grp
+    100122: CrocodileStatic:Croc_Tail_03
+    100124: CrocodileStatic:Croc_Tail_03_ctrl
+    100126: CrocodileStatic:Croc_Tail_03_grp
+    100128: CrocodileStatic:Croc_Tail_04
+    100130: CrocodileStatic:Croc_Tail_04_ctrl
+    100132: CrocodileStatic:Croc_Tail_04_grp
+    100134: CrocodileStatic:Croc_Tail_05
+    100136: CrocodileStatic:Croc_Tail_05_ctrl
+    100138: CrocodileStatic:Croc_Tail_05_grp
+    100140: CrocodileStatic:Croc_Tail_06
+    100142: CrocodileStatic:Croc_Tail_06_ctrl
+    100144: CrocodileStatic:Croc_Tail_06_grp
+    100146: CrocodileStatic:Croc_Tail_07
+    100148: CrocodileStatic:Croc_Tail_07_ctrl
+    100150: CrocodileStatic:Croc_Tail_07_grp
+    100152: CrocodileStatic:Croc_teeth_BL
+    100154: CrocodileStatic:Croc_teeth_BR
+    100156: CrocodileStatic:Croc_teeth_TL
+    100158: CrocodileStatic:Croc_teeth_TR
+    100160: CrocodileStatic:Spine_ctrl_grp
+    400000: //RootNode
+    400002: CrocodileStatic:Croc_CSpine
+    400004: CrocodileStatic:Croc_CSpine_ctrl
+    400006: CrocodileStatic:Croc_CSpine_grp
+    400008: CrocodileStatic:Croc_Geo
+    400010: CrocodileStatic:Croc_geo
+    400012: CrocodileStatic:Croc_Head
+    400014: CrocodileStatic:Croc_Head_ctrl
+    400016: CrocodileStatic:Croc_Head_grp
+    400018: CrocodileStatic:Croc_Jaw
+    400020: CrocodileStatic:Croc_Jaw_crtl
+    400022: CrocodileStatic:Croc_Jaw_grp
+    400024: CrocodileStatic:Croc_L_Elbow
+    400026: CrocodileStatic:Croc_L_Elbow_crtl
+    400028: CrocodileStatic:Croc_L_Elbow_grp
+    400030: CrocodileStatic:Croc_L_Foot
+    400032: CrocodileStatic:Croc_L_Foot_crtl
+    400034: CrocodileStatic:Croc_L_Foot_grp
+    400036: CrocodileStatic:Croc_L_Hand
+    400038: CrocodileStatic:Croc_L_Hand_crtl
+    400040: CrocodileStatic:Croc_L_Hand_grp
+    400042: CrocodileStatic:Croc_L_Hip
+    400044: CrocodileStatic:Croc_L_Hip_crtl
+    400046: CrocodileStatic:Croc_L_Hip_crtl 1
+    400048: CrocodileStatic:Croc_L_Knee
+    400050: CrocodileStatic:Croc_L_Knee_ctrl
+    400052: CrocodileStatic:Croc_L_Knee_grp
+    400054: CrocodileStatic:Croc_L_Shoulder
+    400056: CrocodileStatic:Croc_L_Shoulder_ctrl
+    400058: CrocodileStatic:Croc_L_Shoulder_grp
+    400060: CrocodileStatic:Croc_Maw
+    400062: CrocodileStatic:Croc_Maw_crtl
+    400064: CrocodileStatic:Croc_Maw_grp
+    400066: CrocodileStatic:Croc_R_Elbow
+    400068: CrocodileStatic:Croc_R_Elbow_crtl
+    400070: CrocodileStatic:Croc_R_Elbow_crtl 1
+    400072: CrocodileStatic:Croc_R_Foot
+    400074: CrocodileStatic:Croc_R_Foot_crtl
+    400076: CrocodileStatic:Croc_R_Foot_grp
+    400078: CrocodileStatic:Croc_R_Hand
+    400080: CrocodileStatic:Croc_R_Hand_crtl
+    400082: CrocodileStatic:Croc_R_Hand_grp
+    400084: CrocodileStatic:Croc_R_Hip
+    400086: CrocodileStatic:Croc_R_Hip_crtl
+    400088: CrocodileStatic:Croc_R_Hip_crtl 1
+    400090: CrocodileStatic:Croc_R_Knee
+    400092: CrocodileStatic:Croc_R_Knee_ctrl
+    400094: CrocodileStatic:Croc_R_Knee_grp
+    400096: CrocodileStatic:Croc_R_Shoulder
+    400098: CrocodileStatic:Croc_R_Shoulder_ctrl
+    400100: CrocodileStatic:Croc_R_Shoulder_grp
+    400102: CrocodileStatic:Croc_Root
+    400104: CrocodileStatic:Croc_Root_ctrl
+    400106: CrocodileStatic:Croc_Spine
+    400108: CrocodileStatic:Croc_Spine_crtl
+    400110: CrocodileStatic:Croc_Tail_01
+    400112: CrocodileStatic:Croc_Tail_01_ctrl
+    400114: CrocodileStatic:Croc_Tail_01_grp
+    400116: CrocodileStatic:Croc_Tail_02
+    400118: CrocodileStatic:Croc_Tail_02_ctrl
+    400120: CrocodileStatic:Croc_Tail_02_grp
+    400122: CrocodileStatic:Croc_Tail_03
+    400124: CrocodileStatic:Croc_Tail_03_ctrl
+    400126: CrocodileStatic:Croc_Tail_03_grp
+    400128: CrocodileStatic:Croc_Tail_04
+    400130: CrocodileStatic:Croc_Tail_04_ctrl
+    400132: CrocodileStatic:Croc_Tail_04_grp
+    400134: CrocodileStatic:Croc_Tail_05
+    400136: CrocodileStatic:Croc_Tail_05_ctrl
+    400138: CrocodileStatic:Croc_Tail_05_grp
+    400140: CrocodileStatic:Croc_Tail_06
+    400142: CrocodileStatic:Croc_Tail_06_ctrl
+    400144: CrocodileStatic:Croc_Tail_06_grp
+    400146: CrocodileStatic:Croc_Tail_07
+    400148: CrocodileStatic:Croc_Tail_07_ctrl
+    400150: CrocodileStatic:Croc_Tail_07_grp
+    400152: CrocodileStatic:Croc_teeth_BL
+    400154: CrocodileStatic:Croc_teeth_BR
+    400156: CrocodileStatic:Croc_teeth_TL
+    400158: CrocodileStatic:Croc_teeth_TR
+    400160: CrocodileStatic:Spine_ctrl_grp
+    2300000: CrocodileStatic:Croc_geo
+    2300002: CrocodileStatic:Croc_teeth_BL
+    2300004: CrocodileStatic:Croc_teeth_BR
+    2300006: CrocodileStatic:Croc_teeth_TL
+    2300008: CrocodileStatic:Croc_teeth_TR
+    3300000: CrocodileStatic:Croc_geo
+    3300002: CrocodileStatic:Croc_teeth_BL
+    3300004: CrocodileStatic:Croc_teeth_BR
+    3300006: CrocodileStatic:Croc_teeth_TL
+    3300008: CrocodileStatic:Croc_teeth_TR
+    4300000: CrocodileStatic:Croc_teeth_BL
+    4300002: CrocodileStatic:Croc_teeth_TR
+    4300004: CrocodileStatic:Croc_teeth_TL
+    4300006: CrocodileStatic:Croc_teeth_BR
+    4300008: CrocodileStatic:Croc_geo
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
