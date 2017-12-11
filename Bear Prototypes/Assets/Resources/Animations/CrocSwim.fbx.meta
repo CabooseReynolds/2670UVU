@@ -195,7 +195,7 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -275,7 +275,7 @@ ModelImporter:
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
-  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 8979f90a25fd8ac4f8514752c94d2530,
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: c666691c2049ebb4fa5e1c28ae11726c,
     type: 3}
   animationType: 2
   humanoidOversampling: 1
