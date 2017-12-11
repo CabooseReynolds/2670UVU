@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Weapon : MonoBehaviour {
-	public float damage;
+	public float Damage;
 	public float PivotOffset;
 	public Transform WeaponHolder;
     bool holdingThisWeapon;
@@ -36,6 +36,7 @@ public class Weapon : MonoBehaviour {
 		    transform.parent.parent = WeaponHolder.transform;
             transform.parent.localPosition = new Vector3 (0,PivotOffset,0);
             transform.parent.localRotation = Quaternion.identity;
+            GetComponent<Collider>().enabled = false;
             
             
         }
@@ -44,9 +45,10 @@ public class Weapon : MonoBehaviour {
             print("How about this??");
             transform.parent.GetComponent<Rigidbody>().isKinematic = false;
 		    transform.parent.parent = null;
-    //        Moveinput.pickUPWeapon -= pickUpWeapon;
-			 pickup.weapon = null;
+            Moveinput.pickUpWeapon -= pickUpWeapon;
+		    pickup.weapon = null;
 			 pickup.holdingItem = false;
+             GetComponent<Collider>().enabled = true;
             
            }
 
