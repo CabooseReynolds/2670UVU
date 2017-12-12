@@ -6,12 +6,13 @@ public class CrocAnimator : MonoBehaviour {
 
 	public Animator anims;
 	public GameObject Enemy;
+
+	void Start()
+	{
+		anims = Enemy.GetComponent<Animator>();
+	}
 	void OnTriggerEnter(Collider other)
 	{
-		anims.SetTrigger("Swim");
-	}
-	void OnTriggerExit()
-	{
-		anims.SetTrigger("Swim");
+		anims.SetTrigger("Attack");
 	}
 }
