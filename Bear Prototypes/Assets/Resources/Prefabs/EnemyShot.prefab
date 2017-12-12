@@ -64,7 +64,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &4027593243977154
 Transform:
   m_ObjectHideFlags: 1
@@ -112,7 +112,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1542824084394746}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_MotionVectors: 1
@@ -210,7 +210,7 @@ MonoBehaviour:
   startDelay: 0
   speed: 9
   deathDelay: 6
-  endPoint: {x: 55.57, y: -21.93, z: 0}
+  endPoint: {x: 71.5, y: -25.24, z: 0}
 --- !u!114 &114692125628102232
 MonoBehaviour:
   m_ObjectHideFlags: 1
