@@ -29,15 +29,15 @@ public class weaponAttack : MonoBehaviour {
 
 	IEnumerator Swing()
 	{   print("oh snap");
-		while(rotAmount.z > attackAngle){
-		rotAmount.z -= Time.deltaTime*hitSpeed;
-		transform.localRotation = Quaternion.Euler(rotAmount);
+	//	while(rotAmount.z > attackAngle){
+	//	rotAmount.z -= Time.deltaTime*hitSpeed;
+		//transform.localRotation = Quaternion.Euler(rotAmount);
 			print("Hiyah!");
 		//print("Attacked");
 		yield return null;
-		}
+	//	}
 		print("Pow");
-		transform.localRotation = StartRotation;
+		//transform.localRotation = StartRotation;
 		}
 		
 	}

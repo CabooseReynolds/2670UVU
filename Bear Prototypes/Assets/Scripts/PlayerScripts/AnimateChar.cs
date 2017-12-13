@@ -18,6 +18,8 @@ public class AnimateChar : MonoBehaviour
 		Moveinput.CrouchActionDown += AnimCrouchDown;
 		Moveinput.CrouchActionUp += AnimCrouchUp;
 		Moveinput.AttackAction += AnimAttack;
+		Moveinput.RunAction += AnimRun;
+		Moveinput.WalkAction += AnimWalk;
 	}
 	
     private void AnimWalk(float obj)
@@ -27,13 +29,22 @@ public class AnimateChar : MonoBehaviour
 			obj *= -1;
 		}
 		anims.SetFloat("Walk", obj);
+//		anims.SetBool("Run", false);
     }
 
 	private void AnimJump()
 	{
 		anims.SetTrigger("Jump");
 	}
-		private void AnimAttack()
+		private void AnimRun()
+	{
+		anims.SetBool("Run", true);
+	}
+			private void AnimWalk()
+	{
+		anims.SetBool("Run", false);
+	}
+	private void AnimAttack()
 	{
 		anims.SetTrigger("Attack");
 	}
@@ -45,23 +56,6 @@ public class AnimateChar : MonoBehaviour
 	{
 	anims.SetBool("Crawl", false);	
     }
-
-	// private void AnimCrouch()
-	// {
-	// 	if(crouching == false)
-	// 	{
-	// 		anims.SetBool("Crouch", true);
-	// 		crouching = true;
-	// 	} else {
-	// 		anims.SetBool("Crouch", false);
-	// 		crouching = false;
-	// 	}
-	// }
-
-	private void AnimDamage()
-	{
-		anims.SetTrigger("Damaged");
-	}
 
 	private void AnimGrab()
 	{
