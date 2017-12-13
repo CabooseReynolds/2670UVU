@@ -1,11 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System;
+using UnityEngine.Events;
 
 [System.Serializable]
 public class GetAndSetGameData : MonoBehaviour {
-    public static Action<int> UpdateGold;
+    public static UnityAction<int> UpdateGold;
 
 void Awake ()
 {

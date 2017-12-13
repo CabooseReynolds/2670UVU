@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using System;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 public class Load : MonoBehaviour {
 
 	public string sceneName;
-	public static Action EndButton;
+	public static UnityAction EndButton;
 
 	void Start ()
 	{

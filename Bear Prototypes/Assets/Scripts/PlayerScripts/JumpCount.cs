@@ -1,11 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System;
+using UnityEngine.Events;
 
 public class JumpCount : MonoBehaviour 
 {
-	public static Action<int> JumpCountAction;
+	public static UnityAction<int> JumpCountAction;
 	int newJumpCount = 1;
 
 	void OnTriggerEnter()

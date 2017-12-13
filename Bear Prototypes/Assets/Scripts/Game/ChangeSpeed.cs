@@ -1,12 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System;
+using UnityEngine.Events;
 
 public class ChangeSpeed : MonoBehaviour {
 MoveChar character;
-public static Action<float, float, float, float> SendSpeed;
-public static Action jCount;
+public static UnityAction<float, float, float, float> SendSpeed;
+public static UnityAction jCount;
 
 
 public Data.Gamespeed speedType;

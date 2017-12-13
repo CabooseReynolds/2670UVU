@@ -1,26 +1,26 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System;
+using UnityEngine.Events;
 
 public class Moveinput : MonoBehaviour {
 public float runTime = 0.01f;
-public static Action<float> KeyAction;
+public static UnityAction<float> KeyAction;
 //public static Action JumpAction;
-public static Action JumpAction;
-public static Action CrouchActionDown;
-public static Action CrouchActionUp;
-public static Action ConstantAction;
-public static Action GrabAction;
-public static Action LetGoAction;
-public static Action RunAction;
-public static Action WalkAction;
-public static Action PushAction;
-public static Action PullAction;
-public static Action AttackAction;
-public static Action SendSpeed;
-public static Action pickUpWeapon;
-public static Action Reset;
+public static UnityAction JumpAction;
+public static UnityAction CrouchActionDown;
+public static UnityAction CrouchActionUp;
+public static UnityAction ConstantAction;
+public static UnityAction GrabAction;
+public static UnityAction LetGoAction;
+public static UnityAction RunAction;
+public static UnityAction WalkAction;
+public static UnityAction PushAction;
+public static UnityAction PullAction;
+public static UnityAction AttackAction;
+public static UnityAction SendSpeed;
+public static UnityAction pickUpWeapon;
+public static UnityAction Reset;
 
 
 // public static Action<float> ClimbAction;

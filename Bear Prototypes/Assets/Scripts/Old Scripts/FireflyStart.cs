@@ -1,13 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System;
+using UnityEngine.Events;
 
 public class FireflyStart : MonoBehaviour {
 
 public bool isDay = true;
-    public static Action NightAction;
-    public static Action DayAction;
+    public static UnityAction NightAction;
+    public static UnityAction DayAction;
 
 void Start(){
     isDay = true;

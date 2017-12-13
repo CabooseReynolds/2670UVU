@@ -1,10 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System;
+using UnityEngine.Events;
 public class BuyGold : MonoBehaviour {
 
-	public static Action<int> BuyGoldAction;
+	public static UnityAction<int> BuyGoldAction;
 	
 	public void BuyGoldButton (int _value)
 	{

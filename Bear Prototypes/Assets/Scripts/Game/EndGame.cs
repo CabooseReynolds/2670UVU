@@ -1,11 +1,11 @@
 ﻿﻿using System.Collections; 
 using System.Collections.Generic; 
 using UnityEngine; 
-using System; 
+using UnityEngine.Events; 
  
 public class EndGame : MonoBehaviour { 
  
-  public static Action End; 
+  public static UnityAction End; 
  
   void OnTriggerEnter() 
   { 

@@ -1,11 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System;
+using UnityEngine.Events;
 using UnityEngine.UI;
 public class PlayButton : MonoBehaviour {
 
-public static Action Play;
+public static UnityAction Play;
 	// Use this for initialization
 	public void PushPlay () {
 		if (Play != null){

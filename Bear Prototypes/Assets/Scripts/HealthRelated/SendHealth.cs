@@ -1,10 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System;
+using UnityEngine.Events;
 
 public class SendHealth {
-public static Action<float> healthAction;
+public static UnityAction<float> healthAction;
 public static void updateHealth (float _power){
 	Data.Instance.health += _power;
 	if (Data.Instance.health < 0)
