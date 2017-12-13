@@ -5,21 +5,16 @@ using UnityEngine.AI;
 using UnityEngine.Events;
 
 public class SpiderAnims : MonoBehaviour 
-{
-	public static UnityAction PushAction;
-	Animator anims;
-	bool crouching = false;
-    
-//    NavMeshAgent
+{	
+	public Animator anims;
+	public GameObject Enemy;
+		void Start()
+	{
+		anims = Enemy.GetComponent<Animator>();
+	}
+	void OnTriggerEnter(Collider other)
+	{
+		anims.SetTrigger("Attack");
+	}
 
-// 	void Start () 
-// 	{
-// 		anims = GetComponentInChildren<Animator>();
-// 	}
-	
-// void Update()
-// {
-// anim.SetFloat("Walk", velocity.magnitude)
-
-// }
 }

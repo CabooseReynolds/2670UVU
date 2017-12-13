@@ -11,12 +11,12 @@ public class DayNightCycle : MonoBehaviour {
         NightDay.DayAction += Day;
     }
     void Day() {
-        float phi = Time.time / duration * 2 * Mathf.PI;
+//        float phi = Time.time / duration * 2 * Mathf.PI;
         float amplitude = 0.9F;
         lt.intensity = amplitude;   
     }
     void Night() {
-        float phi = Time.time / duration * 2 * Mathf.PI;
+ //       float phi = Time.time / duration * 2 * Mathf.PI;
         float amplitude = -0.9F;
         lt.intensity = amplitude;
         

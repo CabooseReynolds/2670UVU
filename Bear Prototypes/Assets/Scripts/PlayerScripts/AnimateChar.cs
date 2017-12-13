@@ -7,7 +7,7 @@ public class AnimateChar : MonoBehaviour
 {
 	public static UnityAction PushAction;
 	Animator anims;
-	bool crouching = false;
+//	bool crouching = false;
 
 	void Start () 
 	{

@@ -5,7 +5,7 @@ using System;
 
 public class weaponAttack : MonoBehaviour {
 
-	Quaternion StartRotation;
+//	Quaternion StartRotation;
 	public float hitSpeed = 20f;
 	public float attackAngle = 90f;
 
@@ -14,7 +14,7 @@ public class weaponAttack : MonoBehaviour {
 
 	void Start()
 	{
-		StartRotation = transform.rotation;
+//		StartRotation = transform.rotation;
 		Moveinput.AttackAction += attack;
 		rotAmount.z = -90;
 	}

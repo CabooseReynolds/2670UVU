@@ -1,12 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System;
+using UnityEngine.Events;
 
 [RequireComponent(typeof(CharacterController))]
 public class MoveChar : MonoBehaviour {
-public static Action RunAction;
-Action OnLandAction;
+public static UnityAction RunAction;
+UnityAction OnLandAction;
 bool gravityOn = false;
 public float speed; 
 public float gravity;
