@@ -11,7 +11,7 @@ public class BearAnimator : MonoBehaviour {
 	{
 		anims = Enemy.GetComponent<Animator>();
 	}
-	void OnTriggerEnter(Collider other)
+	void OnTriggerStay(Collider other)
 	{
 		anims.SetTrigger("Attack");
 	}

@@ -20,6 +20,7 @@ public static UnityAction PullAction;
 public static UnityAction AttackAction;
 public static UnityAction SendSpeed;
 public static UnityAction pickUpWeapon;
+public static UnityAction<float> HorizonSwim;
 public static UnityAction Reset;
 
 
@@ -76,6 +77,10 @@ void Start ()
 			{
 				pickUpWeapon();
 			//	pickedUp = !pickedUp;
+			}
+		if (HorizonSwim != null)
+			{
+				HorizonSwim(Input.GetAxis("Horizontal"));
 			}
 		// Got rid of PushAction, and just used GrabAction instead as it took care of the same thing after I got rid of the jump action when Grabbing.	
 		// if (PushAction  != null && Input.GetKeyDown(KeyCode.F))

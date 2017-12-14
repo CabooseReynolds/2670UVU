@@ -1,0 +1,416 @@
+fileFormatVersion: 2
+guid: fc619b6d8c4dae64c911cf2d182c75ae
+timeCreated: 1513223508
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: bottom
+    100002: Leg
+    100004: Leg1
+    100006: Leg2
+    100008: Leg3
+    100010: Leg4
+    100012: Leg5
+    100014: Leg6
+    100016: Leg7
+    100018: LowerSegmentControl
+    100020: LowerSegmentControl 1
+    100022: LowerSegmentControl 2
+    100024: LowerSegmentControl 3
+    100026: LowerSegmentControl 4
+    100028: LowerSegmentControl 5
+    100030: LowerSegmentControl 6
+    100032: LowerSegmentControl 7
+    100034: LowestControl
+    100036: LowestControl 1
+    100038: LowestControl 2
+    100040: LowestControl 3
+    100042: LowestControl 4
+    100044: LowestControl 5
+    100046: LowestControl 6
+    100048: LowestControl 7
+    100050: pasted__LFang
+    100052: pasted__RFang
+    100054: pCylinder2
+    100056: pCylinder2 1
+    100058: pCylinder2 2
+    100060: pCylinder2 3
+    100062: pCylinder2 4
+    100064: pCylinder2 5
+    100066: pCylinder2 6
+    100068: pCylinder2 7
+    100070: pCylinder3
+    100072: pCylinder3 1
+    100074: pCylinder3 2
+    100076: pCylinder3 3
+    100078: pCylinder3 4
+    100080: pCylinder3 5
+    100082: pCylinder3 6
+    100084: pCylinder3 7
+    100086: pCylinder4
+    100088: pCylinder4 1
+    100090: pCylinder4 2
+    100092: pCylinder4 3
+    100094: pCylinder4 4
+    100096: pCylinder4 5
+    100098: pCylinder4 6
+    100100: pCylinder4 7
+    100102: //RootNode
+    100104: SpiderBody1
+    100106: SpiderButt
+    100108: UpperSegmentControl
+    100110: UpperSegmentControl 1
+    100112: UpperSegmentControl 2
+    100114: UpperSegmentControl 3
+    100116: UpperSegmentControl 4
+    100118: UpperSegmentControl 5
+    100120: UpperSegmentControl 6
+    100122: UpperSegmentControl 7
+    400000: bottom
+    400002: Leg
+    400004: Leg1
+    400006: Leg2
+    400008: Leg3
+    400010: Leg4
+    400012: Leg5
+    400014: Leg6
+    400016: Leg7
+    400018: LowerSegmentControl
+    400020: LowerSegmentControl 1
+    400022: LowerSegmentControl 2
+    400024: LowerSegmentControl 3
+    400026: LowerSegmentControl 4
+    400028: LowerSegmentControl 5
+    400030: LowerSegmentControl 6
+    400032: LowerSegmentControl 7
+    400034: LowestControl
+    400036: LowestControl 1
+    400038: LowestControl 2
+    400040: LowestControl 3
+    400042: LowestControl 4
+    400044: LowestControl 5
+    400046: LowestControl 6
+    400048: LowestControl 7
+    400050: pasted__LFang
+    400052: pasted__RFang
+    400054: pCylinder2
+    400056: pCylinder2 1
+    400058: pCylinder2 2
+    400060: pCylinder2 3
+    400062: pCylinder2 4
+    400064: pCylinder2 5
+    400066: pCylinder2 6
+    400068: pCylinder2 7
+    400070: pCylinder3
+    400072: pCylinder3 1
+    400074: pCylinder3 2
+    400076: pCylinder3 3
+    400078: pCylinder3 4
+    400080: pCylinder3 5
+    400082: pCylinder3 6
+    400084: pCylinder3 7
+    400086: pCylinder4
+    400088: pCylinder4 1
+    400090: pCylinder4 2
+    400092: pCylinder4 3
+    400094: pCylinder4 4
+    400096: pCylinder4 5
+    400098: pCylinder4 6
+    400100: pCylinder4 7
+    400102: //RootNode
+    400104: SpiderBody1
+    400106: SpiderButt
+    400108: UpperSegmentControl
+    400110: UpperSegmentControl 1
+    400112: UpperSegmentControl 2
+    400114: UpperSegmentControl 3
+    400116: UpperSegmentControl 4
+    400118: UpperSegmentControl 5
+    400120: UpperSegmentControl 6
+    400122: UpperSegmentControl 7
+    2000000: bottom
+    2300000: Leg
+    2300002: Leg1
+    2300004: Leg2
+    2300006: Leg3
+    2300008: Leg4
+    2300010: Leg5
+    2300012: Leg6
+    2300014: Leg7
+    2300016: LowerSegmentControl
+    2300018: LowerSegmentControl 1
+    2300020: LowerSegmentControl 2
+    2300022: LowerSegmentControl 3
+    2300024: LowerSegmentControl 4
+    2300026: LowerSegmentControl 5
+    2300028: LowerSegmentControl 6
+    2300030: LowerSegmentControl 7
+    2300032: LowestControl
+    2300034: LowestControl 1
+    2300036: LowestControl 2
+    2300038: LowestControl 3
+    2300040: LowestControl 4
+    2300042: LowestControl 5
+    2300044: LowestControl 6
+    2300046: LowestControl 7
+    2300048: pasted__LFang
+    2300050: pasted__RFang
+    2300052: pCylinder2
+    2300054: pCylinder2 1
+    2300056: pCylinder2 2
+    2300058: pCylinder2 3
+    2300060: pCylinder2 4
+    2300062: pCylinder2 5
+    2300064: pCylinder2 6
+    2300066: pCylinder2 7
+    2300068: pCylinder3
+    2300070: pCylinder3 1
+    2300072: pCylinder3 2
+    2300074: pCylinder3 3
+    2300076: pCylinder3 4
+    2300078: pCylinder3 5
+    2300080: pCylinder3 6
+    2300082: pCylinder3 7
+    2300084: pCylinder4
+    2300086: pCylinder4 1
+    2300088: pCylinder4 2
+    2300090: pCylinder4 3
+    2300092: pCylinder4 4
+    2300094: pCylinder4 5
+    2300096: pCylinder4 6
+    2300098: pCylinder4 7
+    2300100: SpiderBody1
+    2300102: SpiderButt
+    2300104: UpperSegmentControl
+    2300106: UpperSegmentControl 1
+    2300108: UpperSegmentControl 2
+    2300110: UpperSegmentControl 3
+    2300112: UpperSegmentControl 4
+    2300114: UpperSegmentControl 5
+    2300116: UpperSegmentControl 6
+    2300118: UpperSegmentControl 7
+    3300000: Leg
+    3300002: Leg1
+    3300004: Leg2
+    3300006: Leg3
+    3300008: Leg4
+    3300010: Leg5
+    3300012: Leg6
+    3300014: Leg7
+    3300016: LowerSegmentControl
+    3300018: LowerSegmentControl 1
+    3300020: LowerSegmentControl 2
+    3300022: LowerSegmentControl 3
+    3300024: LowerSegmentControl 4
+    3300026: LowerSegmentControl 5
+    3300028: LowerSegmentControl 6
+    3300030: LowerSegmentControl 7
+    3300032: LowestControl
+    3300034: LowestControl 1
+    3300036: LowestControl 2
+    3300038: LowestControl 3
+    3300040: LowestControl 4
+    3300042: LowestControl 5
+    3300044: LowestControl 6
+    3300046: LowestControl 7
+    3300048: pasted__LFang
+    3300050: pasted__RFang
+    3300052: pCylinder2
+    3300054: pCylinder2 1
+    3300056: pCylinder2 2
+    3300058: pCylinder2 3
+    3300060: pCylinder2 4
+    3300062: pCylinder2 5
+    3300064: pCylinder2 6
+    3300066: pCylinder2 7
+    3300068: pCylinder3
+    3300070: pCylinder3 1
+    3300072: pCylinder3 2
+    3300074: pCylinder3 3
+    3300076: pCylinder3 4
+    3300078: pCylinder3 5
+    3300080: pCylinder3 6
+    3300082: pCylinder3 7
+    3300084: pCylinder4
+    3300086: pCylinder4 1
+    3300088: pCylinder4 2
+    3300090: pCylinder4 3
+    3300092: pCylinder4 4
+    3300094: pCylinder4 5
+    3300096: pCylinder4 6
+    3300098: pCylinder4 7
+    3300100: SpiderBody1
+    3300102: SpiderButt
+    3300104: UpperSegmentControl
+    3300106: UpperSegmentControl 1
+    3300108: UpperSegmentControl 2
+    3300110: UpperSegmentControl 3
+    3300112: UpperSegmentControl 4
+    3300114: UpperSegmentControl 5
+    3300116: UpperSegmentControl 6
+    3300118: UpperSegmentControl 7
+    4300000: SpiderBody1
+    4300002: SpiderButt
+    4300004: Leg
+    4300006: UpperSegmentControl
+    4300008: pCylinder2
+    4300010: LowerSegmentControl
+    4300012: pCylinder3
+    4300014: LowestControl
+    4300016: pCylinder4
+    4300018: Leg1
+    4300020: UpperSegmentControl
+    4300022: pCylinder2
+    4300024: LowerSegmentControl
+    4300026: pCylinder3
+    4300028: LowestControl
+    4300030: pCylinder4
+    4300032: Leg2
+    4300034: UpperSegmentControl
+    4300036: pCylinder2
+    4300038: LowerSegmentControl
+    4300040: pCylinder3
+    4300042: LowestControl
+    4300044: pCylinder4
+    4300046: Leg3
+    4300048: UpperSegmentControl
+    4300050: pCylinder2
+    4300052: LowerSegmentControl
+    4300054: pCylinder3
+    4300056: LowestControl
+    4300058: pCylinder4
+    4300060: Leg4
+    4300062: UpperSegmentControl
+    4300064: pCylinder2
+    4300066: LowerSegmentControl
+    4300068: pCylinder3
+    4300070: LowestControl
+    4300072: pCylinder4
+    4300074: Leg5
+    4300076: UpperSegmentControl
+    4300078: pCylinder2
+    4300080: LowerSegmentControl
+    4300082: pCylinder3
+    4300084: LowestControl
+    4300086: pCylinder4
+    4300088: Leg6
+    4300090: UpperSegmentControl
+    4300092: pCylinder2
+    4300094: LowerSegmentControl
+    4300096: pCylinder3
+    4300098: LowestControl
+    4300100: pCylinder4
+    4300102: Leg7
+    4300104: UpperSegmentControl
+    4300106: pCylinder2
+    4300108: LowerSegmentControl
+    4300110: pCylinder3
+    4300112: LowestControl
+    4300114: pCylinder4
+    4300116: pasted__RFang
+    4300118: pasted__LFang
+    7400000: SpiderAttack
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: SpiderAttack
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 25
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

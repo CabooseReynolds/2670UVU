@@ -127,7 +127,7 @@ GameObject:
   - component: {fileID: 33315072736718834}
   - component: {fileID: 135550259573582424}
   - component: {fileID: 23448573260609904}
-  - component: {fileID: 114629978379874474}
+  - component: {fileID: 114508685270298304}
   m_Layer: 15
   m_Name: AttackTrigger
   m_TagString: Untagged
@@ -311,7 +311,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1271563173904502}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 202, y: -16.92688, z: 0}
+  m_LocalPosition: {x: 188.1, y: -16.92688, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4174007538028118}
@@ -816,11 +816,9 @@ MonoBehaviour:
   life: 3
   Weapon: {fileID: 0}
   Enemy: {fileID: 1271563173904502}
-  Hitbox: {fileID: 0}
-  Prend: {fileID: 0}
-  Pcoll: {fileID: 0}
-  coll: {fileID: 0}
---- !u!114 &114629978379874474
+  EnemyMesh: {fileID: 1055171817244942}
+  EnemyHitbox: {fileID: 1055171817244942}
+--- !u!114 &114508685270298304
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -828,10 +826,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1400505404895792}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5f8302f98fc77e4794c6cb97890908c, type: 3}
+  m_Script: {fileID: 11500000, guid: fc71243b1b991674aac5cc1d2b63411a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EPatrol: {fileID: 114648530999539714}
+  anims: {fileID: 95982312250599266}
+  Enemy: {fileID: 1571753348291192}
 --- !u!114 &114648530999539714
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -848,7 +847,7 @@ MonoBehaviour:
   target: {fileID: 0}
   chasingPlayer: 0
   patrolPoints:
-  - {x: 202, y: -16.92688, z: 0}
+  - {x: 200, y: -16.92688, z: 0}
   - {x: 152, y: -16.92688, z: 0}
 --- !u!114 &114807722141443964
 MonoBehaviour:

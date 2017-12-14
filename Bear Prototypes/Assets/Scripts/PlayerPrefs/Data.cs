@@ -30,7 +30,7 @@ public class Data {
 	public float boostMaxJump = 2;
 	public float lowGSpeed = 6;
 	public float lowGGravity = 15;
-	public float lowGJumpHeight = 8;
+	public float lowGJumpHeight = 10;
 	public float lowGMaxJump = 2;
 	public List<string> purchases;
 	public List<PowerUp> powerups;

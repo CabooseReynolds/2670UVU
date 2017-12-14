@@ -10,21 +10,23 @@ public class KillAI : MonoBehaviour {
 	float startlife;
 	public GameObject Weapon;
     public GameObject Enemy;
-	public GameObject Hitbox;
+//	public GameObject Hitbox;
 	Vector3 startPos;
     Transform startPoint;
-	public Renderer Prend;
-    public Collider Pcoll;
-	public Collider coll;
+	// public Renderer Prend;
+    // public Collider Pcoll;
+	// public Collider coll;
+	public GameObject EnemyMesh;
+	public GameObject EnemyHitbox;
 void Start()
 	{
 		Moveinput.Reset += ResetAction;
 		startPos = transform.position;
 //		print(transform.position);
 		startlife = life;
-		Prend = transform.parent.GetComponent<Renderer>();
-		Pcoll = transform.parent.GetComponent<Collider>();
-		coll = Hitbox.GetComponent<Collider>();
+		// Prend = transform.parent.GetComponent<Renderer>();
+		// Pcoll = transform.parent.GetComponent<Collider>();
+		// coll = Hitbox.GetComponent<Collider>();
 	}
 
 	
@@ -36,9 +38,11 @@ void OnTriggerEnter(Collider Weapon)
 			print("i'm dead already");
 			transform.parent.GetComponent<Rigidbody>().useGravity = true;
 			transform.parent.GetComponent<Rigidbody>().isKinematic = false;
-			Prend.enabled = false;
-			Pcoll.enabled = false;
-			coll.enabled = false;
+			EnemyMesh.SetActive(false);
+			EnemyHitbox.SetActive(false);
+			// Prend.enabled = false;
+			// Pcoll.enabled = false;
+			// coll.enabled = false;
 		}
 	}
 	public void ResetAction()
@@ -47,9 +51,11 @@ void OnTriggerEnter(Collider Weapon)
 			Enemy.transform.position = startPos;
 //			print(transform.position);
 			life = startlife;
-			Prend.enabled = false;
-			Pcoll.enabled = true;
-			coll.enabled = true;
+			EnemyMesh.SetActive(true);
+			EnemyHitbox.SetActive(true);
+			// Prend.enabled = false;
+			// Pcoll.enabled = true;
+			// coll.enabled = true;
 		}
 }
 
