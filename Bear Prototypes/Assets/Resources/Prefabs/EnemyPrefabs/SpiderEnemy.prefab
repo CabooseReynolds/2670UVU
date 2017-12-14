@@ -4890,7 +4890,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9bf8b2fa19cb5654abc22e061c03b0ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  life: 6
+  life: 3
   Weapon: {fileID: 0}
   Enemy: {fileID: 1393252533467308}
   EnemyMesh: {fileID: 1450080662438308}

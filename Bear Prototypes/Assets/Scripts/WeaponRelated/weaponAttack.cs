@@ -8,6 +8,7 @@ public class weaponAttack : MonoBehaviour {
 //	Quaternion StartRotation;
 	public float hitSpeed = 20f;
 	public float attackAngle = 90f;
+	public GameObject SwordHitbox;
 
 	Vector3 rotAmount;
 	Vector3 startPos;
@@ -15,6 +16,7 @@ public class weaponAttack : MonoBehaviour {
 	void Start()
 	{
 //		StartRotation = transform.rotation;
+		SwordHitbox.SetActive(false);
 		Moveinput.AttackAction += attack;
 		rotAmount.z = -90;
 	}
@@ -28,15 +30,12 @@ public class weaponAttack : MonoBehaviour {
 	}
 
 	IEnumerator Swing()
-	{   print("oh snap");
-	//	while(rotAmount.z > attackAngle){
-	//	rotAmount.z -= Time.deltaTime*hitSpeed;
-		//transform.localRotation = Quaternion.Euler(rotAmount);
-			print("Hiyah!");
-		//print("Attacked");
-		yield return null;
-	//	}
-		print("Pow");
+	{   print("Active");
+		SwordHitbox.SetActive(true);
+		yield return new WaitForSeconds(0.1f);
+
+		SwordHitbox.SetActive(false);
+		print("Inactive");
 		//transform.localRotation = StartRotation;
 		}
 		
