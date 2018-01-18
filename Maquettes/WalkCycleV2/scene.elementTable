@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<elements source="Harmony Essentials (HarmonyEssentials.exe) version 15.0.0 build 13055 2017-10-12 14:25:19" version="1500" build="13055">
+<elements source="Harmony Advanced (HarmonyAdvanced.exe) version 14.0.0 build 11461 2016-06-21 14:02:21" version="1400" build="11461">
  <element id="16" elementName="background" elementFolder="background" pixmapFormat="10" scanType="2" fieldChart="12" vectorType="0" rootFolder="elements"/>
  <element id="34" elementName="OlderBoyPants" elementFolder="OlderBoyPants.34" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
  <element id="35" elementName="OlderBoyLeg" elementFolder="OlderBoyLeg.35" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
